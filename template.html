@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Genel Cerrahi Sözlü – Çıkmış Sorular</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+html{scroll-padding-top:70px}
+:root{
+  --paper:#F6F7F4; --card:#FFFFFF; --ink:#18211D; --muted:#5E6B64; --line:#D5DBD6;
+  --scrub:#1F5C4D; --scrub-tint:#E3EDE8; --warn:#8A5200; --warn-bg:#FBF1DF;
+  --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  box-sizing:border-box;
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121614; --card:#1A201D; --ink:#E4EAE6; --muted:#9AA8A0; --line:#2C3531;
+  --scrub:#7FC4AE; --scrub-tint:#1F2E28; --warn:#F0B86A; --warn-bg:#2D2414;}}
+:root[data-theme="dark"]{
+  --paper:#121614; --card:#1A201D; --ink:#E4EAE6; --muted:#9AA8A0; --line:#2C3531;
+  --scrub:#7FC4AE; --scrub-tint:#1F2E28; --warn:#F0B86A; --warn-bg:#2D2414;}
+
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5}
+a{color:var(--scrub)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--scrub);outline-offset:2px}
+
+header.top{max-width:900px;margin:0 auto;padding:28px 24px 20px}
+header.top h1{font-size:clamp(1.7rem,3.5vw,2.4rem);line-height:1.15;margin:0 0 6px;font-weight:700;letter-spacing:-.01em}
+header.top p{margin:0;color:var(--muted)}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:20px}
+.tools input[type=search]{flex:1 1 280px;min-width:0;padding:11px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:1rem}
+.tools label{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:.95rem;cursor:pointer}
+
+.wrap{max-width:900px;margin:0 auto;padding:0 24px 80px}
+header.top{display:block}
+.bar{position:sticky;top:0;z-index:30;background:var(--paper);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.barin{max-width:900px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;gap:12px}
+.bartitle{font-weight:600;font-size:.98rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.burger{flex:0 0 auto;width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer;padding:0}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);border-radius:2px;box-shadow:0 -6px 0 var(--ink),0 6px 0 var(--ink)}
+.burger:hover{border-color:var(--scrub)}
+.scrim{position:fixed;inset:0;background:rgba(10,15,12,.38);opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+.scrim.show{opacity:1;pointer-events:auto}
+nav.side{position:fixed;top:0;left:0;bottom:0;width:min(300px,86vw);background:var(--card);border-right:1px solid var(--line);z-index:50;transform:translateX(-100%);transition:transform .22s ease;overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 16px) 12px calc(env(safe-area-inset-bottom,0px) + 16px)}
+nav.side.open{transform:none}
+.sidehead{display:flex;justify-content:space-between;align-items:center;padding:0 6px 12px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.sidehead strong{font-size:1rem}
+.closebtn{width:36px;height:36px;border:0;background:transparent;font-size:1.5rem;line-height:1;cursor:pointer;color:var(--muted);border-radius:6px}
+.closebtn:hover{background:var(--scrub-tint);color:var(--ink)}
+nav.side a{display:flex;justify-content:space-between;gap:8px;padding:9px 10px;border-radius:6px;text-decoration:none;color:var(--ink);font-size:.95rem}
+nav.side a:hover{background:var(--scrub-tint)}
+nav.side a span{color:var(--muted);font-variant-numeric:tabular-nums}
+body.locked{overflow:hidden}
+
+section.topic{margin-bottom:44px}
+section.topic>h2{font-size:1.45rem;margin:0 0 4px;font-weight:700}
+section.topic>.sub{color:var(--muted);font-size:.92rem;margin:0 0 14px}
+
+.q{border-top:1px solid var(--line)}
+.q:last-child{border-bottom:1px solid var(--line)}
+.q>button.head{all:unset;box-sizing:border-box;display:grid;grid-template-columns:64px minmax(0,1fr) 20px;gap:14px;align-items:baseline;width:100%;padding:14px 4px;cursor:pointer}
+.q>button.head:focus-visible{outline:2px solid var(--scrub);outline-offset:-2px}
+.freq{font-size:1.6rem;font-weight:700;color:var(--scrub);font-variant-numeric:tabular-nums;line-height:1;text-align:right}
+.freq small{font-size:.9rem;font-weight:600;margin-left:1px}
+.freq.one{color:var(--muted);font-weight:500;font-size:1.25rem}
+.qt{font-weight:600;font-size:1.05rem;line-height:1.35}
+.hocas{display:block;font-weight:400;color:var(--muted);font-size:.88rem;margin-top:3px}
+.chev{color:var(--muted);transition:transform .15s}
+.q.open .chev{transform:rotate(90deg)}
+.body{display:none;padding:2px 4px 22px 82px}
+.q.open .body{display:block}
+
+.merged{font-family:var(--serif);font-size:1.04rem;line-height:1.62;max-width:72ch}
+.merged h4{font-family:var(--sans);font-size:.98rem;margin:18px 0 6px}
+.merged p{margin:0 0 10px}
+.merged ul,.merged ol{margin:0 0 10px;padding-left:22px}
+.merged li{margin:3px 0}
+.merged blockquote{margin:12px 0;padding:10px 14px;background:var(--warn-bg);color:var(--warn);border-radius:6px;font-family:var(--sans);font-size:.93rem}
+.src{font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--scrub);background:var(--scrub-tint);border-radius:4px;padding:1px 5px;margin-left:4px;white-space:nowrap;vertical-align:1px}
+.note{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+.pending{padding:12px 14px;border:1px dashed var(--line);border-radius:8px;color:var(--muted);font-size:.93rem;max-width:72ch}
+
+button.rawbtn{margin-top:14px;padding:8px 14px;border:1px solid var(--scrub);border-radius:8px;background:transparent;color:var(--scrub);font-weight:600;cursor:pointer}
+button.rawbtn[aria-expanded=true]{background:var(--scrub);color:var(--card)}
+.raws{display:none;margin-top:14px}
+.raws.show{display:block}
+.raw{border-left:3px solid var(--scrub);background:var(--card);padding:12px 16px;margin-bottom:12px;border-radius:0 8px 8px 0}
+.raw .meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-size:.86rem;color:var(--muted);margin-bottom:6px}
+.raw .letter{font-weight:700;color:var(--scrub);font-size:1rem}
+.raw .oq{font-style:italic;font-size:.92rem;margin:0 0 8px;color:var(--muted)}
+.raw .ans{font-family:var(--serif);white-space:pre-line;line-height:1.58;max-width:72ch;overflow-wrap:anywhere}
+.raw .empty{color:var(--muted);font-style:italic}
+.single .ans{font-family:var(--serif);white-space:pre-line;line-height:1.6;max-width:72ch;overflow-wrap:anywhere}
+mark{background:#F5E27A;color:#18211D;border-radius:2px}
+.none{color:var(--muted);padding:30px 0}
+
+@media (max-width:860px){
+  .q>button.head{grid-template-columns:44px minmax(0,1fr) 16px;gap:10px}
+  .freq{font-size:1.3rem}
+  .body{padding-left:4px}
+}
+@media (prefers-reduced-motion:reduce){.chev,nav.side,.scrim{transition:none}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="barin">
+  <button class="burger" id="burger" aria-label="Konuları aç" aria-controls="nav" aria-expanded="false"><span></span></button>
+  <span class="bartitle" id="bartitle">Genel Cerrahi Sözlü</span>
+</div></div>
+<header class="top">
+  <h1>Genel Cerrahi Sözlü – Çıkmış Sorular</h1>
+  <p id="stats"></p>
+  <div class="tools">
+    <input type="search" id="search" placeholder="Soru, hoca veya cevapta ara" aria-label="Ara">
+    <label><input type="checkbox" id="onlyRep"> Yalnızca tekrar edenler</label>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<nav class="side" id="nav" aria-label="Konular"><div class="sidehead"><strong>Konular</strong><button class="closebtn" id="closeNav" aria-label="Konuları kapat">×</button></div><div id="navlist"></div></nav>
+<div class="wrap">
+  <main id="main"></main>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const rows = {}; DATA.rows.forEach(r => rows[r.no] = r);
+const L = i => String.fromCharCode(65 + i);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const lowerTR = s => s.toLocaleLowerCase('tr');
+
+function inline(s){
+  let h = esc(s);
+  h = h.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  h = h.replace(/\s*\[([A-Z](?:\s*,\s*[A-Z])*)\]/g, (m, g) => g.split(/\s*,\s*/).map(x => `<span class="src" title="Gerçek cevap ${x}">${x}</span>`).join(''));
+  return h;
+}
+function md(src){
+  const out = []; let list = null;
+  const close = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  for (const raw of src.split('\n')) {
+    const l = raw.trim();
+    if (!l) { close(); continue; }
+    let m;
+    if ((m = l.match(/^#{2,4}\s+(.*)/))) { close(); out.push(`<h4>${inline(m[1])}</h4>`); }
+    else if ((m = l.match(/^>\s?(.*)/))) { close(); out.push(`<blockquote>${inline(m[1])}</blockquote>`); }
+    else if ((m = l.match(/^[-*]\s+(.*)/))) { if (list !== 'ul') { close(); out.push('<ul>'); list = 'ul'; } out.push(`<li>${inline(m[1])}</li>`); }
+    else if ((m = l.match(/^\d+[.)]\s+(.*)/))) { if (list !== 'ol') { close(); out.push('<ol>'); list = 'ol'; } out.push(`<li>${inline(m[1])}</li>`); }
+    else { close(); out.push(`<p>${inline(l)}</p>`); }
+  }
+  close(); return out.join('');
+}
+
+const totalQ = DATA.rows.length;
+let totalC = 0, repC = 0;
+DATA.sections.forEach(s => s.clusters.forEach(c => { totalC++; if (c.rows.length > 1) repC++; }));
+document.getElementById('stats').textContent =
+  `${totalQ} soru, ${totalC} başlık altında toplandı. ${repC} başlık birden fazla kez sorulmuş.`;
+
+function hocaList(c){
+  const set = [];
+  c.rows.forEach(n => (rows[n].hoca || '').split(' / ').forEach(h => { h = h.trim(); if (h && h !== '?' && !set.includes(h)) set.push(h); }));
+  return set.join(', ');
+}
+
+function rawCards(c, hl){
+  return c.rows.map((n, i) => {
+    const r = rows[n];
+    const meta = [`<span class="letter">${L(i)}</span>`, `<span>Soru ${r.no}</span>`];
+    if (r.hoca) meta.push(`<span>${esc(r.hoca)}</span>`);
+    if (r.tip) meta.push(`<span>${esc(r.tip)}</span>`);
+    meta.push(`<span>Sayfa ${r.pages.join(', ')}</span>`);
+    const ans = r.a ? `<div class="ans">${hl(esc(r.a))}</div>` : `<div class="empty">Dosyada bu sorunun cevabı boş.</div>`;
+    return `<div class="raw"><div class="meta">${meta.join('')}</div><p class="oq">${hl(esc(r.q))}</p>${ans}</div>`;
+  }).join('');
+}
+
+function clusterHTML(c, hl){
+  const n = c.rows.length;
+  const freq = n > 1 ? `<span class="freq">${n}<small>×</small></span>` : `<span class="freq one">1<small>×</small></span>`;
+  const hocas = hocaList(c);
+  let main;
+  if (n === 1) {
+    const r = rows[c.rows[0]];
+    main = `<p class="note">Bir kez sorulmuş; cevap dosyadaki haliyle.</p><p class="oq" style="font-style:italic;color:var(--muted);margin:0 0 8px">${hl(esc(r.q))}</p>` +
+      (r.a ? `<div class="single"><div class="ans">${hl(esc(r.a))}</div></div>` : `<div class="pending">Dosyada bu sorunun cevabı boş.</div>`) +
+      `<p class="note" style="margin-top:10px">${esc(r.hoca || 'Hoca belirtilmemiş')}${r.tip ? ', ' + esc(r.tip) : ''}, sayfa ${r.pages.join(', ')}</p>`;
+  } else {
+    main = c.merged ? `<div class="merged">${md(c.merged)}</div>`
+      : `<div class="pending">Birleştirilmiş cevap henüz hazır değil. Aşağıdan ${n} gerçek cevabı tek tek okuyabilirsin.</div>`;
+    main += `<button class="rawbtn" aria-expanded="false">Gerçek cevaplar (${n})</button><div class="raws">${rawCards(c, hl)}</div>`;
+  }
+  return `<div class="q" id="${c.id}"><button class="head" aria-expanded="false">${freq}<span class="qt">${esc(c.title)}${hocas ? `<span class="hocas">${esc(hocas)}</span>` : ''}</span><span class="chev" aria-hidden="true">›</span></button><div class="body">${main}</div></div>`;
+}
+
+const main = document.getElementById('main'), nav = document.getElementById('nav'), navlist = document.getElementById('navlist');
+const search = document.getElementById('search'), onlyRep = document.getElementById('onlyRep');
+
+function haystack(c){
+  if (!c._h) c._h = lowerTR([c.title, c.merged || '', ...c.rows.map(n => rows[n].q + ' ' + rows[n].a + ' ' + rows[n].hoca)].join(' '));
+  return c._h;
+}
+
+function render(){
+  const q = lowerTR(search.value.trim());
+  const hl = q.length >= 2
+    ? s => s.replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), m => `<mark>${m}</mark>`)
+    : s => s;
+  let html = '', navHtml = '', any = false;
+  for (const s of DATA.sections) {
+    const cs = s.clusters
+      .filter(c => !onlyRep.checked || c.rows.length > 1)
+      .filter(c => !q || haystack(c).includes(q))
+      .sort((a, b) => b.rows.length - a.rows.length);
+    if (!cs.length) continue;
+    any = true;
+    const asked = cs.reduce((t, c) => t + c.rows.length, 0);
+    html += `<section class="topic" id="s-${s.id}"><h2>${esc(s.title)}</h2><p class="sub">${cs.length} başlık, toplam ${asked} kez sorulmuş</p>${cs.map(c => clusterHTML(c, hl)).join('')}</section>`;
+    navHtml += `<a href="#s-${s.id}">${esc(s.title)}<span>${asked}</span></a>`;
+  }
+  main.innerHTML = any ? html : `<p class="none">"${esc(search.value)}" için sonuç yok. Farklı bir kelime dene.</p>`;
+  navlist.innerHTML = navHtml;
+  if (q) main.querySelectorAll('.q').forEach(el => { el.classList.add('open'); el.querySelector('.head').setAttribute('aria-expanded', 'true'); });
+}
+
+main.addEventListener('click', e => {
+  const head = e.target.closest('button.head');
+  if (head) { const q = head.parentElement; const o = q.classList.toggle('open'); head.setAttribute('aria-expanded', o); return; }
+  const rb = e.target.closest('button.rawbtn');
+  if (rb) { const box = rb.nextElementSibling; const o = box.classList.toggle('show'); rb.setAttribute('aria-expanded', o); }
+});
+const burger = document.getElementById('burger'), scrim = document.getElementById('scrim');
+function setNav(open){
+  nav.classList.toggle('open', open); scrim.classList.toggle('show', open);
+  document.body.classList.toggle('locked', open); burger.setAttribute('aria-expanded', open);
+  if (open) nav.querySelector('a, button').focus(); else burger.focus({preventScroll:true});
+}
+burger.addEventListener('click', () => setNav(true));
+document.getElementById('closeNav').addEventListener('click', () => setNav(false));
+scrim.addEventListener('click', () => setNav(false));
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && nav.classList.contains('open')) setNav(false); });
+navlist.addEventListener('click', e => {
+  const a = e.target.closest('a'); if (!a) return;
+  e.preventDefault(); setNav(false);
+  document.querySelector(a.getAttribute('href')).scrollIntoView();
+});
+let t; search.addEventListener('input', () => { clearTimeout(t); t = setTimeout(render, 150); });
+onlyRep.addEventListener('change', render);
+render();
+const bartitle = document.getElementById('bartitle');
+const io = new IntersectionObserver(es => { es.forEach(e => { if (e.isIntersecting) bartitle.textContent = e.target.querySelector('h2').textContent; }); }, {rootMargin:'-60px 0px -80% 0px'});
+const watch = () => { io.disconnect(); main.querySelectorAll('section.topic').forEach(s => io.observe(s)); };
+watch(); new MutationObserver(watch).observe(main, {childList:true});
+window.addEventListener('scroll', () => { if (scrollY < 120) bartitle.textContent = 'Genel Cerrahi Sözlü'; }, {passive:true});
+if (location.hash) { const el = document.querySelector(location.hash); if (el) { el.classList.add('open'); el.scrollIntoView(); } }
+</script>
+</body>
+</html>

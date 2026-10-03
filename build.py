@@ -1,0 +1,36 @@
+"""Builds index.html from data/. Run: python3 build.py"""
+import json, re, pathlib, sys
+TODO = '--todo' in sys.argv
+root = pathlib.Path(__file__).parent
+rows = json.loads((root/'data/rows.json').read_text(encoding='utf-8'))
+sections = json.loads((root/'data/clusters.json').read_text(encoding='utf-8'))
+merged_dir = root/'data/merged'
+ids, errors, done, multi = set(), [], 0, 0
+for s in sections:
+    for c in s['clusters']:
+        ids.add(c['id'])
+        f = merged_dir/f"{c['id']}.md"
+        c['merged'] = None
+        if len(c['rows']) > 1:
+            multi += 1
+            if f.exists():
+                txt = f.read_text(encoding='utf-8').strip()
+                allowed = {chr(65+i) for i in range(len(c['rows']))}
+                for grp in re.findall(r'\[([A-Z](?:\s*,\s*[A-Z])*)\]', txt):
+                    bad = set(re.split(r'\s*,\s*', grp)) - allowed
+                    if bad: errors.append(f"{c['id']}: kaynak harfi yok {sorted(bad)} (izinli: {''.join(sorted(allowed))})")
+                c['merged'] = txt; done += 1
+for f in merged_dir.glob('*.md'):
+    if f.stem not in ids: errors.append(f"{f.name}: böyle bir küme id yok")
+if TODO:
+    for s in sections:
+        for c in s['clusters']:
+            if len(c['rows'])>1 and not c['merged']:
+                print(f"{c['id']:<22} {len(c['rows'])}x  {c['title']}  rows={c['rows']}")
+    sys.exit(0)
+if errors:
+    print('\n'.join(errors)); sys.exit(1)
+data = json.dumps({'rows': rows, 'sections': sections}, ensure_ascii=False).replace('</', '<\\/')
+html = (root/'template.html').read_text(encoding='utf-8').replace('__DATA__', data)
+(root/'index.html').write_text(html, encoding='utf-8')
+print(f"index.html yazıldı. Birleşik cevap: {done}/{multi} çok-kaynaklı küme.")

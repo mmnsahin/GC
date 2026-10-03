@@ -1,0 +1,1411 @@
+[
+ {
+  "id": "tiroid",
+  "title": "Tiroid",
+  "clusters": [
+   {
+    "id": "tiroid-01",
+    "title": "Tiroid anatomisi ve lokalizasyonu",
+    "rows": [
+     14
+    ]
+   },
+   {
+    "id": "tiroid-02",
+    "title": "Bethesda sınıflaması",
+    "rows": [
+     15,
+     87,
+     139
+    ]
+   },
+   {
+    "id": "tiroid-03",
+    "title": "Tiroid nodülüne / kitlesine yaklaşım (anamnez, FM, lab, algoritma)",
+    "rows": [
+     16,
+     18,
+     137,
+     187,
+     355
+    ]
+   },
+   {
+    "id": "tiroid-04",
+    "title": "Tiroid nodülünde malignite kriterleri",
+    "rows": [
+     85,
+     138,
+     304
+    ]
+   },
+   {
+    "id": "tiroid-05",
+    "title": "Tiroid kanseri sınıflaması, tipleri ve tedavisi",
+    "rows": [
+     19,
+     30,
+     39,
+     86,
+     150,
+     158,
+     159,
+     262,
+     313,
+     380
+    ]
+   },
+   {
+    "id": "tiroid-06",
+    "title": "Tiroid kanseri risk faktörleri ve prognoz",
+    "rows": [
+     312,
+     379
+    ]
+   },
+   {
+    "id": "tiroid-07",
+    "title": "Tiroidektomi tipleri, total vs lobektomi",
+    "rows": [
+     20,
+     160
+    ]
+   },
+   {
+    "id": "tiroid-08",
+    "title": "Tiroidektomi komplikasyonları, hipokalsemi, Chvostek–Trousseau",
+    "rows": [
+     34,
+     72,
+     201,
+     250,
+     373
+    ]
+   },
+   {
+    "id": "tiroid-09",
+    "title": "Tiroglobulin ve tiroidektomi sonrası takip",
+    "rows": [
+     21,
+     161
+    ]
+   },
+   {
+    "id": "tiroid-10",
+    "title": "Medüller tiroid kanseri",
+    "rows": [
+     336
+    ]
+   },
+   {
+    "id": "tiroid-11",
+    "title": "RAİ ile tedavi edilemeyen tiroid hastalıkları",
+    "rows": [
+     338
+    ]
+   }
+  ]
+ },
+ {
+  "id": "paratiroid",
+  "title": "Paratiroid ve Kalsiyum",
+  "clusters": [
+   {
+    "id": "paratiroid-01",
+    "title": "Hiperparatiroidi (primer, sekonder, tersiyer)",
+    "rows": [
+     33,
+     42,
+     108,
+     131,
+     362
+    ]
+   },
+   {
+    "id": "paratiroid-02",
+    "title": "Hiperkalsemi ve hipokalsemi",
+    "rows": [
+     32,
+     41
+    ]
+   }
+  ]
+ },
+ {
+  "id": "adrenal",
+  "title": "Adrenal, MEN ve Nöroendokrin",
+  "clusters": [
+   {
+    "id": "adrenal-01",
+    "title": "MEN sendromları",
+    "rows": [
+     17,
+     211,
+     254,
+     264
+    ]
+   },
+   {
+    "id": "adrenal-02",
+    "title": "Adrenal insidentaloma",
+    "rows": [
+     65,
+     83,
+     365
+    ]
+   },
+   {
+    "id": "adrenal-03",
+    "title": "Feokromositoma",
+    "rows": [
+     64
+    ]
+   },
+   {
+    "id": "adrenal-04",
+    "title": "Cerrahi tedavi gerektiren adrenal hipertansiyon / genç hipertansif hasta",
+    "rows": [
+     288,
+     369
+    ]
+   },
+   {
+    "id": "adrenal-05",
+    "title": "Hiperaldosteronizm tipleri",
+    "rows": [
+     289
+    ]
+   },
+   {
+    "id": "adrenal-06",
+    "title": "Adrenal histoloji, katekolamin sentezi ve reseptörleri",
+    "rows": [
+     290,
+     370
+    ]
+   },
+   {
+    "id": "adrenal-07",
+    "title": "Poliüri–polidipsi ile gelen soluk hasta",
+    "rows": [
+     297
+    ]
+   },
+   {
+    "id": "adrenal-08",
+    "title": "Karsinoid tümör / karsinoid sendrom",
+    "rows": [
+     260,
+     267
+    ]
+   },
+   {
+    "id": "adrenal-09",
+    "title": "GİS'te en sık mezenkimal neoplazi (GIST)",
+    "rows": [
+     45
+    ]
+   }
+  ]
+ },
+ {
+  "id": "meme",
+  "title": "Meme",
+  "clusters": [
+   {
+    "id": "meme-01",
+    "title": "Meme kanseri risk faktörleri",
+    "rows": [
+     5,
+     37,
+     96
+    ]
+   },
+   {
+    "id": "meme-02",
+    "title": "Meme ameliyatları, meme koruyucu cerrahi ve kontrendikasyonları",
+    "rows": [
+     6,
+     7,
+     157,
+     217
+    ]
+   },
+   {
+    "id": "meme-03",
+    "title": "Meme kanseri taraması",
+    "rows": [
+     35,
+     339
+    ]
+   },
+   {
+    "id": "meme-04",
+    "title": "Meme kitlesine yaklaşım, mamografide malignite bulguları",
+    "rows": [
+     135,
+     185,
+     203
+    ]
+   },
+   {
+    "id": "meme-05",
+    "title": "Meme başı akıntısı, galaktore, meme kanseri bulguları",
+    "rows": [
+     156,
+     307,
+     324
+    ]
+   },
+   {
+    "id": "meme-06",
+    "title": "Lobüler karsinom (bilateral olabilen)",
+    "rows": [
+     77
+    ]
+   },
+   {
+    "id": "meme-07",
+    "title": "BRCA ve meme kanserinde genetik",
+    "rows": [
+     309
+    ]
+   },
+   {
+    "id": "meme-08",
+    "title": "Filloides tümör",
+    "rows": [
+     343
+    ]
+   },
+   {
+    "id": "meme-09",
+    "title": "Meme kanseri – genel",
+    "rows": [
+     136
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ozofagus-mide",
+  "title": "Özofagus ve Mide",
+  "clusters": [
+   {
+    "id": "ozofagus-mide-01",
+    "title": "GÖR, antireflü mekanizmalar, hiatal herni",
+    "rows": [
+     13,
+     144,
+     232,
+     256
+    ]
+   },
+   {
+    "id": "ozofagus-mide-02",
+    "title": "Mide kanseri risk faktörleri ve premalign lezyonlar",
+    "rows": [
+     69,
+     82
+    ]
+   },
+   {
+    "id": "ozofagus-mide-03",
+    "title": "Mide kanseri prognoz, erken mide ca, inoperabilite",
+    "rows": [
+     97,
+     100,
+     214,
+     333
+    ]
+   },
+   {
+    "id": "ozofagus-mide-04",
+    "title": "Peptik ülser komplikasyonları (perforasyon, kanama)",
+    "rows": [
+     66,
+     191,
+     208,
+     253
+    ]
+   },
+   {
+    "id": "ozofagus-mide-05",
+    "title": "Boerhaave sendromu",
+    "rows": [
+     282
+    ]
+   },
+   {
+    "id": "ozofagus-mide-06",
+    "title": "Mallory–Weiss sendromu",
+    "rows": [
+     283,
+     328
+    ]
+   },
+   {
+    "id": "ozofagus-mide-07",
+    "title": "Mide lenfoması – tedavi sırasında perforasyon",
+    "rows": [
+     306
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gis-kanama",
+  "title": "GİS Kanamaları",
+  "clusters": [
+   {
+    "id": "gis-kanama-01",
+    "title": "Üst GİS kanaması",
+    "rows": [
+     149,
+     184,
+     204,
+     231,
+     279,
+     327
+    ]
+   },
+   {
+    "id": "gis-kanama-02",
+    "title": "Melena, hematemez, hematokezya",
+    "rows": [
+     172,
+     281,
+     316
+    ]
+   },
+   {
+    "id": "gis-kanama-03",
+    "title": "Alt GİS kanaması",
+    "rows": [
+     56,
+     151,
+     155,
+     241,
+     242
+    ]
+   },
+   {
+    "id": "gis-kanama-04",
+    "title": "Anjiyodisplazi",
+    "rows": [
+     57,
+     243
+    ]
+   },
+   {
+    "id": "gis-kanama-05",
+    "title": "Rektal / anal kanamalı hastaya yaklaşım",
+    "rows": [
+     188,
+     190
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kolorektal",
+  "title": "Kolon ve Rektum",
+  "clusters": [
+   {
+    "id": "kolorektal-01",
+    "title": "Kolon polipleri, sınıflama ve malignite bulguları",
+    "rows": [
+     8,
+     9,
+     175,
+     257
+    ]
+   },
+   {
+    "id": "kolorektal-02",
+    "title": "Patoloji raporunun yorumu",
+    "rows": [
+     10
+    ]
+   },
+   {
+    "id": "kolorektal-03",
+    "title": "Kolorektal kanser taraması",
+    "rows": [
+     36,
+     102
+    ]
+   },
+   {
+    "id": "kolorektal-04",
+    "title": "Herediter kolorektal kanserler (FAP, HNPCC, Amsterdam, Gardner, Cowden)",
+    "rows": [
+     103,
+     104,
+     263,
+     346,
+     347,
+     348,
+     354
+    ]
+   },
+   {
+    "id": "kolorektal-05",
+    "title": "Kolorektal kanser risk faktörleri ve karsinogenez",
+    "rows": [
+     105,
+     276
+    ]
+   },
+   {
+    "id": "kolorektal-06",
+    "title": "Sağ ve sol kolon tümörleri farkları",
+    "rows": [
+     314
+    ]
+   },
+   {
+    "id": "kolorektal-07",
+    "title": "Kolorektal kanser yayılım yolları ve metastaz",
+    "rows": [
+     258,
+     361,
+     363
+    ]
+   },
+   {
+    "id": "kolorektal-08",
+    "title": "İnflamatuvar barsak hastalıkları (Crohn, ÜK)",
+    "rows": [
+     38,
+     70,
+     106,
+     277,
+     381
+    ]
+   },
+   {
+    "id": "kolorektal-09",
+    "title": "Divertiküler hastalık ve divertikülit",
+    "rows": [
+     115,
+     116,
+     368
+    ]
+   }
+  ]
+ },
+ {
+  "id": "anorektal",
+  "title": "Anorektal Hastalıklar",
+  "clusters": [
+   {
+    "id": "anorektal-01",
+    "title": "Anal fissür",
+    "rows": [
+     1,
+     24,
+     146,
+     147,
+     274
+    ]
+   },
+   {
+    "id": "anorektal-02",
+    "title": "Hemoroid",
+    "rows": [
+     270,
+     278
+    ]
+   },
+   {
+    "id": "anorektal-03",
+    "title": "Anal apse ve fistül",
+    "rows": [
+     195,
+     273
+    ]
+   },
+   {
+    "id": "anorektal-04",
+    "title": "Anal kanal kanserleri",
+    "rows": [
+     238,
+     271,
+     272
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ileus",
+  "title": "İleus ve Akut Karın",
+  "clusters": [
+   {
+    "id": "ileus-01",
+    "title": "İleus: tanım, sınıflama, kardinal bulgular, nedenler",
+    "rows": [
+     43,
+     44,
+     51,
+     162,
+     180,
+     181,
+     189,
+     357,
+     364
+    ]
+   },
+   {
+    "id": "ileus-02",
+    "title": "Akut karın, peritonit, retroperitoneal organlar",
+    "rows": [
+     117
+    ]
+   },
+   {
+    "id": "ileus-03",
+    "title": "Visseral ve parietal ağrı",
+    "rows": [
+     212
+    ]
+   }
+  ]
+ },
+ {
+  "id": "apandisit",
+  "title": "Akut Apandisit",
+  "clusters": [
+   {
+    "id": "apandisit-01",
+    "title": "Akut apandisit: patogenez, tanı, ilk saat bulguları",
+    "rows": [
+     94,
+     140,
+     141,
+     294,
+     353
+    ]
+   },
+   {
+    "id": "apandisit-02",
+    "title": "Akut apandisit ayırıcı tanısı",
+    "rows": [
+     93,
+     163,
+     342
+    ]
+   },
+   {
+    "id": "apandisit-03",
+    "title": "Akut apandisit tedavisi ve komplikasyonları",
+    "rows": [
+     95,
+     165
+    ]
+   }
+  ]
+ },
+ {
+  "id": "safra",
+  "title": "Safra Kesesi ve Safra Yolları",
+  "clusters": [
+   {
+    "id": "safra-01",
+    "title": "Akut kolesistit: tanı ve yaklaşım",
+    "rows": [
+     71,
+     79,
+     130,
+     177,
+     182,
+     358
+    ]
+   },
+   {
+    "id": "safra-02",
+    "title": "Akut kolesistit tedavisi (\"hastayı öldür\" sorusu dahil)",
+    "rows": [
+     300,
+     301
+    ]
+   },
+   {
+    "id": "safra-03",
+    "title": "Kolesistit / safra taşı komplikasyonları",
+    "rows": [
+     266,
+     360,
+     382
+    ]
+   },
+   {
+    "id": "safra-04",
+    "title": "Biliyer kolik",
+    "rows": [
+     129
+    ]
+   },
+   {
+    "id": "safra-05",
+    "title": "Sağ üst kadran ağrısına yaklaşım",
+    "rows": [
+     50,
+     90,
+     128
+    ]
+   },
+   {
+    "id": "safra-06",
+    "title": "Tıkanma sarılığı, Charcot / Reynolds, Courvoisier",
+    "rows": [
+     91,
+     221
+    ]
+   },
+   {
+    "id": "safra-07",
+    "title": "Asemptomatik safra kesesi taşı",
+    "rows": [
+     285
+    ]
+   },
+   {
+    "id": "safra-08",
+    "title": "Safra kesesi polipleri",
+    "rows": [
+     78,
+     215
+    ]
+   },
+   {
+    "id": "safra-09",
+    "title": "Apse – ampiyem farkı",
+    "rows": [
+     80,
+     183
+    ]
+   },
+   {
+    "id": "safra-10",
+    "title": "Mirizzi sendromu",
+    "rows": [
+     359
+    ]
+   },
+   {
+    "id": "safra-11",
+    "title": "Saint triadı",
+    "rows": [
+     261
+    ]
+   },
+   {
+    "id": "safra-12",
+    "title": "Karaciğerde hava – kolanjit",
+    "rows": [
+     246
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pankreas",
+  "title": "Pankreas",
+  "clusters": [
+   {
+    "id": "pankreas-01",
+    "title": "Akut pankreatit: etiyoloji, tanı, tedavi",
+    "rows": [
+     92,
+     166,
+     302,
+     321
+    ]
+   },
+   {
+    "id": "pankreas-02",
+    "title": "Akut pankreatit komplikasyonları ve Ranson",
+    "rows": [
+     58,
+     193,
+     237
+    ]
+   },
+   {
+    "id": "pankreas-03",
+    "title": "Psödokist",
+    "rows": [
+     194
+    ]
+   },
+   {
+    "id": "pankreas-04",
+    "title": "Pankreas kanseri ve pankreas tümörleri",
+    "rows": [
+     220,
+     239
+    ]
+   },
+   {
+    "id": "pankreas-05",
+    "title": "Whipple triadı",
+    "rows": [
+     240
+    ]
+   },
+   {
+    "id": "pankreas-06",
+    "title": "Pankreasın komşulukları",
+    "rows": [
+     196
+    ]
+   }
+  ]
+ },
+ {
+  "id": "karaciger",
+  "title": "Karaciğer",
+  "clusters": [
+   {
+    "id": "karaciger-01",
+    "title": "Karaciğer kitlesine yaklaşım ve metastatik kitle",
+    "rows": [
+     27,
+     153,
+     223,
+     341,
+     344
+    ]
+   },
+   {
+    "id": "karaciger-02",
+    "title": "Karaciğer hemanjiyomu",
+    "rows": [
+     28
+    ]
+   },
+   {
+    "id": "karaciger-03",
+    "title": "Karaciğer adenomu",
+    "rows": [
+     29
+    ]
+   },
+   {
+    "id": "karaciger-04",
+    "title": "Hepatosellüler karsinom (HCC)",
+    "rows": [
+     224,
+     303,
+     334
+    ]
+   },
+   {
+    "id": "karaciger-05",
+    "title": "Asit muayenesi (perküsyon, matite)",
+    "rows": [
+     98,
+     99
+    ]
+   },
+   {
+    "id": "karaciger-06",
+    "title": "Portal hipertansiyon",
+    "rows": [
+     4,
+     121
+    ]
+   },
+   {
+    "id": "karaciger-07",
+    "title": "Özofagus varis kanaması",
+    "rows": [
+     122,
+     205
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kist-hidatik",
+  "title": "Kist Hidatik",
+  "clusters": [
+   {
+    "id": "kist-hidatik-01",
+    "title": "Kist hidatik: etken, döngü, konaklar, korunma",
+    "rows": [
+     22,
+     63,
+     84,
+     179,
+     315,
+     376
+    ]
+   },
+   {
+    "id": "kist-hidatik-02",
+    "title": "Kist hidatik komplikasyonları ve tedavisi (PAIR)",
+    "rows": [
+     59,
+     167
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dalak",
+  "title": "Dalak",
+  "clusters": [
+   {
+    "id": "dalak-01",
+    "title": "Splenektomi endikasyonları",
+    "rows": [
+     120,
+     216,
+     291,
+     352
+    ]
+   },
+   {
+    "id": "dalak-02",
+    "title": "Dalak travması ve anatomisi",
+    "rows": [
+     132,
+     210,
+     255
+    ]
+   },
+   {
+    "id": "dalak-03",
+    "title": "Dalak hastalıkları",
+    "rows": [
+     143
+    ]
+   },
+   {
+    "id": "dalak-04",
+    "title": "ITP",
+    "rows": [
+     292
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fitik",
+  "title": "Fıtıklar",
+  "clusters": [
+   {
+    "id": "fitik-01",
+    "title": "İnguinal fıtık: tipleri, sınırlar, muayene, tedavi",
+    "rows": [
+     148,
+     154,
+     284,
+     356
+    ]
+   },
+   {
+    "id": "fitik-02",
+    "title": "Karın duvarı fıtıkları – genel",
+    "rows": [
+     170,
+     186,
+     259,
+     366
+    ]
+   },
+   {
+    "id": "fitik-03",
+    "title": "Umblikal fıtık",
+    "rows": [
+     171
+    ]
+   },
+   {
+    "id": "fitik-04",
+    "title": "Evisserasyon – evantrasyon",
+    "rows": [
+     173,
+     367
+    ]
+   },
+   {
+    "id": "fitik-05",
+    "title": "Richter fıtığı",
+    "rows": [
+     76
+    ]
+   }
+  ]
+ },
+ {
+  "id": "arter",
+  "title": "Arter Hastalıkları",
+  "clusters": [
+   {
+    "id": "arter-01",
+    "title": "Akut arter tıkanıklığı: tanım, etiyoloji, klinik, tedavi",
+    "rows": [
+     11,
+     46,
+     111,
+     219,
+     225,
+     298,
+     371
+    ]
+   },
+   {
+    "id": "arter-02",
+    "title": "Emboli etiyolojisi",
+    "rows": [
+     12
+    ]
+   },
+   {
+    "id": "arter-03",
+    "title": "Tromboz – emboli ayrımı",
+    "rows": [
+     124,
+     308
+    ]
+   },
+   {
+    "id": "arter-04",
+    "title": "Doku iskemi süreleri",
+    "rows": [
+     112,
+     228
+    ]
+   },
+   {
+    "id": "arter-05",
+    "title": "Kronik tıkayıcı arter hastalıkları, klaudikasyon",
+    "rows": [
+     127,
+     133,
+     248
+    ]
+   },
+   {
+    "id": "arter-06",
+    "title": "Buerger hastalığı",
+    "rows": [
+     123,
+     125,
+     378
+    ]
+   },
+   {
+    "id": "arter-07",
+    "title": "Leriche sendromu",
+    "rows": [
+     345
+    ]
+   },
+   {
+    "id": "arter-08",
+    "title": "Aort anevrizması",
+    "rows": [
+     110,
+     218,
+     230,
+     265,
+     268,
+     323
+    ]
+   },
+   {
+    "id": "arter-09",
+    "title": "Gangren (yaş – kuru)",
+    "rows": [
+     249
+    ]
+   },
+   {
+    "id": "arter-10",
+    "title": "Akut mezenterik iskemi",
+    "rows": [
+     178,
+     251
+    ]
+   },
+   {
+    "id": "arter-11",
+    "title": "Alt ekstremite arter anatomisi ve nabızlar",
+    "rows": [
+     113,
+     126,
+     227,
+     377
+    ]
+   },
+   {
+    "id": "arter-12",
+    "title": "Fogarty kateteri / embolektomi",
+    "rows": [
+     222,
+     226
+    ]
+   },
+   {
+    "id": "arter-13",
+    "title": "Künt travmada arteriyel tromboz",
+    "rows": [
+     47
+    ]
+   },
+   {
+    "id": "arter-14",
+    "title": "Kompartman sendromu",
+    "rows": [
+     55
+    ]
+   },
+   {
+    "id": "arter-15",
+    "title": "Crush sendromu",
+    "rows": [
+     48
+    ]
+   },
+   {
+    "id": "arter-16",
+    "title": "Diyabetik ayak, DVT fotoğrafı",
+    "rows": [
+     207
+    ]
+   }
+  ]
+ },
+ {
+  "id": "venoz",
+  "title": "Venöz Hastalıklar ve Antikoagülasyon",
+  "clusters": [
+   {
+    "id": "venoz-01",
+    "title": "Derin ven trombozu: etiyoloji, risk, tanı, tedavi",
+    "rows": [
+     23,
+     118,
+     152,
+     168,
+     199,
+     236,
+     275,
+     310,
+     335
+    ]
+   },
+   {
+    "id": "venoz-02",
+    "title": "DVT komplikasyonları ve pulmoner emboli",
+    "rows": [
+     52,
+     62,
+     305
+    ]
+   },
+   {
+    "id": "venoz-03",
+    "title": "Phlegmasia alba / cerulea dolens, masif ven trombozu",
+    "rows": [
+     53,
+     54,
+     198,
+     233
+    ]
+   },
+   {
+    "id": "venoz-04",
+    "title": "Antikoagülanlar, heparin, enoksaparin, antidotlar",
+    "rows": [
+     114,
+     200,
+     252,
+     293,
+     326,
+     351,
+     375
+    ]
+   },
+   {
+    "id": "venoz-05",
+    "title": "Lenfödem",
+    "rows": [
+     213
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hemostaz",
+  "title": "Hemostaz ve Transfüzyon",
+  "clusters": [
+   {
+    "id": "hemostaz-01",
+    "title": "Hemostaz ve koagülasyon mekanizması",
+    "rows": [
+     74,
+     75,
+     329
+    ]
+   },
+   {
+    "id": "hemostaz-02",
+    "title": "Kanayan hastaya kan ürünü (TDP, trombosit)",
+    "rows": [
+     330,
+     331
+    ]
+   },
+   {
+    "id": "hemostaz-03",
+    "title": "Masif transfüzyon komplikasyonları",
+    "rows": [
+     247
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sok",
+  "title": "Şok, Sepsis ve Travma",
+  "clusters": [
+   {
+    "id": "sok-01",
+    "title": "Şok: tanım, tipleri, tanı ve tedavi",
+    "rows": [
+     25,
+     89,
+     109,
+     229,
+     320
+    ]
+   },
+   {
+    "id": "sok-02",
+    "title": "Şok tiplerinin fizyopatolojisi",
+    "rows": [
+     26
+    ]
+   },
+   {
+    "id": "sok-03",
+    "title": "Sepsis, SIRS, septik şok",
+    "rows": [
+     68,
+     164,
+     322
+    ]
+   },
+   {
+    "id": "sok-04",
+    "title": "Travma hastasına yaklaşım, hemorajik şok",
+    "rows": [
+     40,
+     202,
+     372
+    ]
+   },
+   {
+    "id": "sok-05",
+    "title": "Künt / abdominal travma yönetimi",
+    "rows": [
+     245,
+     269
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sivi-elektrolit",
+  "title": "Sıvı, Elektrolit ve Asit-Baz",
+  "clusters": [
+   {
+    "id": "sivi-elektrolit-01",
+    "title": "Asit-baz dengesi, sıvı kompartmanları, kusan hasta",
+    "rows": [
+     31,
+     209,
+     234,
+     235,
+     299
+    ]
+   },
+   {
+    "id": "sivi-elektrolit-02",
+    "title": "Hipokalemi ve tedavisi",
+    "rows": [
+     49,
+     145,
+     192
+    ]
+   },
+   {
+    "id": "sivi-elektrolit-03",
+    "title": "Hiponatremi (terlemiş hasta)",
+    "rows": [
+     88
+    ]
+   },
+   {
+    "id": "sivi-elektrolit-04",
+    "title": "Hiperkalemi – kalp durması",
+    "rows": [
+     332
+    ]
+   }
+  ]
+ },
+ {
+  "id": "transplant",
+  "title": "Transplantasyon ve Beyin Ölümü",
+  "clusters": [
+   {
+    "id": "transplant-01",
+    "title": "Karaciğer transplantasyonu endikasyonları ve komplikasyonlar",
+    "rows": [
+     2,
+     3
+    ]
+   },
+   {
+    "id": "transplant-02",
+    "title": "Böbrek / karaciğer transplantasyonu: testler, immünsupresyon, rejeksiyon",
+    "rows": [
+     311,
+     337,
+     340
+    ]
+   },
+   {
+    "id": "transplant-03",
+    "title": "En toleran organ",
+    "rows": [
+     280
+    ]
+   },
+   {
+    "id": "transplant-04",
+    "title": "Beyin ölümü",
+    "rows": [
+     325,
+     383
+    ]
+   }
+  ]
+ },
+ {
+  "id": "genel",
+  "title": "Genel Cerrahi Temelleri",
+  "clusters": [
+   {
+    "id": "genel-01",
+    "title": "Yara, yara iyileşmesi, yara bakımı",
+    "rows": [
+     67,
+     73,
+     317
+    ]
+   },
+   {
+    "id": "genel-02",
+    "title": "Asepsi, antisepsi, dezenfeksiyon, sterilizasyon",
+    "rows": [
+     81,
+     244
+    ]
+   },
+   {
+    "id": "genel-03",
+    "title": "Antibiyotik profilaksisi",
+    "rows": [
+     318
+    ]
+   },
+   {
+    "id": "genel-04",
+    "title": "Hipertansif hastada cerrahi hazırlık",
+    "rows": [
+     60
+    ]
+   },
+   {
+    "id": "genel-05",
+    "title": "Nazogastrik sonda endikasyonları",
+    "rows": [
+     197
+    ]
+   },
+   {
+    "id": "genel-06",
+    "title": "Obezite cerrahisi",
+    "rows": [
+     107,
+     134,
+     287
+    ]
+   },
+   {
+    "id": "genel-07",
+    "title": "Kanser taraması (Türkiye) ve neden tararız",
+    "rows": [
+     101,
+     174
+    ]
+   },
+   {
+    "id": "genel-08",
+    "title": "Epidemiyoloji, risk ölçütleri (hazard, odds)",
+    "rows": [
+     169,
+     176
+    ]
+   },
+   {
+    "id": "genel-09",
+    "title": "Malign melanom",
+    "rows": [
+     319
+    ]
+   },
+   {
+    "id": "genel-10",
+    "title": "Maksilla altında şişlik",
+    "rows": [
+     349
+    ]
+   },
+   {
+    "id": "genel-11",
+    "title": "Karışık soru (tiroid, evisserasyon, hemoroid)",
+    "rows": [
+     61
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kisisel",
+  "title": "Kişisel / Hocaya Özel Sorular",
+  "clusters": [
+   {
+    "id": "kisisel-01",
+    "title": "\"Hangi dersi anlattım?\", sunum konusu, genel muhabbet",
+    "rows": [
+     119,
+     142,
+     206,
+     286,
+     295,
+     296,
+     350,
+     374
+    ]
+   }
+  ]
+ }
+]

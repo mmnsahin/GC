@@ -11,18 +11,18 @@
   - **MEN II:** 10. kromozomdaki RET protoonkogeninin aktive edici mutasyonuyla oluşan otozomal dominant sendromdur. [B]
   - **Çene (jaw) sendromu:** HRPT2 genindeki mutasyonla oluşan otozomal dominant sendrom; paratiroid hastalığı ve çene kemiği tümörleri birlikte görülür, tek ya da birden fazla bez tutulabilir, paratiroid kanseri riski artmıştır. [B]
 - **Klinik:** "Stones, bones, moans, abdominal groans" — böbrek taşı / nefrokalsinoz (zamanla böbrek yetmezliği), kemik ağrıları, güçsüzlük, depresif duygulanım, kas ağrıları, iştahsızlık, bulantı, kusma, kabızlık, polidipsi/poliüri, kaşıntı, yorgunluk; solunum güçlüğü ve mide ülseri saptanabilir. [C, D, E]
+- **Karın ağrısı:** PTH artınca kalsiyum artar; kalsiyum gastrin salgısını uyararak peptik ülser riski oluşturur. Aynı zamanda pankreası uyararak akut pankreatit yapabilir; bu durumda sırta ağrı vurabilir (her zaman vurmak zorunda değil). [A]
 - **Biyokimyasal bulgular:** Kalsiyum yüksek, parathormon yüksek, fosfor normalin alt sınırında veya düşük, alkalin fosfataz yüksek olabilir, 24 saatlik idrar kalsiyumu normal (100–400 mg/gün) veya yüksektir (bu, idrar kalsiyumu düşük olan Familyal Hipokalsiürik Hiperkalsemiden ayırt edici özelliktir). [B, C]
 - **Görüntüleme:** El ve kafatası grafileri osteitis fibroza sistikayı gösterebilir; abdominal USG böbrek taşlarını gösterebilir; paratiroid bezinin lokalizasyonu için teknesyumlu sintigrafi ve/veya USG kullanılabilir; ektopik tümörlerin lokalizasyonunda BT ve MR kullanılabilir; selektif venöz örnekleme de yapılabilir — her yöntemin kendine özgü avantaj ve dezavantajları vardır. [D]
-- **Tedavi:** Etkili ve kalıcı tek tedavi cerrahidir. [B, C, D]
+- **Tedavi:** Etkili ve kalıcı tek tedavi cerrahidir. [B, C, D] Primer tümör kaynaklıysa paratiroidektomi yapılır. [A]
+- **Akut hiperkalsemide:** SF ile hidrasyon, gerekirse kalsitonin ve bifosfat verilir. [A]
 
 ### Sekonder hiperparatiroidi
 - Paratiroid bezlerinin, böbrek yetmezliği veya gastrointestinal kalsiyum emiliminin bozulması gibi hipokalsemik durumlarda kan kalsiyumunu normal sınırlarda tutabilmek için uyarılıp büyümesi ve fazla hormon salgılamasıyla oluşan tablodur; kompansatuar bir yanıttır. Altta yatan sorun düzeltilince geriye dönebilir. [B, D, E]
 - Kronik böbrek yetmezliği en sık sebebidir: fosfat atımı bozulur, kan fosfatı yükselir; yüksek fosfat serum kalsiyumunu baskılayarak kalsiyumu düşürür, bu da paratiroid bezlerini uyarıp PTH salgısını artırır. [B]
 - **Biyokimyasal bulgular:** Kalsiyum düşük, normal veya yüksek olabilir (ileri evrede bezlerde otonomi gelişmesiyle hiperkalsemi de görülebilir). Fosfat genelde yüksektir (böbrekten atılımın azalması, barsaktan emilimin sürmesi, yüksek PTH'ye bağlı kemikten fosfat salınımı). PTH düzeyi yüksektir ve hastalık ilerledikçe artar (normalin 3 katına kadar artış, düşük aktif D vitaminini kompanse etmek için fizyolojik kabul edilir); ALP kronik böbrek yetmezliğine bağlı düşüktür. [B]
-- **Tedavi:** Diyaliz ya da fosfat bağlayan ajanlar; medikal tedaviye dirençli PTH yüksekliğinde tek geçerli seçenek cerrahidir. [B, C]
+- **Tedavi:** Altta yatan neden tedavi edilir [A]; diyaliz ya da fosfat bağlayan ajanlar; medikal tedaviye dirençli PTH yüksekliğinde tek geçerli seçenek cerrahidir. [B, C]
 
 ### Tersiyer hiperparatiroidi
 - Sekonder hiperparatiroidiye neden olan uyarı ortadan kalksa bile, hiperplazik paratiroid bezlerinin kontrolden çıkıp kendi başına çalışmaya devam etmesidir (otonom hipersekresyon). [B, C]
 - Tedavi edilmiş sekonder hiperparatiroidizmden en az bir yıl sonra, plazma kalsiyum ve fosfat düzeylerinden bağımsız olarak PTH salgılamaya devam eden adenom varlığı şeklinde de tanımlanır. [E]
-
-> ⚠ A'nın cevabı "DETAYLI YAZ" şeklinde boş/placeholder olduğu için değerlendirmeye alınmadı.

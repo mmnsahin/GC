@@ -3,6 +3,13 @@ import json, re, pathlib, sys
 TODO = '--todo' in sys.argv
 root = pathlib.Path(__file__).parent
 rows = json.loads((root/'data/rows.json').read_text(encoding='utf-8'))
+
+# PDF çıkarımında satır sonları kaybolmuş: yapışık alt başlık ve "- " maddelerini ayır.
+# Sadece boşluk -> satır sonu; metin değişmez, rows.json'a dokunulmaz.
+HEAD = re.compile(r'(?:(?<=[.!?])|(?<=[^\W\d_]{4}\))) +(?=[A-ZÇĞİÖŞÜ][^.:\n]{1,45}:[ \t]*(?:\n|$))')
+BUL = re.compile(r'((?:[.!?]|\([^()\n]{12,}\))) +(?=- ?[A-ZÇĞİÖŞÜ])')
+for r in rows:
+    r['a'] = BUL.sub(r'\1\n', HEAD.sub('\n', r['a']))
 sections = json.loads((root/'data/clusters.json').read_text(encoding='utf-8'))
 merged_dir = root/'data/merged'
 ids, errors, done, multi = set(), [], 0, 0

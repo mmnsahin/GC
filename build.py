@@ -40,4 +40,5 @@ if errors:
 data = json.dumps({'rows': rows, 'sections': sections}, ensure_ascii=False).replace('</', '<\\/')
 html = (root/'template.html').read_text(encoding='utf-8').replace('__DATA__', data)
 (root/'index.html').write_text(html, encoding='utf-8')
+(root/'flash.html').write_text((root/'flash_template.html').read_text(encoding='utf-8').replace('__DATA__', data), encoding='utf-8')
 print(f"index.html yazıldı. Birleşik cevap: {done}/{multi} çok-kaynaklı küme.")

@@ -1,0 +1,21 @@
+### Mide kanseri risk faktörleri
+- Erkek cinsiyet. [A, B]
+- Düşük sosyoekonomik durum. [A]
+- İleri yaş. [B]
+- Herediter diffüz mide kanseri (CDH-1 mutasyonu), FAP (APC mutasyonu), HNPCC (MLH-1 mutasyonu). [A]
+- Genetik yatkınlık (p53, c-erbB2). [B]
+- Diyet: tütsülenmiş besinler, aşırı tuz ve nitrat (gıda koruyucuları) içeren besinler, az antioksidan ve C vitamini alımı. [A, B]
+- Sigara ve alkol kullanımı. [B]
+- Helicobacter pylori enfeksiyonu (hem adenokarsinom hem lenfoma için risktir). [A, B]
+- Epstein-Barr virüsü (EBV). [A, B]
+- Mide polipleri. [A, B]
+- Displazi, atrofik gastrit, intestinal metaplazi, gastrit. [A, B]
+- A kan grubu. [B]
+- Obezite. [B]
+- Radyasyona maruziyet. [B]
+- Aile öyküsü. [A]
+
+### Mide kanserinin premalign lezyonları
+- Midenin hiperplastik polipleri. [B]
+- Mide adenomları. [B]
+- Gastrik epitelyal displazi. [B]

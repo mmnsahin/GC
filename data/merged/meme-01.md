@@ -1,0 +1,20 @@
+### Risk faktörleri (önem sırasına göre, en önemliden en aza)
+1. **Kadın cinsiyet:** Erkek/kadın oranı yaklaşık 1:130; kadınlarda erkeklere göre 8 kat fazla görülür. [A, B, C]
+2. **Yaş:** 30 yaşın üstünde olmak; görülme sıklığı 50 yaş civarında pik yapar (menopozdan sonra süt kanallarının yerini bağ dokusu alır, hedef doku azalır ve tümör artar; DNA tamir mekanizmalarındaki mutasyonlar da neden olur). [B, C]
+3. Toraksa yönelik radyoterapi öyküsü. [C]
+4. **BRCA gen mutasyonu:** Riski yaklaşık 10 kat artırır. [A, B, C]
+5. Atipik hiperplazi, atipik kolumnar hücre değişiklikleri. [A, C]
+6. **Lobüler karsinoma in situ (LCIS):** Riski yaklaşık 10–12 kat artırır. [A, C]
+7. **Duktal karsinoma in situ (DCIS):** Riski yaklaşık 3–4 kat artırır. [A, C]
+8. **Aile hikayesi:** Riski yaklaşık 2–4 kat artırır. [A, B, C]
+9. Erken menarş, geç menopoz. [A, C]
+10. Hormon replasman tedavisi: Riski yaklaşık 1,3 kat artırır. [C]
+11. Oral kontraseptif kullanımı: Bazı kaynaklara göre riski artırır, bazılarına göre artış anlamsızdır (bkz. çelişki notu). [C]
+12. Gebelik öyküsü: Hiç gebe kalmamak veya ilk gebeliğin 30 yaş üzerinde olması riski artırır; 35 yaş üzeri gebelik de riski artırır. [B, C]
+13. Endokrin faktörler (östrojen, progesteron). [A, B]
+14. Obezite: Yağ dokusu ne kadar fazlaysa, menopoz sonrası östrojen o kadar fazla olur, bu da meme kanseri riskini artırır. [A, C]
+15. Diyet ve egzersiz azlığı (yağ dokusu artışı kanser riskini artırır). [A]
+16. Sigara kullanımı riski artırır. [C]
+17. Diğer memede kanser varlığı, karşı memede görülme riskini artırır. [B]
+
+> ⚠ Oral kontraseptif kullanımının meme kanseri riskine etkisi konusunda kaynaklar arasında görüş ayrılığı var: C'de bir hocaya göre riski artırdığı, başka bir hocaya göre ise anlamlı bir artış yaratmadığı belirtilmiş.

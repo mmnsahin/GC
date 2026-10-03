@@ -1,0 +1,12 @@
+### Doku iskemi toleransı (sıcak iskemi süreleri)
+- Kalp: 4 saat. [A, B]
+- Kas: 4 saat. [A, B]
+- Akciğer: 4–6 saat. [A, B]
+- Karaciğer: 6–10 saat. [A, B]
+- Bağırsaklar: 6–12 saat. [A, B]
+- Pankreas: 12–18 saat. [A, B]
+- Yağ: 13 saat. [A, B]
+- Sinirler: 8 saat. [A, B]
+- Böbrekler: 24 saat (perfüzyon pompasına bağlanırsa 72 saate kadar çıkabilir). [A, B]
+- Deri: 24 saat. [A, B]
+- Kemik: 4 gün. [A, B]

@@ -13,11 +13,17 @@
 - Üst GİS kanamasına yol açan ilaçlar: NSAİD, aspirin. [F]
 
 ### Klinik bulgular
-- **Hematemez:** Ağızdan kusarak ya da öğürerek parlak kırmızı renkte taze kan, pıhtı ya da kahve telvesi renginde (gastrik asit ile sindirilmiş kan) kan gelmesidir. [A, B]
+- **Hematemez:** Ağızdan kusarak ya da öğürerek parlak kırmızı renkte taze kan, pıhtı ya da kahve telvesi renginde (gastrik asit ile sindirilmiş kan) kan gelmesidir; her zaman üst GİS kanamasını gösterir. [A, B]
 - **Melena:** Siyah, katran renginde, kötü kokulu dışkıdır. Kanın bağırsak bakterileri tarafından hematine ve hemokromlara bozunması ile oluşur. Melena gelişmesi için en az 50–100 ml kan yeterlidir. Üst GİS (en sık), ince bağırsak ve proksimal kolon kaynaklı kanamalarda görülür. [B]
-- **Hematokezya:** Parlak kırmızı ya da vişne çürüğü renginde makattan kan gelmesidir. Kolon, anorektal ya da aktif üst GİS ve ince bağırsak kanamalarında görülür. [B]
+- **Hematokezya:** Parlak kırmızı ya da vişne çürüğü renginde makattan kan gelmesidir. Kolon, anorektal ya da aktif üst GİS ve ince bağırsak kanamalarında görülür; masif kanamalarda da görülebilir. [B]
 - Hipotansiyon, şok, taşikardi. [B]
 - Kanama şiddeti genel olarak kan basıncının 100'ün altında ve kalp hızının 120'nin üzerinde olmasıyla değerlendirilir. [B]
+
+| Bulgular | Kaynağı |
+| --- | --- |
+| **Hematemez** | **Üst GİS kanaması** |
+| **Melena** | Genellikle üst GİS |
+| **Hematokezya** | Genellikle alt GİS, **ama masif üst GİS kanamasında da olabilir** |
 
 ### Tanı
 - Üst GİS kanamasıyla gelen hastaya endoskopi yapmak şarttır; tanıda altın standart yöntem endoskopidir. [A, B, E]

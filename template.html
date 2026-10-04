@@ -81,6 +81,9 @@ section.topic>.sub{color:var(--muted);font-size:.92rem;margin:0 0 14px}
 .merged p{margin:0 0 10px}
 .merged ul,.merged ol{margin:0 0 10px;padding-left:22px}
 .merged li{margin:3px 0}
+.merged table{border-collapse:collapse;margin:10px 0 14px;font-family:var(--sans);font-size:.93rem;width:100%}
+.merged th,.merged td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+.merged th{background:var(--scrub-tint)}
 .merged blockquote{margin:12px 0;padding:10px 14px;background:var(--warn-bg);color:var(--warn);border-radius:6px;font-family:var(--sans);font-size:.93rem}
 .src{font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--scrub);background:var(--scrub-tint);border-radius:4px;padding:1px 5px;margin-left:4px;white-space:nowrap;vertical-align:1px}
 .note{font-size:.9rem;color:var(--muted);margin:0 0 10px}
@@ -149,8 +152,19 @@ function inline(s){
 function md(src){
   const out = []; let list = null;
   const close = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  let tbl = false;
+  const closeTbl = () => { if (tbl) { out.push('</tbody></table>'); tbl = false; } };
   for (const raw of src.split('\n')) {
     const l = raw.trim();
+    if (l.startsWith('|')) {
+      close();
+      const cells = l.replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+      if (cells.every(c => /^:?-+:?$/.test(c))) continue;
+      if (!tbl) { tbl = true; out.push('<table><thead><tr>' + cells.map(c => `<th>${inline(c)}</th>`).join('') + '</tr></thead><tbody>'); }
+      else out.push('<tr>' + cells.map(c => `<td>${inline(c)}</td>`).join('') + '</tr>');
+      continue;
+    }
+    closeTbl();
     if (!l) { close(); continue; }
     let m;
     if ((m = l.match(/^#{2,4}\s+(.*)/))) { close(); out.push(`<h4>${inline(m[1])}</h4>`); }
@@ -159,7 +173,7 @@ function md(src){
     else if ((m = l.match(/^\d+[.)]\s+(.*)/))) { if (list !== 'ol') { close(); out.push('<ol>'); list = 'ol'; } out.push(`<li>${inline(m[1])}</li>`); }
     else { close(); out.push(`<p>${inline(l)}</p>`); }
   }
-  close(); return out.join('');
+  close(); closeTbl(); return out.join('');
 }
 
 const totalQ = DATA.rows.length;

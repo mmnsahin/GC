@@ -61,13 +61,22 @@ button{font:inherit;color:inherit}
 .merged li{margin:3px 0}
 .merged blockquote{margin:12px 0;padding:10px 14px;background:var(--warn-bg);color:var(--warn);border-radius:6px;font-family:var(--sans);font-size:.93rem}
 .src{font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--scrub);background:var(--scrub-tint);border-radius:4px;padding:1px 5px;margin-left:4px;white-space:nowrap;vertical-align:1px}
+.fbtn{border:1px solid var(--scrub);background:transparent;color:var(--scrub);border-radius:8px;padding:3px 10px;font-size:.85rem;font-weight:600;cursor:pointer}
+.fpanel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:12px}
+.fpanel[hidden]{display:none}
+.fact{display:flex;gap:8px;margin-bottom:8px}
+.fact button{border:1px solid var(--line);background:transparent;border-radius:8px;padding:3px 10px;font-size:.85rem;cursor:pointer}
+.flist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:4px 12px}
+.flist label{display:flex;align-items:center;gap:8px;font-size:.92rem;cursor:pointer;padding:3px 0}
+.flist .n{color:var(--muted);font-size:.8rem}
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
 </style>
 </head>
 <body>
 <div class="bar"><div class="barin"><span class="bartitle">Flash Kartlar</span><span class="nav"><a href="index.html">Tüm sorular</a></span></div></div>
 <div class="wrap">
-  <div class="info"><span id="pos"></span></div>
+  <div class="info"><span id="pos"></span><button class="fbtn" id="fbtn" aria-expanded="false">Konular: <span id="fsum"></span></button></div>
+  <div class="fpanel" id="fpanel" hidden><div class="fact"><button id="fall">Tümünü seç</button><button id="fnone">Temizle</button></div><div class="flist" id="flist"></div></div>
   <div class="scene"><div class="card" id="card" role="button" tabindex="0" aria-label="Kartı çevir"><div class="face front"><div class="topic" id="topic"></div><div class="qtext" id="qtext"></div><div class="hint" id="fhint"></div></div><div class="face back"><p class="qsmall" id="qsmall"></p><div id="answer"></div></div></div></div>
   <div class="ctrl"><button id="prev">‹ Önceki</button><button id="next">Sonraki ›</button></div>
 </div>
@@ -106,10 +115,15 @@ const cards = DATA.rows.filter(r => r.a && r.a.trim()).map(r => ({
   topic: topicOf[r.no] || '', q: r.q, meta: [r.hoca, r.tip].filter(Boolean).join(' · '),
   back: `<div class="ans">${esc(r.a)}</div>`
 }));
+const topics = DATA.sections.map(s => s.title).filter(t => cards.some(c => c.topic === t));
+let sel = new Set(topics);
+try { const sv = JSON.parse(localStorage.getItem('flashTopics')); if (Array.isArray(sv)) { const f = sv.filter(t => topics.includes(t)); if (f.length) sel = new Set(f); } } catch (e) {}
 let deck = [], i = -1;
-function shuffle(){ deck = cards.map((_, k) => k); for (let k = deck.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [deck[k], deck[j]] = [deck[j], deck[k]]; } }
+function shuffle(){ deck = []; cards.forEach((c, k) => { if (sel.has(c.topic)) deck.push(k); }); for (let k = deck.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [deck[k], deck[j]] = [deck[j], deck[k]]; } }
 const el = id => document.getElementById(id), card = el('card');
 function show(){
+  card.style.visibility = deck.length ? '' : 'hidden'; el('next').disabled = !deck.length;
+  if (!deck.length) { el('pos').textContent = 'Konu seçin'; el('prev').disabled = true; return; }
   const c = cards[deck[i]];
   card.classList.remove('flip');
   el('topic').textContent = [c.topic, c.meta].filter(Boolean).join(' · ');
@@ -119,12 +133,24 @@ function show(){
   el('prev').disabled = i === 0;
   card.scrollTop = 0; window.scrollTo(0, 0);
 }
-function next(){ if (i + 1 >= deck.length) { const last = deck[deck.length - 1]; shuffle(); if (deck[0] === last && deck.length > 1) deck.push(deck.shift()); i = 0; } else i++; show(); }
+function next(){ if (!deck.length) return; if (i + 1 >= deck.length) { const last = deck[deck.length - 1]; shuffle(); if (deck[0] === last && deck.length > 1) deck.push(deck.shift()); i = 0; } else i++; show(); }
 function prev(){ if (i > 0) { i--; show(); } }
 card.addEventListener('click', () => card.classList.toggle('flip'));
 el('next').addEventListener('click', next); el('prev').addEventListener('click', prev);
 document.addEventListener('keydown', e => { if ((e.key === ' ' || e.key === 'Enter') && e.target === card) { e.preventDefault(); card.classList.toggle('flip'); return; } if (e.key === 'ArrowRight') next(); else if (e.key === 'ArrowLeft') prev(); });
-shuffle(); i = 0; show();
+function renderFilter(){
+  el('flist').innerHTML = topics.map((t, k) => `<label><input type="checkbox" data-k="${k}"${sel.has(t) ? ' checked' : ''}><span>${esc(t)} <span class="n">${cards.filter(c => c.topic === t).length}</span></span></label>`).join('');
+  el('fsum').textContent = sel.size === topics.length ? 'Tümü' : sel.size + ' seçili';
+}
+function applyFilter(){
+  try { localStorage.setItem('flashTopics', JSON.stringify([...sel])); } catch (e) {}
+  renderFilter(); shuffle(); i = 0; show();
+}
+el('flist').addEventListener('change', e => { const t = topics[e.target.dataset.k]; if (e.target.checked) sel.add(t); else sel.delete(t); applyFilter(); });
+el('fall').addEventListener('click', () => { sel = new Set(topics); applyFilter(); });
+el('fnone').addEventListener('click', () => { sel = new Set(); applyFilter(); });
+el('fbtn').addEventListener('click', () => { const p = el('fpanel'); p.hidden = !p.hidden; el('fbtn').setAttribute('aria-expanded', String(!p.hidden)); });
+renderFilter(); shuffle(); i = 0; show();
 </script>
 </body>
 </html>

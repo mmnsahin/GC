@@ -29,3 +29,8 @@ Bu repo, genel cerrahi sözlü çıkmış sorularından üretilen statik bir sit
 - `data/single/<küme-id>.md` — bir kez sorulmuş kümenin cevabının toparlanmış hali. Bilgi eklenmez/çıkarılmaz; sadece cümle düzeni, başlık ve tablo. Kaynak harfi yazılmaz (tek kaynak).
 - Sitede bu metin gösterilir, altındaki "Soru" butonu dosyadaki değiştirilmemiş cevabı açar.
 - Eksikleri listele: `python3 build.py --todo-single`
+
+## AI metinleri (data/ai)
+- `data/ai/<küme-id>.md` — "AI ile çalış" butonuna basılınca gösterilen, yapay zekânın kendi bilgisiyle yazdığı konu anlatımı. Dosyadaki cevaplardan türetilmez; mevcut metin (merged/single) silinmez, buton ile değiştirilir.
+- Sitede metnin başında "yapay zekâ tarafından yazıldı" uyarısı gösterilir; önemli bilgiler ders kitabıyla doğrulanmalıdır.
+- Eksikleri listele: `python3 build.py --todo-ai` (kisisel-01 tıbbi konu olmadığı için bilinçli olarak yok).

@@ -24,3 +24,8 @@ Bu repo, genel cerrahi sözlü çıkmış sorularından üretilen statik bir sit
 - Her grup sonunda `python3 build.py` çalıştır; hata varsa düzelt.
 - Her grup sonunda commit at: `merged: <küme-id'ler>`.
 - Bitince push et.
+
+## Tek kaynaklı kümeler (data/single)
+- `data/single/<küme-id>.md` — bir kez sorulmuş kümenin cevabının toparlanmış hali. Bilgi eklenmez/çıkarılmaz; sadece cümle düzeni, başlık ve tablo. Kaynak harfi yazılmaz (tek kaynak).
+- Sitede bu metin gösterilir, altındaki "Soru" butonu dosyadaki değiştirilmemiş cevabı açar.
+- Eksikleri listele: `python3 build.py --todo-single`

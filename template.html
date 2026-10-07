@@ -239,7 +239,11 @@ function clusterHTML(c, hl){
   const freq = n > 1 ? `<span class="freq">${n}<small>×</small></span>` : `<span class="freq one">1<small>×</small></span>`;
   const hocas = hocaList(c);
   let main;
-  if (n === 1) {
+  if (n === 1 && c.merged) {
+    const r = rows[c.rows[0]];
+    main = `<div class="merged">${md(c.merged)}</div>` +
+      `<button class="rawbtn" aria-expanded="false">Soru</button><div class="raws">${rawCards(c, hl)}</div>`;
+  } else if (n === 1) {
     const r = rows[c.rows[0]];
     main = `<p class="note">Bir kez sorulmuş; cevap dosyadaki haliyle.</p><p class="oq" style="font-style:italic;color:var(--muted);margin:0 0 8px">${hl(esc(r.q))}</p>` +
       (r.a ? `<div class="single"><div class="ans">${hl(esc(r.a))}</div></div>` : `<div class="pending">Dosyada bu sorunun cevabı boş.</div>`) +

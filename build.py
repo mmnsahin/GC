@@ -27,8 +27,24 @@ for s in sections:
                     bad = set(re.split(r'\s*,\s*', grp)) - allowed
                     if bad: errors.append(f"{c['id']}: kaynak harfi yok {sorted(bad)} (izinli: {''.join(sorted(allowed))})")
                 c['merged'] = txt; done += 1
+single_dir = root/'data/single'
+single_ids = {c['id'] for s in sections for c in s['clusters'] if len(c['rows']) == 1}
+for s in sections:
+    for c in s['clusters']:
+        if len(c['rows']) == 1:
+            f = single_dir/f"{c['id']}.md"
+            if f.exists(): c['merged'] = f.read_text(encoding='utf-8').strip()
+if single_dir.exists():
+    for f in single_dir.glob('*.md'):
+        if f.stem not in single_ids: errors.append(f"data/single/{f.name}: tek kaynaklı küme id'si değil")
 for f in merged_dir.glob('*.md'):
     if f.stem not in ids: errors.append(f"{f.name}: böyle bir küme id yok")
+if '--todo-single' in sys.argv:
+    for s in sections:
+        for c in s['clusters']:
+            if len(c['rows']) == 1 and not (single_dir/f"{c['id']}.md").exists() and rows[c['rows'][0]]['a'].strip():
+                print(f"{c['id']:<22} {c['title']}  rows={c['rows']}")
+    sys.exit(0)
 if TODO:
     for s in sections:
         for c in s['clusters']:

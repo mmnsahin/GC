@@ -22,3 +22,12 @@
 
 ### Prognoz
 - En önemli belirleyiciler: invazyon derinliği, lenf nodu tutulumu, uzak metastaz.
+
+### Sık sorulan rakamlar
+- **5 yıllık sağkalım:** Tüm mide kanserlerinde yaklaşık %20–30 (Batı); **erken mide kanserinde >%90**.
+- **Erken mide kanserinde lenf nodu metastazı:** Mukozal kanserde yaklaşık %2–5, submukozal kanserde yaklaşık %15–20.
+- **Mukoza/submukoza invazyon derinliği** için **endoskopik ultrasonografi (EUS)**.
+- **Prognozu etkileyen faktörler:** İnvazyon derinliği (T), **lenf nodu tutulumu (N)**, uzak metastaz, tümör tipi (diffüz tip kötü), rezeksiyon sınırı (R0), yaş ve genel durum.
+
+### İnoperabilite bulguları (fizik muayene)
+- **Virchow nodu**, **Sister Mary Joseph nodülü**, **Blumer rafı**, **Krukenberg tümörü (overde kitle)**, **asit**, **hepatomegali / karaciğer metastazı**, ele gelen sabit epigastrik kitle, kaşeksi.

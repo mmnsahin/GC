@@ -19,3 +19,8 @@ Tirozin → (tirozin hidroksilaz, **hız kısıtlayıcı basamak**) → DOPA →
 | **β1** | Kalpte hız ve kasılma artışı; renin salınımı |
 | **β2** | Bronkodilatasyon, iskelet kası damarlarında vazodilatasyon, glikojenoliz |
 | **β3** | Yağ dokusunda lipoliz |
+
+### Sık sorulanlar
+- **Noradrenalin nerede sentezlenir?** Adrenal **medullada** (kromaffin hücreler); **korteks katekolamin yapmaz** (steroid hormon yapar).
+- **Adrenalin neyden sentezlenir?** **Noradrenalinden**, **PNMT** enzimiyle (kortizol bu enzimi uyarır).
+- **Sentez basamakları:** Tirozin → L-DOPA → dopamin → noradrenalin → adrenalin.

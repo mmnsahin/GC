@@ -21,3 +21,8 @@
 - **= 1:** İlişki yok.
 - **1'den küçük:** Koruyucu etki.
 - Güven aralığı 1'i içeriyorsa sonuç istatistiksel olarak anlamlı değildir.
+
+### Formüller (2×2 tablo: a, b = maruz kalanlarda hasta/sağlam; c, d = maruz kalmayanlarda hasta/sağlam)
+- **Odds oranı (OR)** = **(a × d) / (b × c)**.
+- **Rölatif risk (RR)** = **[a / (a + b)] / [c / (c + d)]**.
+- Bir durumun hastalık riskini artırması **risk faktörü** olarak adlandırılır; bu riskin nicel ifadesi **hazard oranı / rölatif risk / odds oranıdır** (çalışma tipine göre).

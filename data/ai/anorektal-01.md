@@ -21,3 +21,22 @@
 
 ### Hatırlatma
 - NO donörleri düz kası gevşeterek sfinkter basıncını düşürür ve kan akımını artırır.
+
+### Kronik anal fissür triadı
+1. **Fissürün kendisi** (kronik, indüre kenarlı ülser; tabanında internal sfinkter lifleri görülebilir).
+2. **Sentinel pile** (distal ucunda deri çıkıntısı).
+3. **Hipertrofik anal papilla** (proksimal ucunda).
+
+### Anal ağrıyla gelen hastada ayırıcı tanı
+- Anal fissür, **perianal apse**, **tromboze hemoroid**, proktalji fugaks, anal fistül, levator ani sendromu, anal kanser, anal stenoz, proktit.
+
+### 1 aydır anal ağrı + ara sıra kanama
+- **Anamnez:** Defekasyonla ağrı (yanıcı, kesici) ve sonrasında süren ağrı, parlak kırmızı kan (tuvalet kâğıdında), kabızlık, ishal, kilo kaybı, anal ilişki, İBH öyküsü.
+- **Fizik muayene:** Kalçaları aralayarak **inspeksiyon** (arka orta hatta yırtık, sentinel pile); **rektal tuşe ağrı nedeniyle** nazik veya anestezi altında yapılır.
+- **Tanı klinik koyulur;** özel görüntüleme genellikle gerekmez (şüpheli/atipik fissürde anoskopi/EUA, endoanal USG, gerekirse kolonoskopi ve biyopsi).
+
+### Neden botulinum toksini (botoks)?
+- **İnternal anal sfinkteri geçici felç ederek** basıncı düşürür; kan akımı artar ve fissür iyileşir (cerrahi sfinkterotomiye alternatif; kalıcı inkontinans riski yok).
+
+### NO donörlerinin (nitrogliserin) yan etkisi
+- **Baş ağrısı** (en sık), hipotansiyon/baş dönmesi, bulantı.

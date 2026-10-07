@@ -14,3 +14,11 @@
 - Eşlik eden **koledokolitiazis/kolanjit**'i atlayıp yalnızca kolesistektomi planlamak.
 - Yüksek riskli (yaşlı, diyabetik, immünsüprese) hastada **komplikasyon gelişmişken** konservatif izlemde ısrar etmek.
 - Cerrahide "kritik güvenlik görüşü"ne ulaşmadan yapıların kesilmesi (safra yolu yaralanması).
+
+### Neden antibiyotik, neden cerrahi?
+- **Antibiyotik:** Tıkalı ve inflame keseye bakteriler (E. coli, Klebsiella, enterokok, anaeroblar) yerleşir; enfeksiyonun yayılmasını ve sepsisi önlemek için verilir.
+- **Cerrahi (kolesistektomi):** Taş ve hastalıklı kese **kaynağı** ortadan kaldırır; **nüks** (tekrarlayan atak), komplikasyon (gangren, perforasyon, kolanjit, pankreatit) riskini önler. Tıkalı kese kendiliğinden düzelse bile taş kaldığı sürece sorun devam eder.
+
+### Perfore ve perfore olmayan keseye neden ikisine de cerrahi?
+- **Perfore kese:** Peritonit/apse yani **sepsis kaynağı** (source control) → acil cerrahi/drenaj.
+- **Perfore olmayan kese:** Perforasyonu ve nüksü önlemek, hastanede kalışı kısaltmak için **erken elektif laparoskopik kolesistektomi**.

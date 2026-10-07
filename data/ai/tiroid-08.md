@@ -21,3 +21,25 @@
 
 ### Takip
 - Ses kontrolü (gerekirse laringoskopi), kalsiyum/PTH ölçümü, TSH ve levotiroksin dozunun ayarlanması.
+
+### Paratiroid hasarı olup olmadığı nasıl anlaşılır?
+- **Klinik:** Hipokalsemi bulguları (**Chvostek** ve **Trousseau**), parestezi, kramp.
+- **Laboratuvar:** Düşük **kalsiyum** ve düşük/yetersiz **PTH**.
+
+### Hipokalsemide korkulan durumlar
+- **Laringospazm** (hava yolu), **konvülsiyon (nöbet)**, tetani, **QT uzaması ve ventriküler aritmi (fibrilasyon)**.
+
+### Vokal kord innervasyonu ve sinir yaralanmaları
+| Sinir | Fonksiyon | Yaralanma |
+| --- | --- | --- |
+| **Rekürren laringeal sinir (RLN)** | Krikotiroid dışındaki tüm intrinsik larinks kaslarının motor innervasyonu; vokal kord addüksiyonu/abdüksiyonu (**posterior krikoaritenoid = tek abdüktör**) | **Tek taraflı:** ses kısıklığı, zayıf öksürük. **İki taraflı:** stridor, hava yolu tıkanıklığı/afoni (trakeostomi gerekebilir) |
+| **Superior laringeal sinir – eksternal dal** | **Krikotiroid kası** (vokal kordu geren, yüksek tonlar) | Ses perdesinin/tonunun bozulması, ses yorgunluğu |
+| Superior laringeal sinir – internal dal | Larinks mukozasının duyusu | Aspirasyon riski (nadir) |
+
+### Kanama / hematom (en ölümcül komplikasyon)
+- Mekanizma: Boyun fasyası kapalı bir alandır; **hematom trakeayı ve larinksi sıkıştırır, venöz-lenfatik dönüşü bozarak laringeal ödem yapar** → hava yolu tıkanıklığı ve boğulma.
+- Belirti: Boyunda hızla şişlik, stridor, dispne, yutma güçlüğü.
+- **Acil müdahale:** Yatak başında yara ve fasya açılarak hematom boşaltılır, sonra ameliyathanede kanama kontrolü.
+
+### Diğer komplikasyonlar
+- Hipoparatiroidi (**en sık**), enfeksiyon, seroma, keloid, tirotoksik kriz, hipotiroidi.

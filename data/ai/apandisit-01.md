@@ -23,3 +23,15 @@
 
 ### Laparoskopik apendektomi
 - Daha az ağrı, daha kısa hastanede kalış, daha az yara enfeksiyonu; aynı seansta tanı ve ayırıcı tanı (özellikle genç kadında).
+
+### Tanı: anamnez, fizik muayene, USG ve BT
+- **Anamnez:** Önce **periumbilikal/yaygın** ağrı, sonra **sağ alt kadrana yerleşme**, iştahsızlık, bulantı, hafif ateş.
+- **Muayene:** McBurney hassasiyeti, **rebound (Blumberg)**, defans, Rovsing, psoas, obturator; **topuk testi (heel-drop)** ile peritoneal irritasyon.
+- **USG:** **Basılamayan, kör sonlu tübüler yapı**, dış çap **>6 mm**, duvar kalınlaşması, apendikolit, periapendiküler sıvı.
+- **BT:** Dilate apendiks (>6 mm), duvar kontrastlanması, **çevre yağ dokusunda bulanıklık**, apendikolit, apse/serbest sıvı.
+
+### İlk 6–8 saat bulgularının önemi
+- Erken dönemde ağrının **visseral evreden somatik evreye** geçişini yakalamak tanıyı mümkün kılar; gecikme **perforasyon** riskini artırır.
+
+### Diyafram altı serbest hava
+- Ayakta grafide/BT'de **diyafram altı serbest hava**, **içi boş organ perforasyonu** demektir (apandisit perforasyonunda nadir ama olasıdır).

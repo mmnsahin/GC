@@ -19,3 +19,12 @@
 ### Cerrahi
 - **ÜK:** Total proktokolektomi + ileal poş-anal anastomoz (IPAA).
 - **Crohn:** Komplikasyonlara yönelik sınırlı rezeksiyon, striktüroplasti.
+
+### Crohn hastalığında patoloji
+- **Transmural inflamasyon**, **non-kazeifiye granülom** (tanı koydurucu özellik, ancak her olguda bulunmaz), fissürler, lenfoid agregatlar; makroskopik: **taş döşeme (cobblestone)**, atlayan lezyonlar, **sürünen yağ (creeping fat)**.
+
+### Cerrahi endikasyonları
+| Hastalık | Endikasyonlar |
+| --- | --- |
+| **Ülseratif kolit** | Fulminan/ağır kolit ve **toksik megakolon**, **perforasyon**, masif kanama, **displazi/kanser**, tıbbi tedaviye dirençli kronik hastalık, steroid bağımlılığı |
+| **Crohn** | **Obstrüksiyon** (darlık), **fistül, apse**, perforasyon, masif kanama, tıbbi tedaviye yanıtsızlık, kanser |

@@ -24,3 +24,9 @@
 
 ### Göreceli kontrendikasyonlar
 - Kontrolsüz psikiyatrik hastalık, aktif madde/alkol bağımlılığı, uyumsuzluk, çok yüksek anestezi riski, tedavi edilmemiş endokrin neden (Cushing vb.).
+
+### Obezite cerrahisinde kilo kaybında rol oynayan mekanizmalar
+- **Kısıtlama** (mide hacminin küçülmesi, erken doyma).
+- **Malabsorpsiyon** (bypass ve diversiyonlarda).
+- **Hormonal değişiklikler** (özellikle **ghrelin azalması**, **GLP-1 ve PYY artışı**, iştah ve kan şekeri kontrolü) — kilo kaybında ve diyabet düzelmesinde büyük rol oynar.
+- Davranış ve yaşam tarzı değişikliği.

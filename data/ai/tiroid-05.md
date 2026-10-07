@@ -32,3 +32,36 @@ Papiller ve foliküler tipler birlikte **diferansiye tiroid kanseri** (DTK) olar
 1. Cerrahi: lobektomi veya total tiroidektomi (risk ve tümör özelliklerine göre), gerekirse santral diseksiyon.
 2. Seçilmiş hastalarda **radyoaktif iyot (RAİ)** ablasyonu.
 3. **TSH supresyonu** (levotiroksin) ve tiroglobulin/USG ile takip.
+
+### Kimlerde, hangi yolla yayılır?
+| Tip | Sıklıkla kimlerde | Yayılım |
+| --- | --- | --- |
+| **Papiller** | **Kadınlarda**, 20–50 yaş; radyasyon öyküsü | **Lenfatik** (servikal lenf nodu); geç evrede akciğer |
+| **Foliküler** | Daha ileri yaş (40–60), iyot eksikliği olan bölgeler | **Hematojen** (kemik, akciğer) |
+| **Medüller** | %75 sporadik (40–60 yaş), %25 ailesel (genç) | Lenfatik + hematojen (karaciğer, akciğer, kemik) |
+| **Anaplastik** | Yaşlılar (>65), uzun süreli guatr | Hızlı lokal invazyon + uzak metastaz |
+
+### Papiller ve foliküler karsinom farkı
+| | Papiller | Foliküler |
+| --- | --- | --- |
+| Patoloji | Çekirdek özellikleri (**optik olarak boş çekirdek**, oluk, psammom cisimcikleri), papiller yapı | **Kapsül ve damar invazyonu** (İİAB ile ayırt edilemez) |
+| Yayılım | Lenfatik | Hematojen |
+| Multifokalite | Sık | Nadir |
+| Lenf nodu metastazı | Sık | Nadir |
+
+### Ameliyat planları
+| Tip | Ameliyat |
+| --- | --- |
+| **Papiller** | Küçük (<1 cm), düşük riskli: lobektomi; diğerleri: **total tiroidektomi**; klinik santral nod varsa **santral boyun diseksiyonu**; lateral nod varsa **modifiye radikal boyun diseksiyonu** |
+| **Foliküler** | Minimal invaziv: lobektomi; geniş invaziv/büyük: **total tiroidektomi**; rutin lenf nodu diseksiyonu yok (nod nadir) |
+| **Hürthle hücreli** | Genellikle total tiroidektomi; RAİ tutulumu azdır |
+| **Medüller** | **Total tiroidektomi + santral diseksiyon**; feokromositoma dışlanır |
+| **Anaplastik** | Çoğunlukla palyatif: Trakeostomi/stent, radyoterapi/kemoterapi |
+
+### Lateral aberran tiroid
+- Boynun yan tarafında "ektopik tiroid dokusu" görülürse neredeyse her zaman **papiller karsinomun lenf nodu metastazıdır**; gerçek bir ektopik doku değildir. Bu nedenle total tiroidektomi + lateral diseksiyon uygulanır.
+
+### Medüller karsinom neden "undiferansiye" sayılır / neden tirositlere benzemez?
+- MTK, **foliküler hücreden değil, parafoliküler C hücresinden** (nöral krest kökenli, ultimobranşiyal cisimden gelişen nöroendokrin hücre) köken alır; yani tiroid foliküler hücresi gibi **tiroglobulin üretmez ve iyot tutmaz**.
+- Foliküler hücre kökenli kanserlerde "diferansiye / undiferansiye" ayrımı foliküler hücreye benzerliğe göre yapılır; MTK bu sistemde foliküler hücre fenotipinden farklı olduğu için bazı sınıflamalarda ayrı veya "undiferansiye" grupta anılır.
+- C hücrelerinin **fonksiyonu kalsitonin** salgılamaktır (kalsiyumu düşürür). Tümör de kalsitonin salgılar; bu nedenle tiroid hücresine benzemesi beklenmez.

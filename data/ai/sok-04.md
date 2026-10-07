@@ -26,3 +26,13 @@
 
 ### Sıvı defisiti
 - Kan hacmi yaklaşık **70 mL/kg**; kaybın sınıfına göre yüzdeyle hesaplanır.
+
+### Örnek olgu: trafik kazası, TA 80/40, nabız 120
+- **Hemorajik şok** (hipovolemik) düşünülür.
+- **Yapılacaklar:** ABC; **iki geniş damar yolu**; kan grubu ve **çapraz karşılaştırma** için kan; **hızlı IV sıvı yüklemesi** (ilk 10–15 dakikada yaklaşık **1000 mL ısıtılmış kristaloid**; dakikada 50 mL yetersizdir); yanıt yoksa kan ürünleri.
+- **Kanama odağı arama:** Açık yaralar, dış kanama, **karın (distansiyon)**, toraks, pelvis, uzun kemikler; **FAST** (veya karın boşluğunda kanama için DPL/parasentez).
+- Sıvıya rağmen instabil + intraabdominal kanama → **acil cerrahi** (en sık kanayan organlar **dalak ve karaciğer**), **cerrahi konsültasyonu**.
+
+### Ringer laktat mı, serum fizyolojik mi?
+- **Ringer laktat** (veya dengeli kristaloid) tercih edilir: Plazmaya daha yakın elektrolit kompozisyonu; büyük hacimlerde **%0,9 NaCl hiperkloremik asidoza** yol açar.
+- Masif kanamada kristaloid sınırlı tutulup **kan ürünlerine** erken geçilir.

@@ -23,3 +23,7 @@
 ### Septik şok – hipovolemik şok farkı (inspeksiyon)
 - **Septik:** Erken evrede ateşli, **sıcak, kızarık** cilt, geniş nabız basıncı.
 - **Hipovolemik:** **Soğuk, soluk, nemli** cilt, dar nabız basıncı.
+
+### Sepsis çeşitleri
+- **Sepsis** (enfeksiyona yanıt + organ disfonksiyonu), **ağır sepsis** (organ hipoperfüzyonu/disfonksiyonu), **septik şok** (vazopresör gerektiren hipotansiyon).
+- **Her sepsis septik şok değildir;** septik şok sepsisin en ağır formudur.

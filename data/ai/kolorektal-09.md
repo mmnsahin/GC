@@ -26,3 +26,15 @@
 ### Komplikasyonlar
 - Kanama (en sık masif alt GİS kanaması nedenlerinden), apse, perforasyon, **fistül** (kolovezikal), striktür/obstrüksiyon.
 - Akut atak sonrası 6–8 hafta içinde kolonoskopi (kanseri dışlamak için).
+
+### Divertikülün yaşa göre nedenleri
+- **Yaşlıda en sık:** Kolon duvarındaki bağ dokusu zayıflığı ve kas hipertrofisi, **düşük lifli diyet**, kolon içi basınç artışı, damar giriş noktalarında duvar zayıflığı.
+- **Gençte:** Bağ dokusu hastalıkları (Ehlers-Danlos, Marfan), obezite, aile öyküsü; genç hastada daha ağır seyredebilir.
+
+### Divertikülit fizik muayene
+- **Sol alt kadranda hassasiyet**, defans, ateş, taşikardi; kitle/flegmon palpe edilebilir; peritonit bulguları (perforasyonda).
+
+### Tuzak soru: SAK ağrısı + divertikülit şüphesi, tanı nasıl?
+- Akut divertikülit tanısı için **kontrastlı BT** (altın standart) kullanılır.
+- **Akut dönemde kolonoskopi ve baryumlu enema kontrendikedir** (perforasyon riski); kolonoskopi atak geçtikten **6–8 hafta sonra** (kanseri dışlamak için) yapılır.
+- USG deneyimli elde kullanılabilir; BT tercih edilir.

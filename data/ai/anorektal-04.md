@@ -23,3 +23,7 @@
 
 ### Yayılım
 - Anal kanal: Lenfatik yayılım hem iç iliak/mezenterik hem **inguinal** nodlara olur.
+
+### Sık nedenler
+- **HPV (özellikle tip 16)** en önemli nedendir. **HIV enfeksiyonu** ve immünsüpresyon (organ nakli) HPV ilişkili displaziyi ve anal kanser riskini artırır; bu yüzden HIV'li hastalarda daha sıktır.
+- Diğer: Anal ilişki, sigara, çoklu cinsel partner, kronik anal inflamasyon/fistül.

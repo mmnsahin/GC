@@ -23,3 +23,10 @@
 ### Prognoz
 - Papiller ve foliküler karsinomda 10 yıllık sağkalım genellikle %90'ın üzerindedir.
 - Medüller karsinomda orta, anaplastik karsinomda çok kötüdür (aylar).
+
+### Yaş ve prognoz
+- Papiller karsinomda **çok genç (<20) ve ileri yaşlı** hastalarda seyir daha kötüdür. Eşik, sınıflamaya göre değişir (**AJCC 8: 55 yaş**; bazı kaynaklarda 45/50/65).
+- Gençte uzak metastaz ve nüks, yaşlıda agresif tip ve düşük cerrahi rezerv daha çok sorun olur.
+
+### Bethesda'ya göre yol izlenir
+- Kategori I → İİAB tekrarı; II → takip; III → İİAB tekrarı/moleküler test/lobektomi; IV → lobektomi; V → lobektomi/total; VI → cerrahi (ayrıntı "Bethesda sınıflaması" başlığında).

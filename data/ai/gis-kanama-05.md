@@ -24,3 +24,7 @@
 
 ### Kırmızı bayraklar
 - Yaş >40–50, anemi, kilo kaybı, dışkı alışkanlığı değişikliği, ailede kolon kanseri.
+
+### Yaşlı hastada anal/rektal kanama
+- Yaşlıda **anal fissür** da görülür (kabızlık, sert dışkı), ancak **kanama varlığında kolorektal kanser ve divertikül/anjiyodisplazi mutlaka dışlanmalıdır**; "hemoroid/fissür" demek için kolonoskopi ile kanser dışlanır.
+- Kırmızı bayraklar: Yaş >40–50, anemi, kilo kaybı, dışkı alışkanlığı değişikliği, ailede kanser.

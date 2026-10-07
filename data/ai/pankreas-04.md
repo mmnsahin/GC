@@ -21,3 +21,14 @@
 ### Endokrin tümörler (%5)
 - **İnsülinoma** (Whipple triadı), **gastrinoma** (Zollinger-Ellison), glukagonoma, VIPoma, somatostatinoma.
 - Tedavi: Cerrahi eksizyon; insülinomada çoğu benigndir (enükleasyon).
+
+### Pankreas tümör tipleri
+| Grup | Örnek |
+| --- | --- |
+| **Eksokrin** | **Duktal adenokarsinom (en sık)**, asiner hücreli karsinom |
+| **Kistik neoplaziler** | **IPMN, müsinöz kistik neoplazi (MCN)**, serözkistadenom |
+| **Endokrin (nöroendokrin)** | İnsülinoma, gastrinoma, VIPoma, glukagonoma |
+| Diğer | Solid psödopapiller tümör (genç kadın) |
+
+### Nedenler (risk)
+- Sigara (en önemli), kronik pankreatit, diyabet, obezite, ailesel sendromlar (BRCA2, Lynch, Peutz-Jeghers, FAMMM).

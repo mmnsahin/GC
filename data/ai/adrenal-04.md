@@ -19,3 +19,11 @@ Genç hastada hipertansiyon ve ilaçlara dirençli seyir **sekonder hipertansiyo
 ### Değerlendirme
 - Potasyum, aldosteron/renin oranı, metanefrinler, deksametazon supresyon testi.
 - Kesitsel görüntüleme (BT/MR); gerekirse adrenal ven örneklemesi.
+
+### 20 yaşında hipertansif hasta acilde: neden şüphelenirsin?
+- Genç yaşta hipertansiyonun neredeyse her zaman **sekonder** nedeni vardır: **renal arter stenozu** (fibromüsküler displazi), **aort koarktasyonu**, **feokromositoma**, **primer hiperaldosteronizm**, **Cushing sendromu**, renal parankim hastalığı.
+- Acil yaklaşım: Her iki koldan ve bacaktan tansiyon/nabız, abdominal üfürüm, **K düzeyi**, kreatinin, idrar tetkiki, EKG; hipertansif acil ise kontrollü kan basıncı düşürme.
+
+### Cerrahi tedavi gerektiren, hipertansiyon yapan adrenal hastalıklar
+- **Cushing sendromu** (kortizol salgılayan adenom/karsinom), **feokromositoma**, **Conn sendromu** (aldosteronoma).
+- **Adrenal dışı** cerrahi/girişimsel hipertansiyon nedenleri: **Aort koarktasyonu** ve **renal arter stenozu** (anjiyoplasti/cerrahi).

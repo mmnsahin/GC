@@ -16,3 +16,8 @@
 ### Tedavi
 - **Sigaranın kesin bırakılması** (tek etkili tedavi; hastalık ilerlemesini durdurur).
 - İloprost, lokal yara bakımı, sempatektomi (seçilmiş), revaskülarizasyon sınırlı, gerekirse amputasyon.
+
+### Klinik örnekler
+- **35–45 yaşında erkek, uzun süreli sigara öyküsü, iki ayak parmağında kuru (iskemik) nekroz → Buerger hastalığı.**
+- **Genç erkekte tromboz** nedenleri arasında en sık düşünülecek tanı Buerger hastalığıdır (sigara/tütün).
+- Semptomlar: Ayakta klodikasyon, istirahat ağrısı, Raynaud, parmak uçlarında soğukluk, ülser/gangren, gezici tromboflebit.

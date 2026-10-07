@@ -19,3 +19,7 @@
 
 ### Dikkat
 - Gereksiz transfüzyondan kaçınılır (TRALI, TACO, enfeksiyon, alloimmünizasyon riski).
+
+### Trombosit dozu
+- **1 ünite aferez trombosit** (veya 4–6 havuz ünitesi) erişkinde trombosit sayısını **yaklaşık 30.000–50.000/µL** yükseltir; 1 ünite havuz trombosit yaklaşık 5.000–10.000/µL artış sağlar.
+- Ameliyatta kanayan ve **laboratuvarı pıhtılaşma faktör eksikliği gösteren** hastada ilk tercih **TDP**dir.

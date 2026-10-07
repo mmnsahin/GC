@@ -21,3 +21,9 @@
 - **Risk azaltıcı cerrahi:** Mastektomi, risk azaltıcı salpingo-ooforektomi (BRCA1'de yaklaşık 35–40, BRCA2'de 40–45 yaş).
 - Kemoprofilaksi (tamoksifen vb.) seçilmiş olgularda.
 - Metastatik taşıyıcılarda **PARP inhibitörleri** (olaparib) etkilidir.
+
+### Erkeklere yapılır mı?
+- **Evet.** Erkek meme kanserinde (özellikle BRCA2) veya güçlü aile öyküsünde test yapılır.
+
+### Hastane özelinde
+- "Bizim hastanede yapılıyor mu?" sorusu kuruma özeldir; dosyadaki cevapta **"yapılıyor"** denmiştir.

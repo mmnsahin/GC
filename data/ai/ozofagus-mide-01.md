@@ -30,3 +30,21 @@
 
 ### Komplikasyonlar
 - Özofajit, peptik darlık, **Barrett özofagusu** ve adenokarsinom.
+
+### Alt özofagus sfinkterini (AÖS) ne gevşetir, ne kasar?
+| Gevşeten | Kasan |
+| --- | --- |
+| **Nitrik oksit, VIP**, kolesistokinin, sekretin, glukagon, **progesteron** (gebelik) | **Gastrin**, motilin, asetilkolin (kolinerjik uyarı), P maddesi, histamin |
+| **Yağlı yemek, çikolata, nane, kafein, alkol, sigara** | Protein ağırlıklı yemek |
+| **Kalsiyum kanal blokerleri, nitratlar, antikolinerjikler, teofilin, β-agonistler** | **Metoklopramid, domperidon**, alfa-agonistler |
+
+- Cerrahi olarak **fundoplikasyon** AÖS basıncını ve valf mekanizmasını güçlendirir.
+
+### Özofagus karın içinde midir?
+- **Evet**; özofagusun diyafram altındaki kısa karın içi segmenti vardır (yaklaşık **1–2 cm**, bazı kaynaklarda 3–4 cm). Bu segment antireflü mekanizmanın parçasıdır.
+
+### Hiatal herni: sık sorulanlar
+- **Fıtıkta olması gereken üç yapı:** Fıtık **kesesi (periton)**, fıtık **boynu/halkası (diyafragma hiatusu)** ve **içeriği** (mide/fundus ± diğer organ).
+- **Tip I (kayma tipi):** Asemptomatik → izlem. Semptomatik GÖRH → PPI; yanıtsızsa veya komplikasyon varsa **fundoplikasyon + hiatoplasti**.
+- **Cerrahi endikasyonları:** Medikal tedaviye yanıtsız GÖRH, **tip II–IV** herni (strangülasyon/volvulus riski), kanama/anemi, aspirasyon, striktür, Barrett.
+- **Komplikasyonlar:** Reflü özofajiti, kanama/anemi (Cameron lezyonları), striktür, strangülasyon/volvulus, aspirasyon.

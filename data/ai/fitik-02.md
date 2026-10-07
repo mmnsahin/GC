@@ -24,3 +24,12 @@
 ### Tedavi
 - **Cerrahi onarım**; mesh kullanımı yaygındır.
 - Strangülasyonda acil cerrahi; ölü barsak rezeke edilir.
+
+### Sıklık
+- Karın duvarı fıtıkları toplumun yaklaşık **%5'inde** görülür; erkeklerde yaşam boyu inguinal fıtık riski çok daha yüksektir (**erkek/kadın yaklaşık 8–10 : 1**).
+
+### Karın ön duvarı fıtıkları (6 tip)
+1. **Umblikal**, 2. **Paraumblikal**, 3. **Epigastrik**, 4. **Hipogastrik**, 5. **Spiegel** (linea semilunaris boyunca), 6. **İnsizyonel (postoperatif)**.
+
+### Spiegel hattı
+- **Linea semilunaris** (rektus kılıfının dış kenarı); Spiegel fıtığı bu hattın arka alt kısmından (arkuat çizgi hizası) çıkar.

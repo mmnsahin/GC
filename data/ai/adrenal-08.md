@@ -13,3 +13,11 @@
 - Apendiks: <1 cm → apendektomi yeterli; >2 cm (veya yüksek riskli) → sağ hemikolektomi.
 - Semptom kontrolü: **somatostatin analogları** (oktreotid, lanreotid).
 - Ameliyat sırasında **karsinoid kriz** riski nedeniyle önceden oktreotid verilir.
+
+### İnce bağırsağın malign tümörleri
+- **Adenokarsinom** (en sık, duodenumda), **nöroendokrin tümörler (karsinoid)** (en sık ileumda), **GİST**, **lenfoma**, sarkom ve metastazlar.
+- İnce bağırsakta tümörler nadirdir; semptomlar geç ve nonspesifiktir (kanama, obstrüksiyon, kilo kaybı).
+
+### Karsinoid tümör ne yapar?
+- **Serotonin ve diğer vazoaktif maddeler** (histamin, bradikinin, prostaglandin) salgılar; karaciğer metastazı sonrası sistemik dolaşıma geçerek **karsinoid sendrom** (flushing, ishal, bronkospazm, kalp kapak fibrozisi) yapar.
+- Ayrıca tümör çevresinde **desmoplastik reaksiyon** (mezenterik fibrozis) ve obstrüksiyon yapabilir.

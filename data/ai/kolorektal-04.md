@@ -20,3 +20,27 @@
 ### Yaklaşım
 - Aile öyküsü, MSI/immünohistokimya (MMR proteinleri), genetik test.
 - Taşıyıcılarda erken ve sık kolonoskopi; FAP'ta profilaktik cerrahi.
+
+### Herediter ve ailesel kanser farkı
+| | Herediter | Ailesel |
+| --- | --- | --- |
+| Pay | Yaklaşık %5–6 | Yaklaşık %20–25 |
+| Neden | Bilinen **germline gen mutasyonu**, Mendel kalıtımı | Aile içi kümelenme; **bilinen gen yok** (ortak çevre/poligenik) |
+| Örnek | FAP, Lynch | Ailede ≥2 akraba kanseri ama kriterlere uymayan |
+
+### FAP ayrıntıları
+- **Gen:** **APC**, kromozom **5q21**; otozomal dominant; çoğunlukla **kesen (truncating)** mutasyonlar (nonsense/frameshift, bazen delesyon).
+- **Tanı:** Kolonoskopide >100 adenom, aile öyküsü, **genetik test**.
+- **Tarama:** Riskli akrabalarda **10–12 yaşından başlayarak** sigmoidoskopi/kolonoskopi ve genetik test.
+- **Profilaktik cerrahi:** Polip yüküne göre genellikle **20'li yaşlarda (kanser gelişmeden)** total proktokolektomi + ileal poş-anal anastomoz (veya kolektomi + ileorektal anastomoz).
+
+### HNPCC / Lynch
+- **Açılımı:** **H**ereditary **N**on-**P**olyposis **C**olorectal **C**ancer.
+- **Tipleri:** **Lynch I** (yalnızca kolorektal) ve **Lynch II** (kolorektal + ekstrakolonik kanserler: endometrium, over, mide, üriner sistem, ince bağırsak, pankreas, safra yolları, beyin).
+- **Mekanizma:** **DNA mismatch repair (MMR)** gen defekti → **mikrosatellit instabilitesi (MSI)**.
+- **Prognoz:** MSI-yüksek tümörlerde evre için düzeltilmiş **prognoz sporadik kanserlere göre genellikle daha iyidir**.
+- **Tarama:** Ailede HNPCC bulunan kişide **20–25 yaşında** (veya aile içi en erken tanı yaşının 2–5 yıl öncesinde) başlayıp **1–2 yılda bir kolonoskopi**.
+
+### Gardner ve Cowden'da görülen kanserler
+- **Gardner:** Kolorektal kanser (FAP), ayrıca duodenum/ampulla, tiroid (papiller), hepatoblastom, desmoid tümör, osteomlar.
+- **Cowden (PTEN):** Meme, tiroid (foliküler), endometrium kanseri; hamartomlar; kolorektal polipler.

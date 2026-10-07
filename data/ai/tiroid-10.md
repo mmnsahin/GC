@@ -23,3 +23,14 @@
 
 ### Takip
 - Kalsitonin ve CEA düzenli ölçülür; yüksek veya yükselen değerler nüks/metastaz anlamına gelir (görüntüleme ile aranır).
+
+### Metastaz varsa takip ve tedavi
+- **Kalsitonin ve CEA** düzeyi ve **ikiye katlanma süreleri** (hızlı artış agresif seyir).
+- Görüntüleme: Boyun USG, BT/MR (boyun, toraks, karın), kemik sintigrafisi, PET.
+- Metastatik hastalıkta: Cerrahi/lokal tedaviler, **tirozin kinaz inhibitörleri** (vandetanib, kabozantinib; RET mutasyonunda selperkatinib).
+- Radyoaktif iyot ve TSH supresyonu etkisizdir.
+
+### MEN ve non-MEN hangi yaşlarda?
+- **Sporadik (non-MEN):** Çoğunlukla 40–60 yaş.
+- **MEN2A:** Genç erişkin/çocuk (ortalama ilk 20–30 yaş); **MEN2B:** Bebeklik–erken çocukluk (en erken ve agresif).
+- **Ailesel non-MEN (FMTC):** MEN2A'dan biraz daha geç, genç erişkin.

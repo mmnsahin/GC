@@ -16,3 +16,7 @@
 - **Mide kanseri:** Yüksek insidanslı bölgelerde endoskopi.
 - **HCC:** Sirozlu hastalarda USG ± AFP (6 ayda bir).
 - **Cilt, ağız boşluğu** muayeneleri.
+
+### Türkiye'de ulusal kanser tarama programı
+- **Meme, serviks, kolorektal** (KETEM).
+- Ek olarak sıkça anılanlar: **Mide** (riskli bölgelerde gastroskopi), **prostat** (PSA), **akciğer** (yüksek riskli sigara içicilerde düşük doz spiral BT).

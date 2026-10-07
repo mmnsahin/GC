@@ -17,3 +17,7 @@
 
 ### Komplikasyonlar
 - İntimal hasar, damar perforasyonu, balon rüptürü (embolizasyon), reperfüzyon sendromu, **kompartman sendromu**.
+
+### Fogarty kateterinin ucu ve çıkan materyal
+- Kateterin **ucunda şişirilebilir bir balon** bulunur ("balon uçlu kateter").
+- Emboli/tromboz çıkarıldığında materyal **kırmızı (taze pıhtı/trombüs)**, daha eski ise **gri-beyazımsı/sarı** (fibrin, aterom parçaları) görünür.

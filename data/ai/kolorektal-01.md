@@ -21,3 +21,14 @@
 
 ### Hamartomatöz sendromlar
 - **Peutz-Jeghers** (STK11): mukokütanöz pigmentasyon; **juvenil polipozis** (SMAD4, BMPR1A); Cowden (PTEN).
+
+### Peutz-Jeghers sendromu
+- **STK11** mutasyonlu, **otozomal dominant** sendrom: **Hamartomatöz polipler** (özellikle ince bağırsak), **dudak/ağız mukozasında melanotik pigmentasyon**.
+- Komplikasyon: İntussepsiyon, kanama, GİS ve ekstra-GİS kanser riski (meme, pankreas, over vb.).
+
+### Poliplerin morfolojisi
+- **Pedinküllü (saplı)** ve **sesil (sapsız)** polip; sesil poliplerde malignite ve rezeksiyon riski daha yüksektir.
+- **Serrated (dişli) polipler** (özellikle sesil serrated lezyon): Kendine özgü yolla kansere ilerleyebilir (premalign).
+
+### Malignite düşündüren özellikler
+- **Sapsız (sesil)**, **büyük** (>1–2 cm), **çok sayıda**, **ülsere**, yüzeyi **düzensiz/girintili çıkıntılı (lobüle)**, sert/frajil, villöz, yüksek dereceli displazi.

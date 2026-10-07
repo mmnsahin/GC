@@ -24,3 +24,12 @@
 ### Hipokalsemi bulguları
 - Dudak çevresi ve parmak uçlarında uyuşma/karıncalanma, kas krampları, tetani.
 - Chvostek ve Trousseau bulguları; EKG'de QT uzaması.
+
+### Neden total tiroidektomi yapılır?
+- Diferansiye kanserde **nüks riskini azaltmak**, iki taraflı/multifokal hastalığı tek seferde tedavi etmek.
+- **RAİ ablasyonu ve tiroglobulin takibini** mümkün kılmak.
+- Medüller karsinom ve geniş invaziv hastalıkta standarttır.
+
+### Takip
+- **Levotiroksin** replasmanı (TSH hedefi riske göre), düzenli **TSH ve Tg**, boyun USG.
+- Ameliyat sonrası ilk günlerde **kalsiyum/PTH** ve hipokalsemi bulguları (Chvostek, Trousseau) izlenir.

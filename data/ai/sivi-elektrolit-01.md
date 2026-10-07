@@ -20,3 +20,24 @@
 - **Mide asidi kaybı** → **hipokloremik, hipokalemik metabolik alkaloz** (pilor stenozunda tipik).
 - Hacim kaybı → böbrek Na/H₂O tutar, **paradoksal asidüri** gelişebilir.
 - Tedavi: **%0,9 NaCl** ile volüm düzeltmesi + **potasyum (KCl)** replasmanı; nedenin tedavisi.
+
+### Plazma iyonları (yaklaşık, mEq/L)
+| Katyon | Anyon |
+| --- | --- |
+| **Na⁺ ~140**, K⁺ ~4, Ca²⁺ ~5, Mg²⁺ ~2 | **Cl⁻ ~103**, **HCO3⁻ ~24**, proteinler ~16, fosfat/sülfat/organik asitler |
+
+- Hücre dışında en çok **Na⁺ ve Cl⁻**, hücre içinde en çok **K⁺** ve organik fosfatlar bulunur.
+
+### Midenin içeriği
+- Mide sıvısı çok asidiktir (H⁺ ~150 mEq/L), **Cl⁻ zengin**, az Na⁺ ve K⁺ içerir.
+
+### Kusan kişide plazma ve idrar
+- **Plazma:** H⁺ ve Cl⁻ kaybı → **hipokloremik, hipokalemik metabolik alkaloz** (HCO3⁻ ↑), volüm kaybı.
+- **Solunumsal kompanzasyon:** **Hipoventilasyon** (PaCO2 artışı).
+- **İdrar:** Başlangıçta bazik (bikarbonatüri); volüm kaybı sürünce böbrek Na ve suyu tutmak için H⁺ salar → **paradoksal asidüri** (alkaloz varken asidik idrar).
+
+### Hipoventilasyonda
+- CO2 retansiyonu → **solunumsal asidoz**; böbrek HCO3⁻ tutarak kompanse eder (HCO3⁻ ↑, Cl⁻ ↓).
+
+### Hipokalsemide ölüm nedeni
+- **Laringospazm** ve tetani (ayrıca aritmi, nöbet).

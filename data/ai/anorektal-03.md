@@ -18,3 +18,14 @@
 
 ### Dikkat
 - Sfinkter korunumu (inkontinans riski) tedavi seçiminde belirleyicidir.
+
+### Anal apsede belirtiler, tedavi ve antibiyotik
+- **Oluşum:** Anal bezlerin (kript) tıkanması ve enfeksiyonu → intersfinkterik apse → perianal/iskiorektal yayılım.
+- **Belirtiler:** Perianal bölgede **ağrı, kızarıklık, şişlik, sıcaklık**, ateş, oturmakta zorluk.
+- **Tedavi:** **Cerrahi drenaj** (insizyon ve drenaj). **Antibiyotik tek başına yeterli değildir;** selülit, diyabet, immünsüpresyon, sistemik belirtilerde eklenir.
+- **Tedavi edilmezse:** Yayılım (iskiorektal, supralevator, nekrotizan enfeksiyon), sepsis ve **fistül** gelişimi.
+
+### Fistül
+- **Tanım:** İç ağız (anal kript) ile dış ağız (perianal cilt) arasında oluşan, **kronik tünel (epitelize kanal)**.
+- **Belirtiler:** Sürekli veya aralıklı **irinli akıntı**, perianal kaşıntı/ağrı, tekrarlayan apse.
+- **Tedavi edilmezse:** Tekrarlayan apse, inkontinans riski, nadiren kronik fistülden **kanser** gelişimi.

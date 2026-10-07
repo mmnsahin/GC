@@ -18,3 +18,10 @@
 ### Obstrüksiyon (pilor stenozu)
 - Kusma (yemeklerden sonra), kilo kaybı, **hipokloremik, hipokalemik metabolik alkaloz**.
 - Tedavi: Nazogastrik dekompresyon, sıvı-elektrolit düzeltmesi, endoskopik balon dilatasyonu, gerekirse cerrahi.
+
+### Sık sorulanlar
+- **En sık perfore olan ülser:** **Duodenal ülser**, genellikle **bulbusta, ön duvarda**; **arka duvar ülseri kanar** (gastroduodenal arter, A. gastroduodenalis).
+- **Perfore ülser görüntüleme:** **Ayakta direkt grafi/akciğer grafisi: diyafram altı serbest hava**; şüphede BT.
+- **Tahta karın** peritonit demektir; acil laparotomi/laparoskopi.
+- **Kanayan ülserde:** Önce **endoskopik hemostaz**; başarısızsa cerrahi: **kanayan damarın kilitli dikişle ligasyonu (gastroduodenal arter)**, ± pilorik drenaj (piloroplasti), gerekirse vagotomi; mide ülserinde biyopsi/eksizyon.
+- **Ülser staz / obstrüksiyon:** Kronik ülser skarı pilor darlığı ve mide boşalma bozukluğu yapar (kusma, hipokloremik alkaloz).

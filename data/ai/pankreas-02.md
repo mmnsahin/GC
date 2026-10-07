@@ -19,3 +19,12 @@
 
 - **Safra taşı pankreatitinde** eşikler farklıdır (örn. yaş >70, lökosit >18.000, glukoz >220, LDH >400, AST >250).
 - **≥3 kriter** ağır pankreatit ve yüksek mortaliteyi gösterir.
+
+### Hiponatremi sınıflaması
+| Derece | Na (mEq/L) |
+| --- | --- |
+| Hafif | 130–134 |
+| Orta | 125–129 |
+| Ağır | <125 |
+
+- Pankreatitte hipertrigliseridemi **psödohiponatremi**ye yol açabilir.

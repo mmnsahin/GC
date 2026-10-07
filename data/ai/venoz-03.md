@@ -16,3 +16,8 @@
 - **Kateter yönlendirmeli trombolizis** veya cerrahi/mekanik **tromboektomi**.
 - Kompartman sendromu için fasiyotomi.
 - Tedavi edilmezse venöz gangren ve ekstremite kaybı.
+
+### Ek bilgi
+- **Masif ven trombozu:** Genellikle **iliofemoral venler** (ve vena cava) tutulur.
+- "Flebitis serülea" = **phlegmasia cerulea dolens** (mavi, ağrılı, çok şiş bacak).
+- **Tedavi edilmezse:** Venöz gangren, kompartman sendromu, şok ve ölüm; **tedavi:** acil heparin, trombolizis/tromboektomi, fasiyotomi, gerekirse amputasyon.

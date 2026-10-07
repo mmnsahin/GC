@@ -11,3 +11,6 @@
 
 ### Hatırlatma
 - Apse, bir dokunun **içinde** yeni boşluk oluşturur; ampiyem, **var olan bir boşlukta** (organın kendi lümeni veya doğal kavite) irin toplanmasıdır.
+
+### Tuzak soru: "Safra taşı apsesi"
+- Safra kesesi içinde irin birikmesi **apse değil ampiyemdir** (kese, önceden var olan bir lümendir). **Safra kesesi ampiyemi** akut kolesistitin komplikasyonudur; tedavi **acil kolesistektomi** veya yüksek riskli hastada perkütan kolesistostomi + antibiyotiktir.

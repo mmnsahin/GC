@@ -25,3 +25,18 @@
 ### Tedavi
 - **Cerrahi onarım:** Meshli (Lichtenstein) veya laparoskopik (TEP, TAPP); çocukta yüksek ligasyon.
 - Strangüle fıtıkta acil cerrahi.
+
+### İnkarserasyon ve strangülasyon
+- **İnkarserasyon:** Fıtık içeriği geri itilemez (irreducible), kan akımı **bozulmamıştır**.
+- **Strangülasyon:** Kan akımı bozulmuştur → iskemi, nekroz, perforasyon; **acil cerrahi**.
+- **İnkarsere fıtık** strangülasyon riski nedeniyle **opere edilir** (kan akımı bozulmasa da).
+- **Boğulmuş (strangüle) fıtık:** Acil ameliyat, nekrotik barsak **rezeke edilir**.
+
+### Muayene
+- **Parmakla inguinal kanal muayenesi** (skrotum cildi invajine edilerek): Hasta öksürtülür; fıtık **parmak ucuna** vuruyorsa **indirekt**, **parmağın yan/pulpa yüzüne** vuruyorsa **direkt** fıtık düşünülür.
+
+### Gebelerde sık fıtık
+- Gebelikte karın içi basınç artışı nedeniyle **umblikal, epigastrik (linea alba) ve femoral** fıtıklar daha sık gelişir/ ortaya çıkar.
+
+### Komplikasyonlar
+- İnkarserasyon, strangülasyon, barsak obstrüksiyonu, testis iskemisi (indirekt, skrotal).

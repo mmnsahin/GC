@@ -18,3 +18,11 @@
 
 ### Yüksek riskliler
 - Birinci derece akrabada KRK, İBH, polipozis sendromları, Lynch sendromu: Daha erken yaşta ve daha sık kolonoskopi.
+
+### Neden önemli?
+- Kolorektal kanserlerin **yaklaşık %90'ı adenomatöz polip zemininde gelişir**; poliplerin tarama ve polipektomiyle çıkarılması kanser gelişimini **%90'a varan oranda önleyebilir**.
+
+### Gaitada gizli kan nasıl bakılır?
+- **Guaiac testi:** Dışkı örneği kartona sürülür (genellikle 3 ardışık günden); test öncesi **kırmızı et, C vitamini, aspirin/NSAİİ, demir** gibi yanlış pozitif/negatif yapabilecek durumlardan kaçınılır.
+- **FIT (immünokimyasal test):** İnsan globinini saptar; diyet kısıtlaması gerekmez, daha duyarlı ve özgüldür.
+- Pozitif sonuç → **kolonoskopi**.

@@ -20,3 +20,11 @@
 
 ### Not
 - 20 yaş altında meme kanseri çok nadirdir; bu yaşta kitlelerin çoğu benigndir (fibroadenom).
+
+### Türkiye'de uygulama
+- **Kendi kendine meme muayenesi:** 20 yaşından itibaren **aylık** (adetin bitiminden birkaç gün sonra).
+- **Klinik meme muayenesi:** 20–39 yaşta periyodik, 40 yaş üstünde yıllık.
+- **Mamografi:** Ulusal program (KETEM) **40–69 yaş, 2 yılda bir**; birçok kaynak ve hocanın sorusuna göre **40 yaş üstü her yıl** mamografi önerilir (kaynaklar arasında fark vardır).
+
+### 20 yaş altında kanser riski
+- **Çok nadirdir**; bu yaşta meme kitlelerinin çoğu **fibroadenom** gibi benign lezyonlardır. BRCA taşıyıcılarında erken gözlem yapılabilir.

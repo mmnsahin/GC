@@ -21,3 +21,12 @@
 ### Mamografide malignite bulguları
 - Spiküle kitle, pleomorfik mikrokalsifikasyonlar, mimari distorsiyon, asimetrik dansite, cilt kalınlaşması.
 - Sonuçlar **BI-RADS** kategorileri ile raporlanır.
+
+### 50 yaş, sol üst kadranda kitle: ne düşünürsün?
+- **Meme kanseri** (üst dış kadran en sık), kist, fibroadenom (daha genç), fibrokistik değişiklik, yağ nekrozu, apse/mastit, lipom, filloides tümör.
+- Yaklaşım: **Klinik muayene + mamografi + USG + kalın iğne biyopsisi (üçlü değerlendirme)**.
+
+### Kümelenmiş mikrokalsifikasyon nasıl görünür?
+- **Malign:** Küçük, **pleomorfik** (farklı boyut ve şekilde), **ince dallanan lineer (casting)**, kümelenmiş (yaklaşık 1 cm² alanda ≥5) kalsifikasyonlar.
+- **Benign:** Büyük, yuvarlak, düzgün, dağınık; kabuk (eggshell), patlamış mısır (popcorn), çubuk benzeri.
+- Mamografide malign kitle: **Spiküle, düzensiz, hiperdens**; mimari distorsiyon, asimetri.

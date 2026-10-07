@@ -20,3 +20,8 @@
 
 ### Özel gruplar
 - **Gebelik, çocuk ve yaşlıda** perforasyon riski yüksektir; tanı gecikebilir.
+
+### Soruda geçen diğer konular
+- **İntestinal obstrüksiyon bulguları:** Kolik karın ağrısı, kusma, distansiyon, gaz-gaita çıkaramama; hava-sıvı seviyeleri (ayrıntı: **İleus** başlığı).
+- **Akut pankreatit kliniği ve tedavisi:** Epigastrik ağrı (sırta yayılan), bulantı-kusma, amilaz/lipaz yüksekliği; agresif sıvı, analjezi, erken beslenme, nedenin (safra taşı) tedavisi (ayrıntı: **Pankreas** başlığı).
+- Apandisit komplikasyonları: Perforasyon, apse, plastron, **pileflebit** (portal ven septik tromboflebiti).

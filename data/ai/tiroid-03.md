@@ -20,3 +20,19 @@ Tiroid nodülü çok sık görülür (palpasyonla erişkinlerin yaklaşık %5'in
 - Tiroglobulin tanıda yararlı değildir; kalsitonin MTK şüphesinde istenebilir.
 - Sintigrafide soğuk nodül malignite riskini artırır ama özgül değildir.
 - BT/MR: retrosternal uzanım veya invazyon şüphesinde.
+
+### Tiroid fonksiyon testleri ve antikorlar
+- **TSH, serbest T3 ve T4** (hipertiroidi/hipotiroidi değerlendirmesi).
+- **Tiroid otoantikorları:** Anti-TPO, anti-Tg (Hashimoto), **TRAb** (TSH reseptör antikoru; Graves).
+- **Boyun BT/MR:** Retrosternal guatr, trakeal bası, invazyon veya lenf nodu şüphesinde.
+
+### USG ve sintigrafi sonrası İİAB yapılma nedenleri
+- USG'de **şüpheli özellikler** (hipoekoik, mikrokalsifikasyon, düzensiz sınır, uzun>geniş, ekstratiroidal uzanım) ve yeterli boyut (yaklaşık ≥1 cm; düşük şüpheli nodüllerde daha büyük eşikler).
+- **Soğuk nodül** (sintigrafide aktivite tutmayan) ve USG'de şüpheli özellik.
+- Hızlı büyüme, **boyuna radyasyon** veya ailevi tiroid kanseri öyküsü, şüpheli servikal lenf nodu.
+- TSH baskılı ve sıcak nodülde İİAB genellikle gerekmez.
+
+### 30–50 yaş kadın hasta özeti
+1. Anamnez + fizik muayene → **TSH**.
+2. TSH yüksek/normal → **USG**; düşük → **sintigrafi**.
+3. Şüpheli özellik/boyut → **İİAB**; gerekirse TFT, antikorlar, BT/MR.

@@ -13,3 +13,7 @@
 ### Cerrahi yaklaşım
 - Tek odaklıysa meme koruyucu cerrahi mümkündür; yaygın veya multisentrik ise mastektomi gerekebilir.
 - Preoperatif MR, yaygınlığı ve karşı meme durumunu göstermede yardımcıdır.
+
+### Bilateral olabilen tümör: pratik sonuçlar
+- Lobüler karsinomda **karşı memenin dikkatle değerlendirilmesi** (MR, mamografi) gerekir.
+- Multisentrik/yaygın hastalıkta **mastektomi**; karşı meme riskli ise profilaktik mastektomi konuşulabilir.

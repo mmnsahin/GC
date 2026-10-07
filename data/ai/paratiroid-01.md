@@ -16,3 +16,15 @@
 ### Sekonder ve tersiyer
 - Sekonder: altta yatan nedeni tedavi, fosfat bağlayıcılar, D vitamini analogları, kalsimimetikler.
 - Tersiyer: cerrahi (subtotal/total paratiroidektomi).
+
+### Hiperparatiroidide karın ağrısı ve sırt ağrısı
+- Hiperkalsemi **peptik ülser, pankreatit, kabızlık/ileus** ve **böbrek taşı** yaparak karın ağrısına yol açabilir.
+- Pankreatitte sırta vuran ağrı beklenir; sırt ağrısının olmaması pankreatitten çok **kabızlık, peptik ülser veya taşa** bağlı ağrıyı düşündürür; yine de amilaz/lipaz ve görüntüleme ile pankreatit dışlanmalıdır.
+- Tedavi: Altta yatan hiperparatiroidiyi **paratiroidektomi** ile düzeltmek; hiperkalsemi için hidrasyon.
+
+### Kaşıntı + yüksek kalsiyum
+- Pruritus, hiperkalsemi ve üremi/hiperparatiroidi ile ilişkili olabilir; yüksek kalsiyumda **PTH** ölçülür (yüksekse hiperparatiroidi).
+
+### Tipleri ve nedenleri (özet)
+- **Primer:** Adenom (en sık), hiperplazi, karsinom. **Sekonder:** Böbrek yetmezliği, D vitamini eksikliği. **Tersiyer:** Uzun süreli sekonderde otonomi (böbrek nakli sonrası).
+- **Primerin görüntüleme yöntemi:** Sestamibi sintigrafisi + boyun USG (gerekirse 4D-BT).

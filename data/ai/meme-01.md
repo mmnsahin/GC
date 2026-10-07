@@ -20,3 +20,14 @@ Meme kanseri kadınlarda en sık görülen kanserdir. Risk faktörlerinin çoğu
 - Postmenopozal **obezite**, alkol, hareketsizlik.
 - Yüksek mamografik meme dansitesi.
 - Oral kontraseptifler riski küçük oranda artırabilir (kullanımı bıraktıktan sonra azalır).
+
+### Önem sırasına göre risk faktörleri (nedenleriyle)
+1. **Kadın cinsiyet** (erkekte nadir; meme dokusu ve östrojen etkisi).
+2. **Yaş** (yaşla artar; çoğu olgu >50 yaş).
+3. **BRCA1/BRCA2 ve diğer germline mutasyonlar** (DNA onarım defekti; en güçlü kalıtsal risk) ve **aile öyküsü** (birinci derece akraba).
+4. **Önceki meme kanseri**, **atipik hiperplazi, LCIS, DCIS** (premalign/proliferatif lezyonlar).
+5. **Göğüse radyasyon** (özellikle çocukluk–genç yaş).
+6. **Östrojen maruziyeti süresi:** Erken menarş, geç menopoz, nulliparite/geç ilk doğum, emzirmeme.
+7. **Hormon replasman tedavisi** (östrojen + progesteron), uzun süreli oral kontraseptif (küçük risk).
+8. **Postmenopozal obezite, alkol, hareketsizlik** (yağ dokusunda östrojen yapımı artar).
+9. **Yüksek mamografik meme dansitesi.**

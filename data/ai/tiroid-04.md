@@ -24,3 +24,13 @@ Tiroid nodüllerinin büyük çoğunluğu benigndir; aşağıdaki bulgular malig
 ### Doppler ve sintigrafi
 - Doppler: nodül içi (intranodüler) belirgin vaskülarite malignite lehine olabilir; tek başına belirleyici değildir.
 - Sintigrafi: **soğuk nodül** malign olabilir (yaklaşık %5–10), **sıcak nodül** neredeyse her zaman benigndir.
+
+### Kitap cümleleriyle özet sıralama
+1. Boyuna ışınlama öyküsü ve ailede MTK/MEN2 öyküsü.
+2. Hızlı büyüyen, sert, fikse, düzensiz nodül; çevre dokulara yapışıklık.
+3. Ses kısıklığı (**rekürren laringeal sinir tutulumu**), disfaji, dispne.
+4. Servikal lenfadenopati.
+5. Çocukluk/genç yaş ve erkek cinsiyet (soliter nodül sıklığı düşük olsa da malignite oranı yüksek).
+6. **USG:** Hipoekoik, mikrokalsifikasyon, düzensiz sınır, uzun>geniş, intranodüler vaskülarite, ekstratiroidal uzanım.
+7. **Sintigrafi:** Soğuk nodül.
+8. Kesin tanı **İİAB sitolojisi** ve cerrahi patolojidir.

@@ -15,3 +15,7 @@
 
 ### Metastaz
 - Malign olanlarda **hematojen** yayılım; en sık **akciğere**, ardından kemik.
+
+### Sorudaki "Bethesda sınıflaması"
+- Soruda geçen Bethesda sınıflaması **tiroid İİAB sitolojisinin 6 kategorili sınıflamasıdır** (I yetersiz, II benign, III AUS/FLUS, IV foliküler neoplazi, V malignite şüphesi, VI malign); ayrıntı için **Bethesda sınıflaması** başlığına bakınız.
+- Meme İİAB sonuçları ise **C1–C5** (yetersiz, benign, atipik, şüpheli, malign) veya yeni **IAC Yokohama** sistemiyle raporlanır.

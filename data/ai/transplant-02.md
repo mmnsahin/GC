@@ -25,3 +25,9 @@
 
 ### Milan kriterleri (HCC'de karaciğer transplantasyonu)
 - **Tek tümör ≤5 cm** veya **en fazla 3 tümör, her biri ≤3 cm**; damar invazyonu ve uzak metastaz yok.
+
+### Ek sorular
+- **Akut rejeksiyonda medikal tedavi:** Yüksek doz **metilprednizolon (pulse steroid)**; dirençliyse **antitimosit globülin (ATG)** veya OKT3 benzeri tedaviler; idame immünsüpresyonun artırılması/ayarlanması.
+- **7 cm'lik HCC:** **Milan kriterlerini aşar** (tek tümör >5 cm) → klasik olarak **transplantasyon endikasyonu yoktur**; rezeksiyon (uygunsa), **TACE/ablasyon** ile **evre düşürme (downstaging)** sonrası Milan içine girerse transplant değerlendirilir; sistemik tedavi.
+- **Ülkemizde kronik böbrek yetmezliğinin en sık nedeni:** **Diyabet** (ardından hipertansiyon, glomerülonefrit).
+- **Transplant öncesi/sonrası ilaç:** İndüksiyon (basiliximab/ATG) ve idame (takrolimus + MMF ± steroid).

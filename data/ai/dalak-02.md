@@ -17,3 +17,17 @@
 | Hemodinamik **instabil** / yüksek dereceli | **Splenektomi** (veya splenorafi) |
 
 - Splenik korunum, OPSI riskini azaltmak için tercih edilir.
+
+### Anatomi (sayısal)
+- Dalak yaklaşık **150 g (100–200 g)** ağırlığında, **12 × 7 × 3 cm** boyutlarındadır (yaklaşık 1×3×5 inç; 9.–11. kaburgaların altında yer alır).
+
+### 7.–8. kaburga kırığı olan künt travmalı hasta
+- **Dalak rüptürü** düşünülür (sol 9–11. kaburgalar dalağı korur; kırık varsa dalak yaralanma ihtimali yüksektir).
+- **PA akciğer grafisi:** Sol alt kaburga kırığı, sol hemidiyafram yüksekliği, sol plevral efüzyon, mide gaz gölgesinin kayması (yer değiştirme).
+- Tedavi: Hemodinamik **stabilse non-operatif**, kararsızsa **splenektomi** (veya splenorafi).
+
+### Konjenital dalak anomalileri
+- **Aksesuar dalak** (%10–30), polisplenya, **asplenia**, gezici (wandering) dalak, splenogonadal füzyon, lobülasyon/yarık.
+
+### Dalak ligamanları
+- **Gastrosplenik, splenorenal, frenikosplenik, splenokolik** (ve pankreatikosplenik).

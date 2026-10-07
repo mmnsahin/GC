@@ -26,3 +26,10 @@
 ### Diğerleri
 - **DOAC'lar:** Rivaroksaban, apiksaban (Xa), dabigatran (IIa); antidotlar andexanet alfa, idarusizumab.
 - **Fondaparinuks:** Anti-Xa, HIT'te kullanılabilir.
+
+### Sık sorulan ayrıntılar
+- **Heparinin molekül yapısı:** **Mukopolisakkarit (glikozaminoglikan)**; UFH ortalama ~15 kDa (3–30 kDa), **DMAH ~4–5 kDa**.
+- **Dozlar:** **UFH** tedavide IV bolus 80 U/kg + infüzyon (aPTT hedefi 1,5–2,5 kat); profilakside 5000 U sc 8–12 saatte. **Enoksaparin** tedavide 1 mg/kg sc 12 saatte (veya 1,5 mg/kg/gün), profilakside 40 mg/gün.
+- **Cerrahide neden antikoagülan?** Postoperatif **DVT/PE profilaksisi** ve vasküler cerrahide pıhtılaşma önleme.
+- **Aspirin:** Antidotu yoktur (gerekirse trombosit transfüzyonu, desmopressin). Elektif ameliyatta (örn. kolon kanseri cerrahisi) kanama riski nedeniyle genellikle **5–7 gün önce kesilir**; stent/koroner hastalığı gibi yüksek riskte kesilmeden karar kardiyolojiyle verilir.
+- **Warfarin:** Önce **protein C ve S** azalır → ilk günlerde hiperkoagülabilite (cilt nekrozu); bu yüzden **heparin köprüsü** ile başlanır.

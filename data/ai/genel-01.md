@@ -19,3 +19,13 @@
 ### Yara bakımı / pansuman
 - Nemli yara ortamı, düzenli temizlik (serum fizyolojik), debridman, enfeksiyon kontrolü, tetanoz profilaksisi.
 - **İyileşmeyi bozanlar:** Enfeksiyon, iskemi, diyabet, malnütrisyon, steroid, sigara, radyasyon, kötü cerrahi teknik.
+
+### Yara tanımı ve çeşitleri
+- **Yara:** Travma veya cerrahi ile doku bütünlüğünün (deri, mukoza, derin doku) bozulmasıdır.
+- **Tipleri:** Kesi (laserasyon/insizyon), **ezilme**, **delici**, **avülsiyon**, **ısırık**, **ateşli silah** yaralanması, yanık; açık ve kapalı yaralar.
+
+### Dikilen ve dikilmeyen yaralar
+| Dikilen (primer kapatma) | Dikilmeyen / açık bırakılan |
+| --- | --- |
+| **Temiz, taze (genellikle <6–8 saat)**, keskin kenarlı, kontaminasyonu az yaralar | **Kirli, enfekte, 8–12 saatten eski**, ısırık, delici/ateşli silah, doku kaybı fazla olan yaralar |
+| Kenarlar birleştirilir | **Sekonder iyileşme** veya **gecikmiş primer (üçüncül) kapama** |

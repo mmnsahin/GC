@@ -20,3 +20,13 @@
 
 ### Testler
 - Trombosit sayısı, kanama zamanı, **PT/INR**, **aPTT**, trombin zamanı, fibrinojen, D-dimer.
+
+### Hemostaz bozuklukları
+| Grup | Örnekler |
+| --- | --- |
+| **Primer (trombosit/damar)** | Trombositopeni, trombosit fonksiyon bozukluğu, **von Willebrand hastalığı** |
+| **Sekonder (faktör)** | **Hemofili A/B**, K vitamini eksikliği, karaciğer hastalığı, antikoagülanlar |
+| Tüketim | **DİK** |
+
+### Pıhtılaşma testleri ve normal değerler
+- **Trombosit:** 150.000–400.000/µL; **kanama zamanı (Ivy):** 2–7 dk; **PT:** 11–13 sn (INR 0,8–1,2); **aPTT:** 25–35 sn; **trombin zamanı:** 14–16 sn; **pıhtılaşma zamanı (Lee-White):** 5–10 dk.

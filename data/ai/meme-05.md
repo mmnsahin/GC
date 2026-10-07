@@ -21,3 +21,21 @@
 - Muayene, akıntı sitolojisi, USG/mamografi, gerekirse **duktografi/duktoskopi**.
 - Galaktorede prolaktin ve TSH, ilaç öyküsü.
 - Tek kanallı patolojik akıntıda tedavi: **mikrodoktomi** (etkilenen kanalın çıkarılması).
+
+### Akıntının rengi
+| Renk | Olası neden |
+| --- | --- |
+| **Kanlı / seröz-kanlı** | **İntraduktal papillom**, **kanser** |
+| Berrak/seröz | Papillom, fizyolojik |
+| Süt (beyaz) | **Galaktore** |
+| Yeşil-kahverengi-gri | Duktal ektazi, fibrokistik değişiklik |
+| Cerahatli | Enfeksiyon/apse |
+
+### Galaktore
+- Gebelik ve emzirme dışında **süt benzeri akıntı** gelmesidir.
+- Genellikle **iki taraflı** ve sıkınca çok kanaldan olur.
+- **En sık nedenler:** Hiperprolaktinemi — **ilaçlar** (antipsikotikler, metoklopramid, bazı antidepresanlar) ve **prolaktinoma**; ayrıca hipotiroidi, kronik böbrek yetmezliği, meme uyarımı.
+- Tanı: Prolaktin, TSH, ilaç öyküsü, gerekirse hipofiz MR.
+
+### Fibrokistik değişiklikte muayene bulguları
+- Her iki memede yaygın **nodüler, lastik kıvamında, hassas** dokular; adet öncesi ağrı ve şişlik; **hareketli kistik kitleler**.

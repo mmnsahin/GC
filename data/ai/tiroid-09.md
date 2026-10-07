@@ -15,3 +15,11 @@
 2. Düzenli Tg + anti-Tg ölçümü.
 3. Boyun USG.
 4. Gerekirse tüm vücut RAİ taraması, BT/PET.
+
+### Tiroglobulin nerede sentezlenir, artarsa ne düşünülür?
+- Tiroid **foliküler hücrelerinde** sentezlenir; foliküler lümende (kolloid) depolanır ve T3/T4 sentezinin öncüsüdür.
+- Total tiroidektomi + RAİ sonrası **artış** → kalıntı doku, nüks veya uzak metastaz (DTK).
+- Cerrahi öncesi yükselme: Guatr, tiroidit, Graves gibi tiroid dokusunu ilgilendiren durumlarda da artar (özgül değildir).
+
+### Papiller karsinomda total tiroidektomi sonrası takip
+- Levotiroksin + TSH hedefi, **Tg ve anti-Tg**, boyun USG, gerekirse RAİ taraması.

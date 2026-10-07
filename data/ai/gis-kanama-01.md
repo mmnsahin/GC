@@ -28,3 +28,19 @@
 - Endoskopik ve girişimsel tedaviye rağmen devam eden kanama.
 - Hemodinamik instabilite ile birlikte masif transfüzyon ihtiyacı.
 - Perforasyon veya obstrüksiyon eşlik etmesi.
+
+### Kahve telvesi kusan hasta
+- Kahve telvesi görünümlü kusma, kanın **mide asidiyle temas ederek** hematine dönüşmesiyle olur → **üst GİS kanaması** (mide/duodenum kaynaklı, genellikle peptik ülser, gastrit, varis).
+- Yapılacaklar: ABC, damar yolu, sıvı, kan ürünleri, PPI, **endoskopi**, ameliyat endikasyonlarının değerlendirilmesi.
+
+### Sürekli kusan hastada elektrolit dengesi
+- Mide asidi ve klor kaybı → **hipokloremik, hipokalemik metabolik alkaloz**; volüm kaybı (dehidratasyon, prerenal azotemi).
+- Tedavi: **%0,9 NaCl** ile hacim düzeltmesi, **potasyum replasmanı**, antiemetik; neden tedavisi.
+
+### Üst GİS kanamasına yol açan ilaçlar ve bilinen adları
+| İlaç grubu | Örnek (ticari ad) |
+| --- | --- |
+| **NSAİİ** | İbuprofen (Advil, Brufen), diklofenak (Voltaren), naproksen (Apranax), ketoprofen |
+| **Aspirin** | Asetilsalisilik asit (Aspirin, Ecopirin) |
+| Antikoagülan / antiagregan | Varfarin (Coumadin), klopidogrel (Plavix), DOAK'lar |
+| Diğer | Kortikosteroidler, bifosfonatlar, potasyum klorür, SSRI'lar |

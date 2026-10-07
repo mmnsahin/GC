@@ -27,3 +27,6 @@
 - **ABI (ayak bileği-kol indeksi):** <0,9 hastalık; <0,4 ağır iskemi; >1,3 sıkıştırılamayan damar (diyabet).
 - Risk faktörü kontrolü (sigara bırakma, statin, antiagregan), egzersiz, silostazol.
 - **Revaskülarizasyon** (anjiyoplasti/stent, bypass); amputasyon son çare.
+
+### Evrelendirme sistemleri
+- **Fontaine** (I–IV) ve **Rutherford** (0–6) sınıflamaları kullanılır; Fontaine III–IV (Rutherford 4–6) kritik ekstremite iskemisidir.

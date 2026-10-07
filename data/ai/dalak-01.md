@@ -17,3 +17,10 @@
 ### Önlem
 - **Aşılar** (pnömokok, meningokok, Hib): Elektif splenektomiden en az 2 hafta önce, acil splenektomide 2 hafta sonra.
 - Ömür boyu hasta eğitimi; ateşte acil başvuru; bazı hastalarda profilaktik antibiyotik.
+
+### En sık splenektomi nedeni
+- **Travma** (künt karın travmasında dalak yaralanması).
+
+### Masif splenomegali
+- Dalağın **göbek altına/pelvise uzanan** büyük boyutu (yaklaşık >1500 g veya >20 cm); nedenleri: **KML, miyelofibrozis, Gaucher, hairy cell lösemi, ağır talasemi, kala-azar/malarya (tropikal splenomegali)**, lenfoma.
+- Semptom (erken doyma, ağrı), sitopeni ve hipersplenizm nedeniyle splenektomi gerekebilir.

@@ -23,3 +23,8 @@
 - Non-selektif beta bloker (propranolol, karvedilol), endoskopik bant ligasyonu.
 - **TIPS**, cerrahi şantlar, karaciğer transplantasyonu.
 - Asit için tuz kısıtlaması, spironolakton ± furosemid, paresentez.
+
+### Sık sorular
+- **Portal sistemde valv var mı?** **Hayır, portal venöz sistem valvsizdir**; bu yüzden basınç artışı geri iletilir ve kollateraller gelişir.
+- **Hemoroid yapar mı?** **Evet;** portal basınç artışı **portosistemik kollaterallerin** (superior rektal ven ↔ orta/alt rektal venler) genişlemesine ve **rektal varislere/hemoroide** neden olabilir (özofagus varisleri ve kaput medusa gibi).
+- Portal hipertansiyon komplikasyonları: Varis kanaması, asit/spontan bakteriyel peritonit, splenomegali/hipersplenizm, hepatik ensefalopati, hepatorenal ve hepatopulmoner sendrom.

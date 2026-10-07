@@ -18,3 +18,8 @@
 
 ### Önemi
 - Cerrahide lenf nodu temizliği, damar pediküllerinin bağlanması ve geniş mezokolon eksizyonu bu drenaj yollarına göre planlanır.
+
+### En sık yayılım yolu
+- **Lenfatik yayılım** (ve doğrudan yayılım) en sık yoldur; uzak organ olarak ilk hedef **karaciğer**dir.
+- Sıra: Direkt (duvar ve komşu organ), lenfatik, hematojen, transçölomik (peritoneal), implantasyon.
+- **Kolon kanseri:** Portal venle **karaciğer**, sonra akciğer. **Rektum kanseri:** Alt/orta rektal venler aracılığıyla **akciğer**, kemik ve karaciğer.

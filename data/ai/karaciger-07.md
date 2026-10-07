@@ -18,3 +18,17 @@
 ### Önemli notlar
 - Kanama sonrası hepatik ensefalopati riski vardır (laktüloz).
 - Child-Pugh skoru prognozu belirler.
+
+### TIPS
+- **TIPS** = **T**ransjugular **I**ntrahepatic **P**ortosystemic **S**hunt (transjuguler intrahepatik portosistemik şant): Boyun veninden hepatik vene girilip karaciğer içinde portal ven ile hepatik ven arasına **stent** yerleştirilir.
+- **En büyük riskleri:** **Hepatik ensefalopati** ve şant trombozu/stenozu.
+- **Avantajı:** Laparotomi gerektirmez, hızlıdır, acil durumda cerrahi şanta göre daha düşük ameliyat mortalitesi.
+
+### TIPS ve balon tamponad dışında cerrahi seçenekler
+- **Selektif distal splenorenal şant (Warren):** Splenik ven (distal) → sol renal ven; **mide-özofagus varisleri dekomprese edilirken portal akım korunur** (ensefalopati riski daha düşük).
+- **Portokaval şant** (side-to-side, end-to-side), mezokaval şant (non-selektif).
+- **Devaskülarizasyon** (Sugiura işlemi, özofagus transeksiyonu) – şant mümkün değilse.
+- **Karaciğer transplantasyonu** (kalıcı tedavi).
+
+### Belirtiler
+- **Masif hematemez, melena, şok** + siroz bulguları (asit, sarılık, spider anjiyom, splenomegali, kaput medusa).

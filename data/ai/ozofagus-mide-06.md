@@ -16,3 +16,6 @@
 - Devam eden kanamada endoskopik tedavi (adrenalin enjeksiyonu, klips, bant ligasyonu).
 - Nadiren cerrahi (yırtığın dikilmesi) veya anjiyografik embolizasyon.
 - Bulantı-kusma kontrolü ve PPI.
+
+### Nerede yerleşir?
+- **Gastroözofageal bileşkede**, çoğunlukla **mide tarafında** (kardiyada) veya bileşke üzerinde; genellikle küçük kurvaturaya yakın, **boyuna** yönelimli mukozal yırtıktır.

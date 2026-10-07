@@ -24,3 +24,14 @@
 ### Tedavi (genel)
 - **Albendazol** (tek başına veya cerrahi/girişim ile).
 - **PAIR**, cerrahi (kistektomi, perikistektomi), asemptomatik inaktif kistlerde izlem.
+
+### Etken
+- Etken **bakteri değil, paraziter bir helmintdir (Echinococcus granulosus, tenya)**.
+
+### Kist duvar katmanları (dıştan içe)
+1. **Perikist** (konağın fibröz reaksiyonu).
+2. **Ektokist** (laminer membran).
+3. **Endokist / germinatif membran** (protoskoleks ve kız vezikülleri üretir; içte "hidatik kum" ve sıvı).
+
+### Enfekte hayvanlara yapılacaklar
+- **Köpeklere düzenli antihelmintik (praziquantel)**, kontrolsüz hayvan kesiminin önlenmesi, hayvan iç organlarının **köpeğe yedirilmemesi**, enfekte organların **yakılması/gömülmesi**, sağlıklı hayvan yetiştirme ve sürü sağlığı kontrolleri.

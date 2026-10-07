@@ -22,3 +22,8 @@
 - **Derece III–IV:** **Hemoroidektomi** (Milligan-Morgan açık, Ferguson kapalı), stapler hemoroidopeksi (Longo), THD (hemoroid arter ligasyonu).
 - **Tromboze eksternal hemoroid:** İlk 72 saatte eksizyon, sonrasında konservatif.
 - Dış hemoroidlere **band uygulanmaz** (şiddetli ağrı).
+
+### Hemoroid oluşumu ve komplikasyonlar
+- **Anal yastıkların** (damar, düz kas, bağ dokusu) aşağı kayması ve çekilmesiyle oluşur (kayma teorisi); kabızlık, ıkınma ve gebelik tetikler.
+- **Belirtiler:** Ağrısız parlak kırmızı kanama, prolapsus, kaşıntı, mukus akıntısı, rahatsızlık.
+- **Komplikasyonlar:** Tromboz, strangülasyon, kronik kanamaya bağlı anemi, ülserasyon.

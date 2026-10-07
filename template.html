@@ -97,6 +97,10 @@ section.topic>.sub{color:var(--muted);font-size:.92rem;margin:0 0 14px}
 .merged ol li::before{content:counter(s);position:absolute;left:10px;top:6px;width:24px;height:24px;border-radius:50%;background:var(--scrub);color:var(--card);font-weight:700;display:grid;place-items:center;font-size:.8rem}
 .merged blockquote{margin:12px 0;padding:10px 14px;background:var(--warn-bg);color:var(--warn);border-radius:6px;font-family:var(--sans);font-size:.93rem}
 .src{font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--scrub);background:var(--scrub-tint);border-radius:4px;padding:1px 5px;margin-left:4px;white-space:nowrap;vertical-align:1px}
+.aibtn{display:inline-flex;align-items:center;gap:6px;margin:0 0 12px;padding:7px 14px;border:1px solid var(--scrub);border-radius:999px;background:var(--scrub-tint);color:var(--scrub);font-weight:600;font-size:.9rem;cursor:pointer}
+.aibtn[aria-pressed=true]{background:var(--scrub);color:var(--card)}
+.ainote{margin:0 0 12px;padding:8px 12px;border-radius:6px;background:var(--warn-bg);color:var(--warn);font-size:.85rem;font-family:var(--sans)}
+[hidden]{display:none!important}
 .note{font-size:.9rem;color:var(--muted);margin:0 0 10px}
 .pending{padding:12px 14px;border:1px dashed var(--line);border-radius:8px;color:var(--muted);font-size:.93rem;max-width:72ch}
 
@@ -253,6 +257,12 @@ function clusterHTML(c, hl){
       : `<div class="pending">Birleştirilmiş cevap henüz hazır değil. Aşağıdaki Sorular bölümünden ${n} cevabı tek tek okuyabilirsin.</div>`;
     main += `<button class="rawbtn" aria-expanded="false">Sorular (${n})</button><div class="raws">${rawCards(c, hl)}</div>`;
   }
+  if (c.ai) {
+    const i = main.indexOf('<button class="rawbtn"');
+    const top = i < 0 ? main : main.slice(0, i), bottom = i < 0 ? '' : main.slice(i);
+    main = `<button class="aibtn" aria-pressed="false">✦ AI ile çalış</button><div class="mview">${top}</div>` +
+      `<div class="aiview" hidden><p class="ainote">Bu metin yapay zekâ tarafından yazıldı; dosyadaki cevaplardan değildir. Önemli bilgileri bir ders kitabından doğrula.</p><div class="merged">${md(c.ai)}</div></div>${bottom}`;
+  }
   return `<div class="q" id="${c.id}"><button class="head" aria-expanded="false">${freq}<span class="qt">${esc(c.title)}${hocas ? `<span class="hocas">${esc(hocas)}</span>` : ''}</span><span class="chev" aria-hidden="true">›</span></button><div class="body">${main}</div></div>`;
 }
 
@@ -289,6 +299,14 @@ function render(){
 main.addEventListener('click', e => {
   const head = e.target.closest('button.head');
   if (head) { const q = head.parentElement; const o = q.classList.toggle('open'); head.setAttribute('aria-expanded', o); return; }
+  const ab = e.target.closest('button.aibtn');
+  if (ab) {
+    const body = ab.parentElement, on = ab.getAttribute('aria-pressed') !== 'true';
+    ab.setAttribute('aria-pressed', on);
+    ab.textContent = on ? '↩ Dosyadaki metne dön' : '✦ AI ile çalış';
+    body.querySelector('.mview').hidden = on; body.querySelector('.aiview').hidden = !on;
+    return;
+  }
   const rb = e.target.closest('button.rawbtn');
   const rq = e.target.closest('button.rq');
   if (rq) { const o = rq.parentElement.classList.toggle('open'); rq.setAttribute('aria-expanded', o); return; }

@@ -45,6 +45,20 @@ if '--todo-single' in sys.argv:
             if len(c['rows']) == 1 and not (single_dir/f"{c['id']}.md").exists() and rows[c['rows'][0]]['a'].strip():
                 print(f"{c['id']:<22} {c['title']}  rows={c['rows']}")
     sys.exit(0)
+ai_dir = root/'data/ai'
+all_ids = {c['id'] for s in sections for c in s['clusters']}
+for s in sections:
+    for c in s['clusters']:
+        f = ai_dir/f"{c['id']}.md"
+        c['ai'] = f.read_text(encoding='utf-8').strip() if f.exists() else None
+if ai_dir.exists():
+    for f in ai_dir.glob('*.md'):
+        if f.stem not in all_ids: errors.append(f"data/ai/{f.name}: böyle bir küme id yok")
+if '--todo-ai' in sys.argv:
+    for s in sections:
+        for c in s['clusters']:
+            if not c['ai']: print(f"{c['id']:<22} {c['title']}")
+    sys.exit(0)
 if TODO:
     for s in sections:
         for c in s['clusters']:

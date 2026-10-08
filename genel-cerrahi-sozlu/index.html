@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Genel Cerrahi Sözlü Soruları</title>
+<style>
+:root{--bg:#f6f7f9;--c:#fff;--t:#1d2433;--m:#667085;--a:#1f6feb;--b:#e3e6eb;--hl:#fff3bf}
+@media(prefers-color-scheme:dark){:root{--bg:#12151b;--c:#1a1f28;--t:#e8ebf0;--m:#98a2b3;--a:#6aa4ff;--b:#2a3140;--hl:#5b4a00}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:16px/1.5 system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px;border-bottom:1px solid var(--b)}
+h1{font-size:18px;margin:0 0 8px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+input{flex:1;min-width:180px;padding:10px 12px;border:1px solid var(--b);border-radius:8px;background:var(--c);color:var(--t);font-size:15px}
+button{padding:9px 12px;border:1px solid var(--b);border-radius:8px;background:var(--c);color:var(--t);cursor:pointer;font-size:14px}
+main{max-width:860px;margin:0 auto;padding:12px 16px 60px}
+.hoca{margin:22px 0 8px;font-size:13px;font-weight:600;color:var(--m);text-transform:uppercase;letter-spacing:.04em}
+.q{background:var(--c);border:1px solid var(--b);border-radius:10px;margin:8px 0}
+.q>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;gap:10px}
+.q>summary::-webkit-details-marker{display:none}
+.n{color:var(--a);font-weight:700;min-width:30px}
+.q[open]>summary{border-bottom:1px solid var(--b)}
+.ans{padding:10px 14px 14px}.ans h3{margin:0 0 6px;font-size:15px;color:var(--a)}
+.ans ul{margin:0;padding-left:20px}.ans li{margin:3px 0}
+mark{background:var(--hl);color:inherit}
+.cnt{font-size:13px;color:var(--m);align-self:center}
+</style></head><body>
+<header><h1>Genel Cerrahi – Sözlü Soruları</h1>
+<div class="row" style="margin-bottom:8px;font-size:14px"><a href="../index.html" style="color:var(--a)">Flash kartlar</a><a href="../sorular.html" style="color:var(--a)">Tüm sorular</a></div>
+<div class="row"><input id="s" type="search" placeholder="Soru veya cevapta ara…"><button id="o">Tümünü aç</button><button id="c">Tümünü kapat</button><span class="cnt" id="cnt"></span></div></header>
+<main id="m"></main>
+<script src="data/answers.js"></script><script src="data/questions.js"></script>
+<script>
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const m=document.getElementById('m'),s=document.getElementById('s');
+function render(){
+  const f=s.value.trim().toLowerCase();let n=0,shown=0,h='';
+  ENTRIES.forEach(e=>{let part='';
+    e.q.forEach(([q,k])=>{n++;const a=ANSWERS[k]||{t:'',b:[]};
+      const txt=(q+' '+a.t+' '+a.b.join(' ')).toLowerCase();
+      if(f&&!txt.includes(f))return;shown++;
+      part+=`<details class="q"><summary><span class="n">${n}.</span><span>${esc(q)}</span></summary><div class="ans"><h3>${esc(a.t)}</h3><ul>${a.b.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></details>`;});
+    if(part)h+=`<div class="hoca">${esc(e.j)}</div>`+part;});
+  m.innerHTML=h||'<p>Sonuç yok.</p>';document.getElementById('cnt').textContent=shown+' soru';
+}
+s.oninput=render;
+o.onclick=()=>document.querySelectorAll('.q').forEach(d=>d.open=true);
+c.onclick=()=>document.querySelectorAll('.q').forEach(d=>d.open=false);
+render();
+</script></body></html>

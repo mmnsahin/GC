@@ -66,6 +66,7 @@ button{font:inherit;color:inherit}
 .fpanel[hidden]{display:none}
 .fact{display:flex;gap:8px;margin-bottom:8px}
 .fact button{border:1px solid var(--line);background:transparent;border-radius:8px;padding:3px 10px;font-size:.85rem;cursor:pointer}
+.fhead{font-size:.8rem;font-weight:600;color:var(--muted);margin:10px 0 4px}
 .flist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:4px 12px}
 .flist label{display:flex;align-items:center;gap:8px;font-size:.92rem;cursor:pointer;padding:3px 0}
 .flist .n{color:var(--muted);font-size:.8rem}
@@ -75,8 +76,8 @@ button{font:inherit;color:inherit}
 <body>
 <div class="bar"><div class="barin"><span class="bartitle">Flash Kartlar</span><span class="nav"><a href="sorular.html">Tüm sorular</a></span></div></div>
 <div class="wrap">
-  <div class="info"><span id="pos"></span><button class="fbtn" id="fbtn" aria-expanded="false">Konular: <span id="fsum"></span></button></div>
-  <div class="fpanel" id="fpanel" hidden><div class="fact"><button id="fall">Tümünü seç</button><button id="fnone">Temizle</button></div><div class="flist" id="flist"></div></div>
+  <div class="info"><span id="pos"></span><button class="fbtn" id="fbtn" aria-expanded="false">Filtre: <span id="fsum"></span></button></div>
+  <div class="fpanel" id="fpanel" hidden><div class="fact"><button id="fall">Tümünü seç</button><button id="fnone">Temizle</button></div><div class="fhead">Konu</div><div class="flist" id="flist"></div><div class="fhead">Hoca</div><div class="flist" id="hlist"></div></div>
   <div class="scene"><div class="card" id="card" role="button" tabindex="0" aria-label="Kartı çevir"><div class="face front"><div class="topic" id="topic"></div><div class="qtext" id="qtext"></div><div class="hint" id="fhint"></div></div><div class="face back"><p class="qsmall" id="qsmall"></p><div id="answer"></div></div></div></div>
   <div class="ctrl"><button id="prev">‹ Önceki</button><button id="next">Sonraki ›</button></div>
 </div>
@@ -112,18 +113,20 @@ function md(src){
 const topicOf = {};
 DATA.sections.forEach(s => s.clusters.forEach(c => c.rows.forEach(n => topicOf[n] = s.title)));
 const cards = DATA.rows.filter(r => r.a && r.a.trim()).map(r => ({
-  topic: topicOf[r.no] || '', q: r.q, meta: [r.hoca, r.tip].filter(Boolean).join(' · '),
+  topic: topicOf[r.no] || '', hoca: (r.hoca && r.hoca !== '?') ? r.hoca : 'Bilinmiyor', q: r.q, meta: [r.hoca, r.tip].filter(Boolean).join(' · '),
   back: `<div class="ans">${esc(r.a)}</div>`
 }));
 const topics = DATA.sections.map(s => s.title).filter(t => cards.some(c => c.topic === t));
-let sel = new Set(topics);
-try { const sv = JSON.parse(localStorage.getItem('flashTopics')); if (Array.isArray(sv)) { const f = sv.filter(t => topics.includes(t)); if (f.length) sel = new Set(f); } } catch (e) {}
+const hocaCount = {}; cards.forEach(c => hocaCount[c.hoca] = (hocaCount[c.hoca] || 0) + 1);
+const hocas = Object.keys(hocaCount).sort((a, b) => (a === 'Bilinmiyor') - (b === 'Bilinmiyor') || hocaCount[b] - hocaCount[a] || a.localeCompare(b, 'tr'));
+function loadSel(key, all){ try { const sv = JSON.parse(localStorage.getItem(key)); if (Array.isArray(sv)) { const f = sv.filter(t => all.includes(t)); if (f.length) return new Set(f); } } catch (e) {} return new Set(all); }
+let sel = loadSel('flashTopics', topics), hsel = loadSel('flashHocas', hocas);
 let deck = [], i = -1;
-function shuffle(){ deck = []; cards.forEach((c, k) => { if (sel.has(c.topic)) deck.push(k); }); for (let k = deck.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [deck[k], deck[j]] = [deck[j], deck[k]]; } }
+function shuffle(){ deck = []; cards.forEach((c, k) => { if (sel.has(c.topic) && hsel.has(c.hoca)) deck.push(k); }); for (let k = deck.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [deck[k], deck[j]] = [deck[j], deck[k]]; } }
 const el = id => document.getElementById(id), card = el('card');
 function show(){
   card.style.visibility = deck.length ? '' : 'hidden'; el('next').disabled = !deck.length;
-  if (!deck.length) { el('pos').textContent = 'Konu seçin'; el('prev').disabled = true; return; }
+  if (!deck.length) { el('pos').textContent = 'Konu/hoca seçin'; el('prev').disabled = true; return; }
   const c = cards[deck[i]];
   card.classList.remove('flip');
   el('topic').textContent = [c.topic, c.meta].filter(Boolean).join(' · ');
@@ -140,15 +143,18 @@ el('next').addEventListener('click', next); el('prev').addEventListener('click',
 document.addEventListener('keydown', e => { if ((e.key === ' ' || e.key === 'Enter') && e.target === card) { e.preventDefault(); card.classList.toggle('flip'); return; } if (e.key === 'ArrowRight') next(); else if (e.key === 'ArrowLeft') prev(); });
 function renderFilter(){
   el('flist').innerHTML = topics.map((t, k) => `<label><input type="checkbox" data-k="${k}"${sel.has(t) ? ' checked' : ''}><span>${esc(t)} <span class="n">${cards.filter(c => c.topic === t).length}</span></span></label>`).join('');
-  el('fsum').textContent = sel.size === topics.length ? 'Tümü' : sel.size + ' seçili';
+  el('hlist').innerHTML = hocas.map((h, k) => `<label><input type="checkbox" data-k="${k}"${hsel.has(h) ? ' checked' : ''}><span>${esc(h)} <span class="n">${hocaCount[h]}</span></span></label>`).join('');
+  const sm = (n, t) => n === t ? 'Tümü' : n + ' seçili';
+  el('fsum').textContent = `Konu ${sm(sel.size, topics.length)} · Hoca ${sm(hsel.size, hocas.length)}`;
 }
 function applyFilter(){
-  try { localStorage.setItem('flashTopics', JSON.stringify([...sel])); } catch (e) {}
+  try { localStorage.setItem('flashTopics', JSON.stringify([...sel])); localStorage.setItem('flashHocas', JSON.stringify([...hsel])); } catch (e) {}
   renderFilter(); shuffle(); i = 0; show();
 }
 el('flist').addEventListener('change', e => { const t = topics[e.target.dataset.k]; if (e.target.checked) sel.add(t); else sel.delete(t); applyFilter(); });
-el('fall').addEventListener('click', () => { sel = new Set(topics); applyFilter(); });
-el('fnone').addEventListener('click', () => { sel = new Set(); applyFilter(); });
+el('hlist').addEventListener('change', e => { const h = hocas[e.target.dataset.k]; if (e.target.checked) hsel.add(h); else hsel.delete(h); applyFilter(); });
+el('fall').addEventListener('click', () => { sel = new Set(topics); hsel = new Set(hocas); applyFilter(); });
+el('fnone').addEventListener('click', () => { sel = new Set(); hsel = new Set(); applyFilter(); });
 el('fbtn').addEventListener('click', () => { const p = el('fpanel'); p.hidden = !p.hidden; el('fbtn').setAttribute('aria-expanded', String(!p.hidden)); });
 renderFilter(); shuffle(); i = 0; show();
 </script>

@@ -1,47 +1,114 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Genel Cerrahi Sözlü Soruları</title>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jüri Soruları – Genel Cerrahi Sözlü</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f9;--c:#fff;--t:#1d2433;--m:#667085;--a:#1f6feb;--b:#e3e6eb;--hl:#fff3bf}
-@media(prefers-color-scheme:dark){:root{--bg:#12151b;--c:#1a1f28;--t:#e8ebf0;--m:#98a2b3;--a:#6aa4ff;--b:#2a3140;--hl:#5b4a00}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:16px/1.5 system-ui,sans-serif}
-header{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px;border-bottom:1px solid var(--b)}
-h1{font-size:18px;margin:0 0 8px}
-.row{display:flex;gap:8px;flex-wrap:wrap}
-input{flex:1;min-width:180px;padding:10px 12px;border:1px solid var(--b);border-radius:8px;background:var(--c);color:var(--t);font-size:15px}
-button{padding:9px 12px;border:1px solid var(--b);border-radius:8px;background:var(--c);color:var(--t);cursor:pointer;font-size:14px}
-main{max-width:860px;margin:0 auto;padding:12px 16px 60px}
-.hoca{margin:22px 0 8px;font-size:13px;font-weight:600;color:var(--m);text-transform:uppercase;letter-spacing:.04em}
-.q{background:var(--c);border:1px solid var(--b);border-radius:10px;margin:8px 0}
-.q>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;gap:10px}
-.q>summary::-webkit-details-marker{display:none}
-.n{color:var(--a);font-weight:700;min-width:30px}
-.q[open]>summary{border-bottom:1px solid var(--b)}
-.ans{padding:10px 14px 14px}.ans h3{margin:0 0 6px;font-size:15px;color:var(--a)}
-.ans ul{margin:0;padding-left:20px}.ans li{margin:3px 0}
-mark{background:var(--hl);color:inherit}
-.cnt{font-size:13px;color:var(--m);align-self:center}
-</style></head><body>
-<header><h1>Genel Cerrahi – Sözlü Soruları</h1>
-<div class="row" style="margin-bottom:8px;font-size:14px"><a href="../index.html" style="color:var(--a)">Flash kartlar</a><a href="../sorular.html" style="color:var(--a)">Tüm sorular</a></div>
-<div class="row"><input id="s" type="search" placeholder="Soru veya cevapta ara…"><button id="o">Tümünü aç</button><button id="c">Tümünü kapat</button><span class="cnt" id="cnt"></span></div></header>
-<main id="m"></main>
+html{scroll-padding-top:70px}
+:root{
+  --paper:#F6F7F4; --card:#FFFFFF; --ink:#18211D; --muted:#5E6B64; --line:#D5DBD6;
+  --scrub:#1D4E89; --scrub-tint:#E4ECF6; --warn:#8A5200; --warn-bg:#FBF1DF;
+  --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  box-sizing:border-box;
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121614; --card:#1A201D; --ink:#E4EAE6; --muted:#9AA8A0; --line:#2C3531;
+  --scrub:#8DB8EA; --scrub-tint:#1B2635; --warn:#F0B86A; --warn-bg:#2D2414;}}
+:root[data-theme="dark"]{
+  --paper:#121614; --card:#1A201D; --ink:#E4EAE6; --muted:#9AA8A0; --line:#2C3531;
+  --scrub:#8DB8EA; --scrub-tint:#1B2635; --warn:#F0B86A; --warn-bg:#2D2414;}
+
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5}
+a{color:var(--scrub)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--scrub);outline-offset:2px}
+
+.bar{position:sticky;top:0;z-index:30;background:var(--paper);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.barin{max-width:900px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:16px}
+.bartitle{font-weight:600;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav a{font-size:.95rem;font-weight:600;text-decoration:none;white-space:nowrap}
+
+header.top{max-width:900px;margin:0 auto;padding:28px 24px 20px}
+header.top h1{font-size:clamp(1.7rem,3.5vw,2.4rem);line-height:1.15;margin:0 0 6px;font-weight:700;letter-spacing:-.01em}
+header.top p{margin:0;color:var(--muted)}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:20px}
+.tools input[type=search]{flex:1 1 280px;min-width:0;padding:11px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:1rem;font-family:inherit}
+.tbtn{padding:8px 14px;border:1px solid var(--scrub);border-radius:8px;background:transparent;color:var(--scrub);font-weight:600;cursor:pointer}
+.tbtn:hover{background:var(--scrub-tint)}
+
+.wrap{max-width:900px;margin:0 auto;padding:0 24px 80px}
+section.topic{margin-bottom:44px}
+section.topic>h2{font-size:1.45rem;margin:0 0 4px;font-weight:700}
+section.topic>.sub{color:var(--muted);font-size:.92rem;margin:0 0 14px}
+
+details.q{border-top:1px solid var(--line)}
+details.q:last-child{border-bottom:1px solid var(--line)}
+details.q>summary{list-style:none;display:grid;grid-template-columns:64px minmax(0,1fr) 20px;gap:14px;align-items:baseline;padding:14px 4px;cursor:pointer}
+details.q>summary::-webkit-details-marker{display:none}
+details.q>summary:focus-visible{outline:2px solid var(--scrub);outline-offset:-2px}
+.freq{font-size:1.6rem;font-weight:700;color:var(--scrub);font-variant-numeric:tabular-nums;line-height:1;text-align:right}
+.qt{font-weight:600;font-size:1.05rem;line-height:1.35}
+.chev{color:var(--muted);transition:transform .15s}
+details.q[open] .chev{transform:rotate(90deg)}
+.body{padding:2px 4px 22px 82px}
+
+.merged{font-family:var(--serif);font-size:1.04rem;line-height:1.62;max-width:72ch}
+.merged h4{font-family:var(--sans);font-size:.98rem;margin:16px 0 6px;color:var(--scrub);border-bottom:2px solid var(--scrub-tint);padding-bottom:4px}
+.merged h4:first-child{margin-top:0}
+.merged ul{margin:0 0 10px;padding-left:22px}
+.merged li{margin:3px 0}
+.none{color:var(--muted);padding:30px 0}
+mark{background:#F5E27A;color:#18211D;border-radius:2px}
+
+@media (max-width:860px){
+  details.q>summary{grid-template-columns:44px minmax(0,1fr) 16px;gap:10px}
+  .freq{font-size:1.3rem}
+  .body{padding-left:4px}
+}
+@media (prefers-reduced-motion:reduce){.chev{transition:none}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="barin"><span class="bartitle">Jüri Soruları</span><span class="nav"><a href="../sorular.html">Tüm sorular</a> · <a href="../index.html">Flash kartlar</a></span></div></div>
+<header class="top">
+  <h1>Genel Cerrahi – Jüri Soruları</h1>
+  <p id="cnt"></p>
+  <div class="tools">
+    <input type="search" id="s" placeholder="Soru veya cevapta ara" aria-label="Ara">
+    <button class="tbtn" id="o">Tümünü aç</button>
+    <button class="tbtn" id="c">Tümünü kapat</button>
+  </div>
+</header>
+<div class="wrap"><main id="m"></main></div>
 <script src="data/answers.js"></script><script src="data/questions.js"></script>
 <script>
 const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const m=document.getElementById('m'),s=document.getElementById('s');
 function render(){
-  const f=s.value.trim().toLowerCase();let n=0,shown=0,h='';
-  ENTRIES.forEach(e=>{let part='';
-    e.q.forEach(([q,k])=>{n++;const a=ANSWERS[k]||{t:'',b:[]};
-      const txt=(q+' '+a.t+' '+a.b.join(' ')).toLowerCase();
-      if(f&&!txt.includes(f))return;shown++;
-      part+=`<details class="q"><summary><span class="n">${n}.</span><span>${esc(q)}</span></summary><div class="ans"><h3>${esc(a.t)}</h3><ul>${a.b.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></details>`;});
-    if(part)h+=`<div class="hoca">${esc(e.j)}</div>`+part;});
-  m.innerHTML=h||'<p>Sonuç yok.</p>';document.getElementById('cnt').textContent=shown+' soru';
+  const f=s.value.trim().toLowerCase();
+  const hl=f.length>=2?t=>t.replace(new RegExp(f.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),x=>`<mark>${x}</mark>`):t=>t;
+  let n=0,shown=0,h='';
+  ENTRIES.forEach(e=>{let part='',cnt=0;
+    e.q.forEach(([q,k])=>{n++;const as=k.split('+').map(x=>ANSWERS[x]||{t:'',b:[]});
+      const txt=(q+' '+as.map(a=>a.t+' '+a.b.join(' ')).join(' ')).toLowerCase();
+      if(f&&!txt.includes(f))return;shown++;cnt++;
+      const inner=as.map(a=>`${a.t?`<h4>${hl(esc(a.t))}</h4>`:''}<ul>${a.b.map(x=>`<li>${hl(esc(x))}</li>`).join('')}</ul>`).join('');
+      part+=`<details class="q"${f?' open':''}><summary><span class="freq">${n}</span><span class="qt">${hl(esc(q))}</span><span class="chev" aria-hidden="true">›</span></summary><div class="body"><div class="merged">${inner}</div></div></details>`;});
+    if(part)h+=`<section class="topic"><h2>${esc(e.j)}</h2><p class="sub">${cnt} soru</p>${part}</section>`;});
+  m.innerHTML=h||`<p class="none">"${esc(s.value)}" için sonuç yok. Farklı bir kelime dene.</p>`;
+  document.getElementById('cnt').textContent=f?`${shown} soru bulundu.`:`${shown} soru.`;
 }
-s.oninput=render;
-o.onclick=()=>document.querySelectorAll('.q').forEach(d=>d.open=true);
-c.onclick=()=>document.querySelectorAll('.q').forEach(d=>d.open=false);
+let t;s.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(render,150)});
+document.getElementById('o').onclick=()=>document.querySelectorAll('details.q').forEach(d=>d.open=true);
+document.getElementById('c').onclick=()=>document.querySelectorAll('details.q').forEach(d=>d.open=false);
 render();
-</script></body></html>
+</script>
+</body>
+</html>

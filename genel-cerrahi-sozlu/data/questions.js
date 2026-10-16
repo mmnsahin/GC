@@ -36,17 +36,17 @@ window.ENTRIES = [
 ["Dalak yaralanmaları; sol omuz ağrısı (Kehr)","dalak"],["Karaciğer tümörleri (en iyi bildiğin konu); Kasabach-Merritt sendromu, trombositopeni mekanizması","kc_tumor"],
 ["Kolon kanseri neden en sık karaciğere metastaz yapar, hangi yolla, hangi loba, neden","kolon_met_kc"]]},
 {j:"Atıl Çakmak (11)", q:[
-["Ateroskleroz gelişim mekanizmaları; mezenter iskemi","mezenter"],["Fıtıklara her şey","fitik"],["Tiroid ca ameliyat komplikasyonları","tiroidektomi"]]},
+["Ateroskleroz gelişim mekanizmaları; mezenter iskemi","ateroskleroz+mezenter"],["Fıtıklara her şey","fitik+femoral+inkars"],["Tiroid ca ameliyat komplikasyonları","tiroidektomi"]]},
 {j:"Ayhan Kuzu – Can Konca (1)", q:[
 ["Enkazda 2 gün kalmış hasta (deprem): metabolik/endokrin durum, crush sendromu, kompartman sendromu, gangren","crush"],
-["Boyunda kitle: tiroid kitlesi malignite düşündüren bulgular; tetkikler (TSH, T3, T4, otoantikor); Graves; oftalmopati; ameliyat kontrendikasyonları","graves"],["Tiroid nodülüne yaklaşım","tiroid_nodul"]]},
+["Boyunda kitle: tiroid kitlesi malignite düşündüren bulgular; tetkikler (TSH, T3, T4, otoantikor); Graves; oftalmopati; ameliyat kontrendikasyonları","tiroid_nodul+graves"],["Tiroid nodülüne yaklaşım","tiroid_nodul"]]},
 {j:"Ayhan Kuzu – Can Konca (2)", q:[
 ["Vücuttaki tampon mekanizmaları","homeostaz"],["Yara iyileşme mekanizması","yara_iyilesme"],["Primer-sekonder hemostaz; kan transfüzyonu komplikasyonları","hemostaz"],
-["GÖRH; antireflü mekanizmalar","antireflu"],["Makatta ağrı sebepleri ayırıcı tanısı","fissur"],["Akut kolesistitte inflamasyon neden/nasıl","kolesistit"],
+["GÖRH; antireflü mekanizmalar","antireflu"],["Makatta ağrı sebepleri ayırıcı tanısı","makat_agri"],["Akut kolesistitte inflamasyon neden/nasıl","kolesistit"],
 ["Çizim: safra yolları, bağırsak damarları, kolon duvarı katmanları, karın 9 kadranı, aort dalları","cizim_diger"]]},
 {j:"Ayhan Kuzu – S. Utku (1)", q:[
 ["Şok nedir; şokta ilk etkilenen organel; mitokondrinin oksijensiz kalması","sok"],["Akut pankreatit hastası yoğun bakımda: yakınlarına nasıl bilgi verirsin","pankreatit_aile"],
-["Kolon kanserlerinde TNM ve evreleme","kolon_ca"],["Bir günde vücuttan salgılanan total sıvı miktarı","sivi_gunluk"],["Yara iyileşmesi","yara_iyilesme"],
+["Kolon kanserlerinde TNM ve evreleme","kolon_ca+kolon_tnm"],["Bir günde vücuttan salgılanan total sıvı miktarı","sivi_gunluk"],["Yara iyileşmesi","yara_iyilesme"],
 ["Temiz – kontamine – kirli yara sınıflaması","yara_sinif"],["Mide inop kriterleri","mide_inop"],["Bacak venlerini çiz","cizim_bacak"]]},
 {j:"Ayhan Kuzu – Can Konca (3)", q:[
 ["Homeostaz nedir, ilk kim demiştir; pH dengesi, tampon sistemler","homeostaz"],["Kolesistit tipleri, amfizematöz, akalküloz kolesistit","kolesistit"],["Çizim: mide, ince bağırsak, kolon damarları (SMA, IMA dalları)","cizim_diger"]]},
@@ -54,10 +54,10 @@ window.ENTRIES = [
 ["Anorektal anatomi","anorektal"],["Anal fissür nasıl gelir, nasıl oluşur","fissur"],["Ülseratif kolit ve Crohn biyopsisinde ne görürüz","uk_crohn"],["Jinekomastinin fizyolojik görüldüğü durumlar","jinekomasti"]]},
 {j:"Bülent Erkek – Fırat Kocaay (1)", q:[
 ["Hernileri biliyor musun, tiplerini söyle; nasıl ve nereden çıkarlar","fitik"],["Neden fıtığı olan birinde komplikasyon olmasa bile cerrahi yapmalıyız; fıtık ameliyatında ne yapılır","fitik_ameliyat"],
-["Mide kanserli hasta: inoperabl kriterleri","mide_inop"],["Sister Mary Joseph mekanizması; başka hangi metastaz yolu (hematojen); fizik muayenede nasıl tespit","mide_inop"],["Traube alanı","apandisit"]]},
+["Mide kanserli hasta: inoperabl kriterleri","mide_inop"],["Sister Mary Joseph mekanizması; başka hangi metastaz yolu (hematojen); fizik muayenede nasıl tespit","sister_mary"],["Traube alanı","traube"]]},
 {j:"Bülent Erkek – Şiyar Ersöz (2)", q:[
 ["Meme kitlesiyle gelen hasta: muayene bulguları, malignite bulguları, USG-mamografi, ne zaman malign/benign","meme_kitle"],
-["İİAB ve kor biyopsi farkı (hücre-doku, reseptör)","meme_kitle"],["Tanın LCIS ne yaparsın","lcis_dcis"],["Akut karın en sık nedenleri","apandisit"],["Apandisit, plastron, komplikasyonları, pileflebit, apendiksten portal vene yolu","pylephlebit"]]},
+["İİAB ve kor biyopsi farkı (hücre-doku, reseptör)","meme_kitle"],["Tanın LCIS ne yaparsın","lcis_dcis"],["Akut karın en sık nedenleri","akut_karin"],["Apandisit, plastron, komplikasyonları, pileflebit, apendiksten portal vene yolu","apandisit+plastron+pylephlebit"]]},
 {j:"Bülent Erkek – Fırat Kocaay (2)", q:[
 ["Mide adenokanseri: evreleme, T evrelemesi hangi yöntemle, inoperabl kriterleri nasıl bakılır","mide_ca"],["Divertikülit; mekanizmasını açıkla","divertikulit"],["Paralitik ileus: mekanikten nasıl ayırırsın, tipleri","paralitik"]]},
 {j:"Bülent Erkek – Selim Tamam", q:[
@@ -72,12 +72,12 @@ window.ENTRIES = [
 {j:"Cihangir Akyol – Can Yahya Boztuğ (2)", q:[
 ["Erken evre meme kanseri; meme tedavi yöntemleri; neoadjuvan; meme inoperabl kriterleri","meme_tedavi"],["Meme inoperabilite kriterleri","meme_inop"],["İnce bağırsak: neden daha az tümör oluşur","ince_bag_tumor"]]},
 {j:"Cihangir Akyol – Can Yahya Boztuğ (3)", q:[
-["GİS kanama alt-üst","ust_gis"],["Alt GİS kanama","alt_gis"],["DVT proksimal-distal, tedavi endikasyonu","dvt_sinif"],["Non-oklüzif mezenterik iskemi","mezenter"]]},
+["GİS kanama alt-üst","ust_gis+alt_gis"],["Alt GİS kanama","alt_gis"],["DVT proksimal-distal, tedavi endikasyonu","dvt_sinif"],["Non-oklüzif mezenterik iskemi","mezenter"]]},
 {j:"Ekrem Ünal – Arda Demirkan (1)", q:[
 ["Mide ca: cerrahi yapılamayacak durumlar (Irish, Krukenberg, hepatomegali)","mide_inop"],["Risk faktörleri","mide_ca"],["Krukenberg'de over metastazının mide kökenli olduğu nasıl anlaşılır (goblet hücre)","krukenberg"],
 ["Mammografide ne görürüz, ne için yapılır","meme_kitle"],["Memeden biyopsi yöntemleri; tel ile işaretlemenin diğer adı (stereotaksi)","meme_biyopsi"]]},
 {j:"Ekrem Ünal – Mehmet Ali Koç", q:[
-["Akut apandisit","apandisit"],["Restoranda biri bayıldı ne yaparsın","bls"],["İleus; ağrı tipleri, her birine örnek","agri_tipleri"]]},
+["Akut apandisit","apandisit"],["Restoranda biri bayıldı ne yaparsın","bls"],["İleus; ağrı tipleri, her birine örnek","ileus+agri_tipleri"]]},
 {j:"Ekrem Ünal – Arda Demirkan (2)", q:[
 ["Ülseratif kolit – Crohn farkları","uk_crohn"],["Akut arter hastalığı","akut_arter"],["Meme kanseri prevalansı / risk","meme_risk"],["Karaciğerde en sık benign tümör (hemanjiom)","kc_tumor"]]},
 {j:"Ekrem Ünal – Arda Demirkan (3)", q:[
@@ -86,9 +86,9 @@ window.ENTRIES = [
 {j:"Ekrem Ünal – Arda Demirkan (4)", q:[
 ["Obezite cerrahisi tipleri, cerrahi sonrası komplikasyonlar","obezite_cer"],["Tiroid: anamnez, fizik muayene, USG malignite kriterleri","tiroid_nodul"]]},
 {j:"Ethem Geçim – Mehmet Ali Koç (1)", q:[
-["Diferansiye tiroidleri say, yüzdeleri; kalan %7 nerede (undiferansiye)","tiroid_ca"],["Medüller tiroid ca: nerden köken alır, hücreleri, ne salgılar, tedavisi","tiroid_ca"],["Tiroidektomi komplikasyonları; inferior ve superior laringeal sinir hasarında ne olur","tiroidektomi"],["Resimdeki siğiller: kondiloma akuminata","anorektal"]]},
+["Diferansiye tiroidleri say, yüzdeleri; kalan %7 nerede (undiferansiye)","tiroid_ca"],["Medüller tiroid ca: nerden köken alır, hücreleri, ne salgılar, tedavisi","tiroid_ca"],["Tiroidektomi komplikasyonları; inferior ve superior laringeal sinir hasarında ne olur","tiroidektomi"],["Resimdeki siğiller: kondiloma akuminata","kondiloma"]]},
 {j:"Ethem Geçim – Mehmet Ali Koç (2)", q:[
-["İnguinal hernilerin özellikleri, tipleri, epidemiyolojisi, Hesselbach üçgeni, femoral kanal sınırları, komplikasyonları","inguinal_kanal"],["Strangülasyon ve inkarserasyon farkı","inkars"],
+["İnguinal hernilerin özellikleri, tipleri, epidemiyolojisi, Hesselbach üçgeni, femoral kanal sınırları, komplikasyonları","fitik+indirekt+direkt_hess+femoral+inkars"],["Strangülasyon ve inkarserasyon farkı","inkars"],
 ["Dışkısında taze kan gören hasta ayırıcı tanı","alt_gis"],["Kronik anal fissür triadı, medikal ilaçlar, ilaç işe yaramazsa cerrahi (sfinkterotomi)","fissur"]]},
 {j:"Ethem Geçim – Serdar Çulcu (1)", q:[
 ["Akut pankreatit; Ranson kriterleri; BT'de pankreasta hava (acil cerrahi endikasyonu); APACHE II; Glasgow koma skalası","pankreatit"],["İntrahepatik kolanjiokarsinom; intra/ekstrahepatik safra yolları; PSK","safra_psk"]]},
@@ -100,7 +100,7 @@ window.ENTRIES = [
 ["Kolorektal kanser taraması yaşı neden 50; risk faktörleri; FAP/Lynch, APC, mismatch repair genleri; herediter vs ailesel; FAP + MSS bulguları (Turcot, Gardner)","ailesel"],
 ["Sentinel lenf nodu, diseksiyonu, aksilla anatomisi, sinir/damar yaralanması (kanat skapula)","sln"],["MKC yapılabilen hasta total mastektomi istiyor; ikna","mkc"]]},
 {j:"Hakan Uncu – Serkan Akbulut – Mehmet Ali Koç", q:[
-["İleus tanımı; intramural, ekstramural, intralüminal sebepler; çocuklar en çok ne yutar","ileus"],["Karın duvarı fıtıkları; inguinal-femoral ayrımı; inkarserasyon, strangülasyon; Hesselbach, femoral kanal; direkt-indirekt","inguinal_kanal"],
+["İleus tanımı; intramural, ekstramural, intralüminal sebepler; çocuklar en çok ne yutar","ileus"],["Karın duvarı fıtıkları; inguinal-femoral ayrımı; inkarserasyon, strangülasyon; Hesselbach, femoral kanal; direkt-indirekt","fitik+indirekt+direkt_hess+femoral+inkars"],
 ["Mezenter iskemi vaka (antikoagülan, emboli, ateroskleroz, laktat, D-dimer, BT, SMA)","mezenter"],["Aorta abdominalis dallarını say","aort_dal"]]},
 {j:"Hakan Uncu – Arda Demirkan", q:[
 ["Meme fizik muayene ve mamografi bulguları","meme_kitle"],["Kist hidatik: etken, yaşam döngüsü, eradikasyon","hidatik"],["Hipernatremiyi anlat","hipernatremi"]]},
@@ -113,7 +113,7 @@ window.ENTRIES = [
 {j:"Hakan Uncu – Onur Kırımker", q:[
 ["Hiperkalemi kliniği ve EKG bulguları","hiperkalemi"],["Akut kolesistitli hastada tek FM bulgusu (Murphy)","kolesistit"],["Sepsis ve SIRS","sirs"],["Üst GİS kanamasıyla gelen hasta ayırıcı tanı, ne yaparsın; özofagus varis kanamasına acilde müdahale (Sengstaken-Blakemore)","ust_gis"]]},
 {j:"Hakan Uncu – Şiyar Ersöz", q:[
-["Tüm damarları say","cizim_bacak"],["Kolorektal kanama, kanser ve tarama","kanser_tarama"],["CEAP sınıflaması; venöz ülser oluşum patofizyolojisi; safen venler ve sefalik ven yerleri","venoz"]]},
+["Tüm damarları say","cizim_bacak+cizim_diger"],["Kolorektal kanama, kanser ve tarama","alt_gis+kolon_ca+kanser_tarama"],["CEAP sınıflaması; venöz ülser oluşum patofizyolojisi; safen venler ve sefalik ven yerleri","venoz"]]},
 {j:"Hakan Uncu – Mehmet Ali Koç (4)", q:[
 ["Mide tümörlerinin yerine göre semptomları","mide_yer"],["Mide kanserinin inoperatif bulguları","mide_inop"],["Periferik arter tıkanıklığı semptomları ve Fontaine sınıflandırması","pah"]]},
 {j:"Hakan Uncu – Mehmet Ali Koç (5)", q:[
@@ -131,7 +131,7 @@ window.ENTRIES = [
 {j:"İlknur Kepenekçi Bayram – Süleyman Utku", q:[
 ["Sol alt kadran ağrısı sebepleri","sol_alt"],["Divertikülit şüphesinde görüntüleme; Hinchey sınıflaması","divertikulit"],["Meme kanseri risk faktörleri; hangi durumlarda genetik mutasyondan şüphelenilir; anne/baba tarafı","meme_risk"]]},
 {j:"Kaan Karayalçın – Şiyar Ersöz (1)", q:[
-["Hemobilia nedir","hemobilia"],["Üst GİS kanama nedenleri; yanıklarda ülser (Curling), Cushing ülseri; tedavi","ust_gis"],["Genel cerrahide hipertansiyon görülen hastalıklar (feo, Conn, Cushing, hipertiroidi)","feo"]]},
+["Hemobilia nedir","hemobilia"],["Üst GİS kanama nedenleri; yanıklarda ülser (Curling), Cushing ülseri; tedavi","ust_gis"],["Genel cerrahide hipertansiyon görülen hastalıklar (feo, Conn, Cushing, hipertiroidi)","htn_cer"]]},
 {j:"Kaan Karayalçın – Can Konca (1)", q:[
 ["Hiperkalsemi sebepleri","hpt"],["Hiperparatiroidi tipleri; primer hiperparatiroidi nedenleri","hpt"],["İnsidentaloma nedir, neler olabilir, kanserine ne ad verilir","insidentaloma"],["Alt GİS kanama sebepleri; melena nasıl oluşur, hematokezya nasıl görülür","alt_gis"]]},
 {j:"Kaan Karayalçın – Şiyar Ersöz (2)", q:[
@@ -139,7 +139,7 @@ window.ENTRIES = [
 {j:"Kaan Karayalçın – Şiyar Ersöz (3)", q:[
 ["Hiperkalsemi sebepleri","hpt"],["Hiperparatiroidi sebepleri (primer-sekonder-tersiyer)","hpt"],["Tiroidektomi komplikasyonları","tiroidektomi"],["Hipoparatiroidi nasıl anlaşılır (Trousseau, Chvostek)","hipopara"]]},
 {j:"Kaan Karayalçın – Şiyar Ersöz (4)", q:[
-["İleus kardinal bulguları","ileus"],["Akut apandisit komplikasyonları; pileflebit nasıl olur (yol); plastron","pylephlebit"],["Strangülasyon durumunda neler olur","inkars"],["Hipertiroidi nedenleri; Graves; oftalmopati (egzoftalmus)","graves"]]},
+["İleus kardinal bulguları","ileus"],["Akut apandisit komplikasyonları; pileflebit nasıl olur (yol); plastron","apandisit+pylephlebit+plastron"],["Strangülasyon durumunda neler olur","inkars"],["Hipertiroidi nedenleri; Graves; oftalmopati (egzoftalmus)","graves"]]},
 {j:"Kaan Karayalçın – Can Konca (2)", q:[
 ["Üst GİS kanamaları; kahve telvesi; en sık yer (duodenum bulbusu); ne yaparız (endoskopik tedavi)","ust_gis"],["Bethesda sınıflaması ve yüzdeleri; AUS ve foliküler neoplazi; medüller tiroid kanseri; LN bölgeleri; tedavi","tiroid_nodul"],["Medüller tiroid kanseri ve boyun LN bölgeleri","tiroid_ca"]]},
 {j:"Onur Kırımker – Sancar Yılmaz", q:[
@@ -149,7 +149,7 @@ window.ENTRIES = [
 {j:"Ekrem Ünal – Can Konca", q:[
 ["Kalküloz – akalküloz kolesistit özellikleri, hangisi daha kötü, ne yaparsın","kolesistit"],["Diyabetik ayak","pah"],["Sağ alt kadran ağrısı ayırıcı tanıları","apandisit"]]},
 {j:"Mehmet Ayhan Kuzu – S. Utku", q:[
-["Yara iyileşmesi her şeyiyle","yara_iyilesme"],["Kanser tarama programları (prostat dahil); meme kanseri taraması; mamografide ne görürsen kanser düşünürsün","kanser_tarama"],["Mamografide kanser bulguları","meme_tarama"],["İnguinal kanal katmanlarını çiz","inguinal_kanal"]]},
+["Yara iyileşmesi her şeyiyle","yara_iyilesme"],["Kanser tarama programları (prostat dahil); meme kanseri taraması; mamografide ne görürsen kanser düşünürsün","kanser_tarama+meme_tarama"],["Mamografide kanser bulguları","meme_tarama"],["İnguinal kanal katmanlarını çiz","inguinal_kanal"]]},
 {j:"Sancar Bayar – Şiyar Ersöz", q:[
 ["Tiroid kanserleri; papiller tiroid kanseri; tedavisi","tiroid_ca"],["Tiroidektomi komplikasyonları","tiroidektomi"],["Ülseratif kolitin ekstramural tutulum yerleri","uk_ekstra"]]},
 {j:"Seher Demirer – Akın Fırat Kocaay", q:[
@@ -159,9 +159,9 @@ window.ENTRIES = [
 {j:"Selçuk Hazinedaroğlu – Serdar Çulcu (1)", q:[
 ["Kanser tarama programları; meme ca tarama ne zaman başlar; risk artıran durumlar","kanser_tarama"],["Meme ca ve mide ca görülmüş, hangi gen (CDH1)","meme_risk"],["Tek yumurta ikizlerinde böbrek transplantasyonunda immünsüpresif kullanır mıyız, neden","ikiz"]]},
 {j:"Selçuk Hazinedaroğlu – Serdar Çulcu (2)", q:[
-["HCC tedavi yöntemleri; Child-Pugh içeriği","hcc"],["Akut apandisit ilk 6-8 saat bulguları; hangi hastalıklarla karışır","apandisit"],["Akut apandisit – üreter taşı ayrımı","apandisit_ureter"],["Diferansiye tiroid kanseri ve Bethesda sınıflaması","tiroid_ca"]]},
+["HCC tedavi yöntemleri; Child-Pugh içeriği","hcc"],["Akut apandisit ilk 6-8 saat bulguları; hangi hastalıklarla karışır","apandisit"],["Akut apandisit – üreter taşı ayrımı","apandisit_ureter"],["Diferansiye tiroid kanseri ve Bethesda sınıflaması","tiroid_ca+tiroid_nodul"]]},
 {j:"Selçuk Hazinedaroğlu – Arda Çetinkaya (2)", q:[
-["Leriche sendromu nedir","leriche"],["Akut kolesistit geçiriyor: ameliyata alalım mı, soğutma tedavisi mi","kolesistit"],["Papiller tiroid ca tedavisi, evrelemesi, boyun LN bölgeleri","tiroid_ca"],["Pankreas kistik tümörleri, malign tümörleri, tüm tümörleri","net_kist"],["Nutcracker sendromu","nutcracker"],["Akut kolesistit neyle karışır","kolesistit"],["Akut apandisit neyle karışır","apandisit"]]},
+["Leriche sendromu nedir","leriche"],["Akut kolesistit geçiriyor: ameliyata alalım mı, soğutma tedavisi mi","kolesistit"],["Papiller tiroid ca tedavisi, evrelemesi, boyun LN bölgeleri","tiroid_ca"],["Pankreas kistik tümörleri, malign tümörleri, tüm tümörleri","net_kist+pankreas_ca"],["Nutcracker sendromu","nutcracker"],["Akut kolesistit neyle karışır","kolesistit"],["Akut apandisit neyle karışır","apandisit"]]},
 {j:"Selçuk Hazinedaroğlu – Akın Fırat Kocaay", q:[
 ["Aorta hangi segmentte aorta abdominalis olur; aorta abdominalis dalları","aort_dal"],["Median arkuat ligaman sendromu","aort_dal"]]},
 {j:"Şiyar Ersöz – Selçuk Hazinedaroğlu", q:[
@@ -177,7 +177,7 @@ window.ENTRIES = [
 {j:"Uğur Bengisun – Mehmet Ali Koç – Selim Tamam (2)", q:[
 ["İleusu sınıfla, mekanik ileusların her birinden 3 örnek; fıtık, divertikülit, Crohn neden ileus; intralüminal sebep (yabancı cisim); en sık 4 neden","ileus"],["Ateşli silah yaralanması ile gelen hastayı yönet","penetran"],["Anevrizmanın tanımı, aortun normal çapı; aort anevrizmasından ölen ünlü","aort_anev"]]},
 {j:"Uğur Bengisun – Serkan Akbulut (3)", q:[
-["Akut kolesistit anlat; 70 yaşında hasta toparlamıyor, ameliyat yapamazsın, ne yaparsın (perkütan drenaj)","kolesistit"],["Diyabetik ayakta üç şey: nöropati, vasküler, enfeksiyon; krural arterler; enoksaparin","pah"]]},
+["Akut kolesistit anlat; 70 yaşında hasta toparlamıyor, ameliyat yapamazsın, ne yaparsın (perkütan drenaj)","kolesistit"],["Diyabetik ayakta üç şey: nöropati, vasküler, enfeksiyon; krural arterler; enoksaparin","pah+antikoag"]]},
 {j:"Uğur Bengisun – Mehmet Ali Koç – Selim Tamam (3)", q:[
 ["Fotoğraf: dijital subtraksiyon anjiyografi; hangi damarlar; hangi damardan girilir; komplikasyonlar (kontrast nefropatisi); hastaya nasıl anlatırsın","dsa"],["Yara sınıflandırması","yara_sinif"],["Penetran yaralanmada ilk müdahale","penetran"]]},
 {j:"Uğur Bengisun – Serkan Akbulut (4)", q:[

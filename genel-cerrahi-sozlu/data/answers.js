@@ -488,5 +488,41 @@ cizim_diger: {t:"Diğer çizim sorularından (safra yolu, kolon duvarı, 9 kadra
 metabolik_asidoz: {t:"Metabolik asidoz yapan hastalıklar", b:[
 "Anyon açığı yüksek (MUDPILES): metanol, üremi, DKA, propilen glikol, INH/demir, laktik asidoz (şok, sepsis, mezenterik iskemi), etilen glikol, salisilat.",
 "Normal anyon açığı: ishal, RTA, pankreas fistülü, asetazolamid, hiperkloremi (salin).",
-"Cerrahide laktik asidoz: mezenterik iskemi, perfore viskus/sepsis, şok."]}
+"Cerrahide laktik asidoz: mezenterik iskemi, perfore viskus/sepsis, şok."]},
+ateroskleroz: {t:"Ateroskleroz gelişim mekanizması", b:[
+"Endotel hasarı/disfonksiyonu (HT, sigara, DM, hiperlipidemi, hemodinamik stres) → LDL'nin intimaya girişi ve oksidasyonu → monosit göçü, makrofaj → köpük hücresi (yağlı çizgi).",
+"Büyüme faktörleri/sitokinlerle düz kas hücresi migrasyonu ve proliferasyonu, kollajen/elastin birikimi → fibröz plak (fibröz kapak + nekrotik lipid çekirdek).",
+"Komplike plak: kalsifikasyon, ülserasyon, plak rüptürü → trombosit agregasyonu/tromboz, damar daralması veya akut tıkanma. Yerleşim: bifurkasyonlar, abdominal aort, iliak, femoral, koroner, SMA/çölyak ostiumları.",
+"Risk: yaş, erkek, sigara, DM, HT, dislipidemi, aile öyküsü, obezite."]},
+makat_agri: {t:"Makatta (anal bölge) ağrı nedenleri ayırıcı tanısı", b:[
+"Anal fissür: defekasyonda ve sonrasında yırtılma/yanma tarzı ağrı, parlak kırmızı kanama, sfinkter spazmı.",
+"Tromboze dış hemoroid: ani başlayan, sürekli ağrılı, mor sert şişlik. İç hemoroid genelde ağrısızdır (dentat çizgi üstü; ağrı ancak tromboz/strangülasyon/prolapsusta).",
+"Perianal abse: zonklayıcı ağrı, ateş, kızarıklık, flüktüasyon; fistül öncülü.",
+"Proktalji fugaks / levator ani sendromu: ani gelen kısa süreli, geceleri uyandıran kas spazmı ağrısı.",
+"Diğer: koksigodini, kriptit/papillit, anal kanser, Crohn perianal hastalığı, enfeksiyonlar (herpes, kondiloma), pilonidal sinüs, rektal yabancı cisim, prostatit."]},
+kolon_tnm: {t:"Kolorektal kanser TNM ve evreleme", b:[
+"T: Tis (mukoza içi), T1 submukoza, T2 muskularis propria, T3 subserozaya/perikolik yağ dokusuna, T4a visseral peritonu geçer, T4b komşu organa invazyon.",
+"N: N0 yok, N1 1-3 LN (N1a 1, N1b 2-3), N2 ≥4 LN (N2a 4-6, N2b ≥7). M: M0, M1a tek organ, M1b ≥2 organ, M1c peritoneal.",
+"Evre I: T1-2 N0; Evre II: T3-4 N0 (IIA T3, IIB T4a, IIC T4b); Evre III: herhangi T, N+; Evre IV: M1. Kolonda yeterli LN sayısı ≥12.",
+"Evreleme: kolonoskopi + biyopsi, CEA, toraks-abdomen-pelvis BT; rektumda pelvik MR ve endorektal USG."]},
+sister_mary: {t:"Sister Mary Joseph nodülü mekanizması", b:[
+"Göbekte (umbilikus) metastatik nodül; mide, kolon, over, pankreas kaynaklı karın içi malignitelerin işaretidir (ileri evre = inoperabilite).",
+"Yayılım yolu: peritoneal (transselomik) yayılım, lenfatikler (göbek çevresi lenf drenajı, ligamentum teres/falsiform ligaman), venöz yol (parumbilikal venler) ve kaldırılmamış embriyonik kalıntılar boyunca (urakus, vitellin kanal) direkt yayılım.",
+"Hematojen yol: karaciğer, akciğer, kemik metastazı. Muayenede göbekte sert, ağrılı veya ülsere nodül palpe edilir."]},
+traube: {t:"Traube alanı", b:[
+"Sol alt göğüs kafesinde, sol kot kenarı, sol akciğer alt sınırı ve dalak arasında kalan yarım ay şeklindeki timpanik (mide gaz kabarcığı) alan.",
+"Perküsyonda matlaşma: splenomegali, sol plevral efüzyon, mide dolu/tümör kitlesi, sol hemidiyafram yüksekliği. Dalak büyümesinin erken fizik muayene bulgusu."]},
+akut_karin: {t:"Akut karının en sık nedenleri", b:[
+"En sık: akut apandisit (genç), akut kolesistit/safra kolik, bağırsak tıkanıklığı (ileus), perfore peptik ülser, akut pankreatit, divertikülit, mezenterik iskemi, strangüle fıtık, abdominal travma.",
+"Jinekolojik/üriner: over torsiyonu/kist rüptürü, EP, PID, üreter taşı.",
+"Yaşa göre: çocuk apandisit/invajinasyon; genç apandisit/jinekolojik; yaşlı kolesistit, ileus, divertikülit, mezenter iskemi, malignite."]},
+kondiloma: {t:"Kondiloma akuminata (anogenital siğil)", b:[
+"HPV (6 ve 11) ile oluşan perianal/anal kanal siğilleri; karnabahar görünümlü, birden çok. Cinsel yolla bulaşır, HPV 16/18 ile anal kanser riski.",
+"Tedavi: topikal podofilotoksin/imikimod, krioterapi, trikloroasetik asit, eksizyon/elektrokoter; anoskopi ile anal kanal bakılır, biyopsi."]},
+htn_cer: {t:"Genel cerrahide hipertansiyon yapan hastalıklar", b:[
+"Feokromositoma: paroksismal HT, baş ağrısı, terleme, çarpıntı; metanefrin; önce alfa blokaj.",
+"Primer hiperaldosteronizm (Conn): hipertansiyon + hipokalemi, aldosteron/renin oranı; tedavi adrenalektomi.",
+"Cushing sendromu: HT, santral obezite, ay yüzü, striae, DM; deksametazon baskılama testi; adrenalektomi.",
+"Hipertiroidi: sistolik HT, taşikardi, tirotoksikoz. Hiperparatiroidi: hiperkalsemiye bağlı HT.",
+"Diğer: renovasküler HT (renal arter stenozu), aort koarktasyonu, MEN2 (feo + MTC + HPT)."]}
 };

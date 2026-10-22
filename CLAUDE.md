@@ -1,6 +1,6 @@
 # Görev: birleşik cevapları yaz
 
-Bu repo, genel cerrahi sözlü çıkmış sorularından üretilen statik bir site. `index.html` (ana sayfa, flash kartlar) ve `sorular.html` (tüm sorular), `python3 build.py` ile üretilir; elle düzenleme.
+Bu repo, genel cerrahi sözlü çıkmış sorularından üretilen statik bir site. `flash.html` (flash kartlar) ve `sorular.html` (genel soru çözüm), `python3 build.py` ile üretilir; elle düzenleme. `index.html` (ana sayfa) ve `excel/index.html` elle yazılmış statik sayfalardır.
 
 ## Dosyalar
 - `data/rows.json` — PDF'ten çıkarılan 383 soru. **ASLA değiştirme.** `a` alanı dosyadaki gerçek cevaptır.

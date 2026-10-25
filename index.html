@@ -30,7 +30,7 @@ button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--scrub);outline-offset:2px}
 
 .wrap{max-width:640px;margin:0 auto;padding:56px 24px 80px}
-h1{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;margin:0 0 8px;font-weight:700;letter-spacing:-.01em}
+h1{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;margin:0 0 32px;font-weight:700;letter-spacing:-.01em}
 .lead{margin:0 0 32px;color:var(--muted)}
 
 .menu{display:flex;flex-direction:column;gap:12px}
@@ -49,6 +49,10 @@ h1{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;margin:0 0 8px;font-weigh
 .gbody>div{overflow:hidden}
 .gcontent{margin-top:12px;padding:20px 22px;background:var(--card);border:1px solid var(--line);border-radius:12px}
 .wish{margin:28px 0 0;padding:12px 14px;background:var(--scrub-tint);color:var(--scrub);border-radius:8px;font-weight:600}
+#evb{-webkit-tap-highlight-color:transparent}
+#evbov{position:fixed;inset:0;z-index:99;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;padding:16px}
+#evbov[hidden]{display:none}
+#evbov img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}
 .gcontent h2{font-size:1.05rem;margin:18px 0 6px;color:var(--scrub)}
 .gcontent h2:first-of-type{margin-top:0}
 .gcontent p{margin:0 0 10px;font-family:var(--serif);font-size:1.04rem;line-height:1.62}
@@ -68,7 +72,8 @@ h1{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;margin:0 0 8px;font-weigh
     <a href="excel/index.html"><div>Excel<small>Geçen seneki excel dosyası</small></div><span class="chev" aria-hidden="true">›</span></a>
   </nav>
 
-  <p class="wish"> Güzelimiz GC de herkese başarılar... ~ MMNŞ</p>
+  <p class="wish"> Güzelimiz GC de <span id="evb">EvB</span> hepinize başarılar diler</p>
+  <div id="evbov" hidden><img src="EvB.jpeg" alt=""></div>
 
   <section class="guide">
     <button class="gbtn" id="gb" aria-expanded="false" aria-controls="gc">Sitenin kullanımı  <span class="arr" aria-hidden="true">▾</span></button>
@@ -101,6 +106,10 @@ gb.addEventListener('click',()=>{
   gb.setAttribute('aria-expanded',open);
   gbody.classList.toggle('open',open);
 });
+const evbov=document.getElementById('evbov');
+document.getElementById('evb').addEventListener('click',()=>{evbov.hidden=false});
+evbov.addEventListener('click',()=>{evbov.hidden=true});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')evbov.hidden=true});
 </script>
 </body>
 </html>
